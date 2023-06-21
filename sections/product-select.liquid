@@ -1,0 +1,103 @@
+<div class="container-fluid">
+  <div class="left-side">
+    {% if section.settings.product_image != blank %}
+      <img src="{{ section.settings.product_image | img_url: '1024X1024' }}" />
+    {% endif %}
+  </div>
+  <div class="right-side">
+    {% if section.settings.logo != blank %}
+      <img src="{{ section.settings.logo | img_url: 'medium' }}" />
+    {% endif %}
+    {% if section.settings.head != blank %}
+      <h2>{{ section.settings.head }}</h2>
+    {% endif %}
+    {% if section.settings.sub-head != blank %}
+      <p>{{ section.settings.sub-head }}</p>
+    {% endif %}
+    <div class="details-list">
+      <ul>
+        {% for block in section.blocks %}
+          <li>
+            {% if block.settings.details_logo != blank %}
+              <img src="{{ block.settings.details_logo | img_url: 'small' }}" />
+            {% endif %}
+            {% if block.settings.details_head != blank %}
+              <h4>{{ block.settings.details_head }}</h4>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% if section.settings.product %}
+      {% assign selected_product = section.settings.product %}
+      {% assign product = all_products[selected_product] %}
+      <h2>{{ product.title }}</h2>
+      <p>{{ product.description }}</p>
+      <p>{{ product.price | money_with_currency }}</p>
+      <a href="{{ product.url }}" class="btn">Shop Now</a>
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Product select",
+    "tag": "section",
+    "class": "product-select",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "product_image",
+        "label": "Select Product Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Select Logo"
+      },
+      {
+        "type": "richtext",
+        "id": "head",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "sub-head",
+        "label": "Sub-Heading"
+      },
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Select Product"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "details_list",
+        "name": "details_list",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "details_logo",
+            "label": "Details Logo"
+          },
+          {
+            "type": "text",
+            "id": "details_head",
+            "label": "Details Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product select"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

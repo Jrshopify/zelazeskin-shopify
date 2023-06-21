@@ -1,0 +1,66 @@
+<div class="container-fluid">
+  <div class="dual">
+    {% if section.settings.logo != blank %}
+      <img src="{{ section.settings.logo | img_url: 'medium' }}" />
+    {% endif %}
+    {% if section.settings.head != blank %}
+      {{ section.settings.head }}
+    {% endif %}
+  </div>
+  <div class="dual-app">
+    <ul>
+      {% for block in section.blocks %}
+        <li>
+          {% if block.settings.dual_image != blank %}
+            <img src="{{ block.settings.dual_image | img_url: 'medium' }}" />
+          {% endif %}
+          {% if block.settings.dual_text != blank %}
+            <h2>{{ block.settings.dual_text }}</h2>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Dual Approach",
+    "tag": "section",
+    "class": "dual-approach",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Select Logo"
+      },
+      {
+        "type": "richtext",
+        "id": "head",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "dual-approach",
+        "name": "dual-approach",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "dual_image",
+            "label": "Dual Approach Image"
+          },
+          {
+            "type": "text",
+            "id": "dual_text",
+            "label": "Dual Approach Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Dual Approach"
+      }
+    ]
+  }
+{% endschema %}

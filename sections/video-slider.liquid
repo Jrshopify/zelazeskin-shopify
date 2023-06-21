@@ -1,0 +1,72 @@
+<style>
+  img {
+      background-color: aquamarine;
+  }
+</style>
+{{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+{{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+<script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
+<script defer src="{{ 'owl.js' | asset_url }}"></script>
+<div class="container">
+  <div class="head-sub">
+    {% if section.settings.head != blank %}
+      <h3>{{ section.settings.head }}</h3>
+    {% endif %}
+    {% if section.settings.description != blank %}
+      <h3>{{ section.settings.description }}</h3>
+    {% endif %}
+  </div>
+  <div class="owl-carousel owl-theme" id="videoSlide">
+    {% assign count = 1 %}
+      {% for block in section.blocks %}
+        <div class="item">
+          {% if block.settings.video_url != blank %}
+            <div class="video-wrap">
+              <video id="playpause{{ count }}" class="video" width="320" height="240" data-play_btn_id="play_btn_id{{ count }}">
+                <source src="{{ block.settings.video_url }}" type="video/mp4">
+              </video>
+              <div data-vidid="playpause{{ count }}" class="playbtn" id="play_btn_id{{ count }}"><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/play.png?v=1686831446" title="Play" alt="Play"></div>
+            </div>
+          {% endif %}
+        </div>
+        {% assign count = count | plus: 1 %}
+      {% endfor %}
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "Video Slider",
+    "tag": "section",
+    "class": "video-slider",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "head",
+        "label": "Main Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "label": "description"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "video",
+        "name": "video",
+        "settings": [
+          {
+            "type": "text",
+            "id": "video_url",
+            "label": "Video url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Video Slider"
+      }
+    ]
+  }
+{% endschema %}
