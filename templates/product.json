@@ -173,8 +173,8 @@
       "settings": {
         "product_logo": "{{ product.metafields.custom.product_logo.value }}",
         "product_heading": "{{ product.metafields.custom.product_benefit_name.value }}",
-        "benefit": "<p>{{ product.metafields.custom.all_data | metafield_tag }}<\/p>",
-        "brand": "{{ product.metafields.custom.brands | metafield_tag }}"
+        "benefit": "{{ product.metafields.custom.all_data | metafield_tag }}",
+        "brand": "<p>{{ product.metafields.custom.brands | metafield_tag }}<\/p>"
       }
     }
   },

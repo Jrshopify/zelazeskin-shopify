@@ -9,7 +9,9 @@
             <h2>{{ section.settings.product_heading }}</h2>
         {%endif%}
         <div class="row">
-            {{ section.settings.benefit }}
+            {% if section.settings.benefit != blank %}
+                {{ section.settings.benefit }}
+            {% endif %}
         </div>
         <div class="brands">
             {{ section.settings.brand }}
