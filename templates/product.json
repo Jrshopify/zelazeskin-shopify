@@ -167,10 +167,20 @@
         "head": "<p><strong>Why are people choosing Zelaze?<\/strong><\/p>",
         "description": "<p>Our products are formulated for all skin types. No nasties. Cruelty-free. Just what your skin needs.<\/p>"
       }
+    },
+    "a440ff4e-6402-496f-88ad-d35b1150bf2a": {
+      "type": "product-benefit",
+      "settings": {
+        "product_logo": "{{ product.metafields.custom.product_logo.value }}",
+        "product_heading": "<p>{{ product.metafields.custom.product_benefit_name.value }}<\/p>",
+        "benefit": "{{ product.metafields.custom.all_data | metafield_tag }}",
+        "brand": "{{ product.metafields.custom.brands | metafield_tag }}"
+      }
     }
   },
   "order": [
     "main",
-    "03fc36a9-5c06-495a-95cc-bbdc0c212322"
+    "03fc36a9-5c06-495a-95cc-bbdc0c212322",
+    "a440ff4e-6402-496f-88ad-d35b1150bf2a"
   ]
 }
