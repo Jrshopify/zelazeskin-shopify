@@ -172,7 +172,7 @@
       "type": "product-benefit",
       "settings": {
         "product_logo": "{{ product.metafields.custom.product_logo.value }}",
-        "product_heading": "{{ product.title }}",
+        "product_heading": "{{ product.title }}dfvdfv",
         "benefit": "<p>{{ product.metafields.custom.all_data | metafield_tag }}<\/p>",
         "brand": "<p>{{ product.metafields.custom.brands | metafield_tag }}<\/p>"
       }
