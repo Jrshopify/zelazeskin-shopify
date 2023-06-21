@@ -1,5 +1,100 @@
 <div class="container-fluid">
+    {% if section.settings.product_logo != blank %}
+        <div class="product_image">
+            <img src="{{ section.settings.product_logo | img_url: 'medium' }}" />
+        </div>
+    {%endif%}
+    <div class="details">
+        {%if section.settings.product_heading != blank%}
+            <h2>{{ section.section.product_heading }}</h2>
+        {%endif%}
+        <div class="row">
+            {% comment %} <div class="col-lg-6">
+                <div class="benefit">
+                    <div class="benefit-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/three.jpg?v=1682378026">
+                    </div>
+                    <div class="benefit-head">
+                        <h2>Glowing Skin</h2>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/four.jpg?v=1682378026">
+                    </div>
+                    <div class="benefit-head">
+                        <h2>Fade Dark Spots</h2>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/Asset_7.png?v=1682451209">
+                    </div>
+                    <div class="benefit-head">
+                        <h2>Minimize Pores</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="benefit">
+                    <div class="benefit-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/cruelty.jpg?v=1682377277">
+                    </div>
+                    <div class="benefit-head">
+                        <h2>Stimulate collagen growth</h2>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/frag.jpg?v=1682377276">
+                    </div>
+                    <div class="benefit-head">
+                        <h2>Hydrate</h2>
+                    </div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/derm.jpg?v=1682377277">
+                    </div>
+                    <div class="benefit-head">
+                        <h2>Soothe</h2>
+                    </div>
+                </div>
+            </div> {% endcomment %}
+            {{section.section.benefit}}
+        </div>
+        <div class="brands">
+            {% comment %} <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/natural.jpg?v=1682377276">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/Asset_6.png?v=1682451209">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/Asset_5.png?v=1682451209">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/Asset_7.png?v=1682451209">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/Asset_9.png?v=1682451209">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/two.jpg?v=1682378026">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/wind.jpg?v=1682377277">
+            </div>
+            <div class="brands_image">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/icon-10_8749bba4-dc51-44e8-b2ca-73f8d8f56228.png?v=1681504651">
+            </div> {% endcomment %}
 
+            {{section.settings.brand}}
+        </div>
+    </div>
 </div>
 {% schema %}
 {
