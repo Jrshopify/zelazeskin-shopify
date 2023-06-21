@@ -128,9 +128,56 @@
         "padding_top": 36,
         "padding_bottom": 12
       }
+    },
+    "03fc36a9-5c06-495a-95cc-bbdc0c212322": {
+      "type": "why-choose-zelaze",
+      "blocks": {
+        "5ec481b0-7379-4f3d-a9cd-990ae6bced50": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4"
+          }
+        },
+        "0baa06ff-97ea-46de-ad8f-2de43ac77d79": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef63da8d73424f1b9958687b580e6bdf.mp4"
+          }
+        },
+        "3d51c964-843f-4197-9044-37bef971f26f": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef63da8d73424f1b9958687b580e6bdf.mp4"
+          }
+        },
+        "d286cf8c-216c-4825-a9a2-154d6f37cd92": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef63da8d73424f1b9958687b580e6bdf.mp4"
+          }
+        },
+        "fdeffa8d-7ab5-468a-b600-0aa34cb5876a": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef63da8d73424f1b9958687b580e6bdf.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "5ec481b0-7379-4f3d-a9cd-990ae6bced50",
+        "0baa06ff-97ea-46de-ad8f-2de43ac77d79",
+        "3d51c964-843f-4197-9044-37bef971f26f",
+        "d286cf8c-216c-4825-a9a2-154d6f37cd92",
+        "fdeffa8d-7ab5-468a-b600-0aa34cb5876a"
+      ],
+      "settings": {
+        "head": "<p><strong>Why are people choosing Zelaze?<\/strong><\/p>",
+        "description": "Our products are formulated for all skin types. No nasties. Cruelty-free. Just what your skin needs."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "03fc36a9-5c06-495a-95cc-bbdc0c212322"
   ]
 }
