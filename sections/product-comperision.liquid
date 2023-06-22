@@ -1,0 +1,85 @@
+<div class="container-fluid">
+    <div class="comperision-heading">
+        {%if section.settings.comperision_heading != blank%}
+            <h2>{{section.settings.comperision_heading}}</h2>
+        {%endif%}
+    </div>
+    <div class="comperision">
+        <div class="com-img">
+            {%if section.settings.comprision_image != blank%}
+                <img src="{{section.settings.comprision_image | img_url: 'medium'}}">
+            {%endif%}
+        </div>
+        <div class="details">
+            {% comment %} <table>
+                <tr>
+                  <th>Ingredient</th>
+                  <th><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/logo.png?v=1682361476" /></th>
+                  <th>Leading Competitor</th>
+                </tr>
+                <tr>
+                  <td>Turmeric Extract</td>
+                  <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_30_38_774Z.png?v=1687422702" /></td>
+                  <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_33_33_382Z.png?v=1687422885" /></td>
+                </tr>
+                <tr>
+                  <td>Ginseng Extract</td>
+                  <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_30_38_774Z.png?v=1687422702" /></td>
+                  <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_33_33_382Z.png?v=1687422885" /></td>
+                </tr>
+                <tr>
+                    <td>Aloe Vera</td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_30_38_774Z.png?v=1687422702" /></td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_33_33_382Z.png?v=1687422885" /></td>
+                  </tr>
+                  <tr>
+                    <td>Green Tea</td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_30_38_774Z.png?v=1687422702" /></td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_33_33_382Z.png?v=1687422885" /></td>
+                  </tr>
+                  <tr>
+                    <td>Sodium Ascorbyl Phosphate (Most stable/effective form of Vitamin C)</td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_30_38_774Z.png?v=1687422702" /></td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_33_33_382Z.png?v=1687422885" /></td>
+                  </tr>
+                  <tr>
+                    <td>Squalane</td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_30_38_774Z.png?v=1687422702" /></td>
+                    <td><img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/image_2023_06_22T08_33_33_382Z.png?v=1687422885" /></td>
+                  </tr>
+            </table> {% endcomment %}
+            {%if section.settings.ingredient != blank%}
+                {{section.settings.ingredient}}
+            {%endif%}
+        </div> 
+    </div>
+</div>
+{%schema%}
+{
+    "name": "Product Comperision",
+    "tag": "section",
+    "class": "comperision",
+    "settings": [
+        {
+            "type": "text",
+            "id": "comperision_heading",
+            "label": "Comperision Heading"
+        },
+        {
+            "type": "image_picker",
+            "id": "comprision_image",
+            "label": "Select Comperision Image"
+        },
+        {
+            "type": "richtext",
+            "id": "ingredient",
+            "label": "Comperision Details"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Product Comperision"
+        }
+    ]
+}
+{%endschema%}
