@@ -202,28 +202,14 @@
     "168742394500bb4c82": {
       "type": "apps",
       "blocks": {
-        "79c3532b-ad3b-4f53-bb9a-c31bcbf863e9": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/footer-badge\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-            "badge_type": "wide_average",
-            "align": "left"
-          }
-        },
         "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
-        },
-        "f013aa66-2216-4956-b6e0-02a4cba20565": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "settings": {
           }
         }
       },
       "block_order": [
-        "79c3532b-ad3b-4f53-bb9a-c31bcbf863e9",
-        "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d",
-        "f013aa66-2216-4956-b6e0-02a4cba20565"
+        "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d"
       ],
       "settings": {
         "include_margins": true
