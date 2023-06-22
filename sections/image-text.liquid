@@ -1,0 +1,81 @@
+<div class="container-fluid">
+  {% for block in section.blocks %}
+    <div class="contant">
+      {% capture image_layout %}
+        <div class="content_img">
+            {%if block.settings.cont_image != blank%}
+                <img src="{{block.settings.cont_image | img_url: 'large'}}">
+            {%endif%}
+        </div>
+      {% endcapture %}
+
+      {%if block.settings.vertical_alignment == 'left'%}
+        {{image_layout}}
+      {%endif%}
+
+      <div class="content-details">
+        {%if block.settings.head != blank%}
+            <h2>{{block.settings.head}}</h2>
+        {%endif%}
+        {%if block.settings.sub_head != blank%}
+            <p>{{block.settings.sub_head}}</p>
+        {%endif%}
+      </div>
+
+      {%if block.settings.vertical_alignment == 'right'%}
+        {{image_layout}}
+      {%endif%}
+    </div>
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Image Text",
+  "tag": "section",
+  "class": "image-text",
+  "blocks": [
+    {
+      "type": "content",
+      "name": "content",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "cont_image",
+          "label": "Content Image"
+        },
+        {
+          "type": "select",
+          "id": "vertical_alignment",
+          "label": "Vertical alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "richtext",
+          "id": "head",
+          "label": "Content Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "sub_head",
+          "label": "Content Sub-Heading"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Text"
+    }
+  ]
+}
+{% endschema %}
