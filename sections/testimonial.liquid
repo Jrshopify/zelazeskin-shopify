@@ -1,0 +1,59 @@
+{{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+{{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+<script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
+<script defer src="{{ 'owl.js' | asset_url }}"></script>
+<div class="container">
+    <div class="owl-carousel owl-theme" id="testimonial">
+            {% for block in section.blocks %}
+            <div class="item">
+                <div class="testimonial">
+                    {%if block.settings.testi_image != blank%}
+                        <img src="{{block.settings.testi_image | img_url: 'medium'}}">
+                    {%endif%}
+                    {%if block.settings.msg != blank%}
+                        <h5>{{block.settings.msg}}</h5>
+                    {%endif%}
+                    {%if block.settings.client_name != blank%}
+                        <span>{{block.settings.client_name}}</span>
+                    {%endif%}
+                </div>
+
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{%schema%}
+{
+    "name": "Testimonial",
+    "tag": "section",
+    "class": "result-slider",
+    "blocks": [
+        {
+            "type": "Testimonial",
+            "name": "Testimonial",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "testi_image",
+                    "label": "Testimoial Image"
+                },
+                {
+                    "type": "richtext",
+                    "id": "msg",
+                    "label": "Testimonial Message"
+                },
+                {
+                    "type": "richtext",
+                    "id": "client_name",
+                    "label": "Testimonial Name"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Testimonial"
+        }
+    ]
+}
+{%endschema%}
