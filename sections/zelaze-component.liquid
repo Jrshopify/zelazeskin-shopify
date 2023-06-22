@@ -1,0 +1,71 @@
+<div class="container">
+    {%if section.settings.heading != blank%}
+        <h2>{{section.settings.heading}}</h2>
+    {%endif%}
+    <div class="component">
+        {% comment %} <div class="row">
+            <div class="col">
+                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                <h3>Sodium Ascorbyl Phosphate</h3>
+                <p>Brightens skin and reduces hyperpigmentation.</p>
+            <div>
+                <div class="col">
+                    <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                    <h3>Sodium Ascorbyl Phosphate</h3>
+                    <p>Brightens skin and reduces hyperpigmentation.</p>
+                <div>
+                    <div class="col">
+                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                        <h3>Sodium Ascorbyl Phosphate</h3>
+                        <p>Brightens skin and reduces hyperpigmentation.</p>
+                    <div>
+                        <div class="col">
+                            <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                            <h3>Sodium Ascorbyl Phosphate</h3>
+                            <p>Brightens skin and reduces hyperpigmentation.</p>
+                        <div>
+                            <div class="col">
+                                <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                                <h3>Sodium Ascorbyl Phosphate</h3>
+                                <p>Brightens skin and reduces hyperpigmentation.</p>
+                            <div>
+                                <div class="col">
+                                    <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                                    <h3>Sodium Ascorbyl Phosphate</h3>
+                                    <p>Brightens skin and reduces hyperpigmentation.</p>
+                                <div>
+                                    <div class="col">
+                                        <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/one.jpg?v=1682378026">
+                                        <h3>Sodium Ascorbyl Phosphate</h3>
+                                        <p>Brightens skin and reduces hyperpigmentation.</p>
+                                    <div>
+        </div> {% endcomment %}
+        {%if section.settings.components != blank%}
+            {{section.settings.components}}
+        {%endif%}
+    </div>
+</div>
+{%schema%}
+{
+    "name": "Zelaze Component",
+    "tag": "section",
+    "class": "zelaze-component",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Component Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "components",
+            "label": "Component details"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Zelaze Component"
+        }
+    ]
+}
+{%endschema%}
