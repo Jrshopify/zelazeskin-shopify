@@ -33,7 +33,7 @@
         "f4f66aad-fd30-4c49-ac35-0ca7d1239e17": {
           "type": "content",
           "settings": {
-            "cont_image": "shopify:\/\/shop_images\/Z_26.jpg",
+            "cont_image": "shopify:\/\/shop_images\/Z_23.jpg",
             "vertical_alignment": "right",
             "head": "<p><strong>Subtitle<\/strong><\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
@@ -42,7 +42,7 @@
         "fc4b4c5e-a279-4ae9-ba88-266cb0c65adf": {
           "type": "content",
           "settings": {
-            "cont_image": "shopify:\/\/shop_images\/Z_26.jpg",
+            "cont_image": "shopify:\/\/shop_images\/Z_24.jpg",
             "vertical_alignment": "left",
             "head": "<p><strong>Subtitle<\/strong><\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
