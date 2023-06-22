@@ -207,6 +207,38 @@
         "comprision_image": "{{ product.metafields.custom.comparison_image.value }}",
         "ingredient": "<p>{{ product.metafields.custom.comparision_details | metafield_tag }}<\/p>"
       }
+    },
+    "168742394500bb4c82": {
+      "type": "apps",
+      "blocks": {
+        "79c3532b-ad3b-4f53-bb9a-c31bcbf863e9": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/footer-badge\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
+          "settings": {
+            "badge_type": "wide_average",
+            "align": "left"
+          }
+        },
+        "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
+        },
+        "f013aa66-2216-4956-b6e0-02a4cba20565": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "79c3532b-ad3b-4f53-bb9a-c31bcbf863e9",
+        "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d",
+        "f013aa66-2216-4956-b6e0-02a4cba20565"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -214,6 +246,7 @@
     "03fc36a9-5c06-495a-95cc-bbdc0c212322",
     "a440ff4e-6402-496f-88ad-d35b1150bf2a",
     "51052261-1f12-42be-9eb9-70cd35efe06e",
-    "d2f4aa0e-6138-4982-8ab0-53b6095fca87"
+    "d2f4aa0e-6138-4982-8ab0-53b6095fca87",
+    "168742394500bb4c82"
   ]
 }
