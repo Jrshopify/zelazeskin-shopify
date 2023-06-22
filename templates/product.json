@@ -10,12 +10,26 @@
         },
         "dcd237d8-9563-4817-8abb-d124f53fbad7": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
             "stars_fill_color": "#000000",
             "star_size": 15,
             "text_align": "center",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
+          }
+        },
+        "381cf6c4-49aa-4dee-a946-4a6fd7aa953c": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "40ac3ee6-e41d-4585-a6db-ccbbdb886b21": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/footer-badge\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+            "badge_type": "wide_average",
+            "align": "left"
           }
         },
         "price": {
@@ -102,6 +116,8 @@
       "block_order": [
         "title",
         "dcd237d8-9563-4817-8abb-d124f53fbad7",
+        "381cf6c4-49aa-4dee-a946-4a6fd7aa953c",
+        "40ac3ee6-e41d-4585-a6db-ccbbdb886b21",
         "price",
         "description",
         "475d1496-b6a2-4087-aac7-6a75888bffed",
@@ -189,7 +205,7 @@
       "settings": {
         "comperision_heading": "{{ product.metafields.custom.comarison_title.value }}",
         "comprision_image": "{{ product.metafields.custom.comparison_image.value }}",
-        "ingredient": "{{ product.metafields.custom.comparision_details | metafield_tag }}"
+        "ingredient": "<p>{{ product.metafields.custom.comparision_details | metafield_tag }}<\/p>"
       }
     }
   },
