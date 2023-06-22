@@ -176,11 +176,19 @@
         "benefit": "{{ product.metafields.custom.all_data | metafield_tag }}",
         "brand": "<p>{{ product.metafields.custom.brands | metafield_tag }}<\/p>"
       }
+    },
+    "51052261-1f12-42be-9eb9-70cd35efe06e": {
+      "type": "zelaze-component",
+      "settings": {
+        "heading": "{{ product.metafields.custom.component_title.value }}",
+        "components": "{{ product.metafields.custom.component_details | metafield_tag }}"
+      }
     }
   },
   "order": [
     "main",
     "03fc36a9-5c06-495a-95cc-bbdc0c212322",
-    "a440ff4e-6402-496f-88ad-d35b1150bf2a"
+    "a440ff4e-6402-496f-88ad-d35b1150bf2a",
+    "51052261-1f12-42be-9eb9-70cd35efe06e"
   ]
 }
