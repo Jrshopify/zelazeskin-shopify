@@ -1,14 +1,26 @@
 {
-    "sections": {
-        "main": {
-            "type": "main-page",
-            "settings": {
-                "padding_top": 28,
-                "padding_bottom": 28
-            }
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     },
-    "order": [
-        "main"
-    ]
+    "9399a951-1358-4704-af3c-99994f355336": {
+      "type": "banner",
+      "settings": {
+        "banner_img": "shopify:\/\/shop_images\/Z_52_9aae7186-3e17-44aa-ac11-8cf1a804f750.jpg",
+        "head": "<p><strong>Our Story<\/strong><\/p>",
+        "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
+        "btn_lebel": "",
+        "btn_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9399a951-1358-4704-af3c-99994f355336"
+  ]
 }
