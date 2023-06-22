@@ -1,0 +1,460 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+    {%- liquid
+      assign contact_form_class = 'isolate'
+      if settings.animations_reveal_on_scroll
+        assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
+      endif
+    -%}
+    {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
+      <div class="info">
+        {% if section.settings['form-head'] != blank %}
+          <h4>{{ section.settings['form-head'] }}</h4>
+        {% endif %}
+        {% if section.settings.desc != blank %}
+          <p>{{ section.settings.desc }}</p>
+        {% endif %}
+      </div>
+      {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {% render 'icon-success' %}
+          {{ 'templates.contact.form.post_success' | t }}
+        </h2>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {% render 'icon-error' %}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#ContactForm-email" class="link">
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+      <div class="contact__fields">
+
+        {% comment %} firstname {% endcomment %}
+        <div class="form-group">
+          <span>{{ 'templates.contact.form.firstname' | t }}</span>
+          <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-fname"
+            name="contact[{{ 'templates.contact.form.firstname' | t }}]"
+            value="{% if form.firstname %}{{ form.firstname }}{% elsif customer %}{{ firstname }}{% endif %}"
+            placeholder="Enter First Name"
+          >
+        </div>
+
+        {% comment %} lastname {% endcomment %}
+        <div class="form-group">
+          <span>{{ 'templates.contact.form.lastname' | t }}</span>
+          <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-lname"
+            name="contact[{{ 'templates.contact.form.lastname' | t }}]"
+            value="{% if form.lastname %}{{ form.lastname }}{% elsif customer %}{{ lastname }}{% endif %}"
+            placeholder="Enter First Name"
+          >
+        </div>
+      </div>
+
+      {% comment %} Business name  {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'templates.contact.form.businessname' | t }}</span>
+        <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-lname"
+            name="contact[{{ 'templates.contact.form.businessname' | t }}]"
+            value="{% if form.businessname %}{{ form.businessname }}{% elsif customer %}{{ businessname }}{% endif %}"
+            placeholder="Enter Business Name"
+        >
+      </div>
+
+      {% comment %} business url  {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'templates.contact.form.businessurl' | t }}</span>
+        <input
+          class="field__input"
+          autocomplete="name"
+          type="text"
+          id="ContactForm-sub"
+          name="contact[{{ 'templates.contact.form.businessurl' | t }}]"
+          value="{% if form.businessurl %}{{ form.businessurl }}{% elsif customer %}{{ customer.businessurl }}{% endif %}"
+          placeholder="Enter Business Website or Social (Facebook, Instagram, etc.)"
+        >
+      </div>
+
+      {% comment %} email address  {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'templates.contact.form.email' | t }}</span>
+        <input
+            autocomplete="email"
+            type="email"
+            id="ContactForm-email"
+            class="field__input"
+            name="contact[email]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            aria-required="true"
+            {% if form.errors contains 'email' %}
+              aria-invalid="true"
+              aria-describedby="ContactForm-email-error"
+            {% endif %}
+            placeholder="Enter Email Address"
+          >
+        {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="ContactForm-email-error">
+                <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                <span class="form__message">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+                </span>
+            </small>
+        {%- endif -%}
+      </div>
+
+      {% comment %} phone number  {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'templates.contact.form.phone' | t }}</span>
+        <input
+            type="tel"
+            id="ContactForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.phone' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            placeholder="Enter Phone Number"
+        >
+      </div>
+
+      {% comment %} type of business  {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'templates.contact.form.type' | t }}</span>
+        <input
+            type="tel"
+            id="ContactForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.type' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.type %}{{ form.type }}{% elsif customer %}{{ customer.type }}{% endif %}"
+            placeholder="Enter Type of Business"
+        >
+      </div>
+
+
+      {% comment %} response {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'templates.contact.form.response' | t }}</span>
+        <input
+            type="tel"
+            id="ContactForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.response' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.response %}{{ form.response }}{% elsif customer %}{{ customer.response }}{% endif %}"
+            placeholder="Enter Response"
+        >
+      </div>
+
+
+      {% comment %} contact address  {% endcomment %}
+      <div class="field-group">
+        <span>{{ 'customer.addresses.title' | t }}</span>
+        <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-sub"
+            name="contact[{{ 'customer.addresses.address1' | t }}]"
+            value="{% if addresses.address1 %}{{ addresses.address1 }}{% elsif customer %}{{ customer.address1 }}{% endif %}"
+            placeholder="Enter Address Line 1"
+          >
+      </div>
+      <div class="field-group">
+        <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-sub"
+            name="contact[{{ 'customer.addresses.address2' | t }}]"
+            value="{% if addresses.address2 %}{{ addresses.address2 }}{% elsif customer %}{{ customer.address2 }}{% endif %}"
+            placeholder="Enter Address Line 2"
+          >
+      </div>
+
+      <div class="contact__fields">
+        <div class="form-field-group">
+          <select
+              class="field__input"
+              id="ContactForm-state"
+              name="contact[{{ 'customer.addresses.city' | t }}]"
+              value="{% if addresses.city %}{{ addresses.city }}{% elsif customer %}{{ customer.city }}{% endif %}"
+              placeholder="Enter City"
+            >
+              <option class="field__label" for="ContactForm-name" selected>Enter City<span aria-hidden="true">*</span></option>
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizona</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="California">California</option>
+              <option value="Colorado">Colorado</option>
+              <option value="Connecticut">Connecticut</option>
+              <option value="Delaware">Delaware</option>
+              <option value="District of Columbia">District of Columbia</option>
+              <option value="Florida">Florida</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Guam">Guam</option>
+              <option value="Hawaii">Hawaii</option>
+              <option value="Idaho">Idaho</option>
+              <option value="Illinois">Illinois</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Iowa">Iowa</option>
+              <option value="Kansas">Kansas</option>
+              <option value="Kentucky">Kentucky</option>
+              <option value="Louisiana">Louisiana</option>
+              <option value="Maine">Maine</option>
+              <option value="Maryland">Maryland</option>
+              <option value="Massachusetts">Massachusetts</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Minnesota">Minnesota</option>
+              <option value="Mississippi">Mississippi</option>
+              <option value="Missouri">Missouri</option>
+              <option value="Montana">Montana</option>
+              <option value="Nebraska">Nebraska</option>
+              <option value="Nevada">Nevada</option>
+              <option value="New Hampshire">New Hampshire</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="New Mexico">New Mexico</option>
+              <option value="New York">New York</option>
+              <option value="North Carolina">North Carolina</option>
+              <option value="North Dakota">North Dakota</option>
+              <option value="Ohio">Ohio</option>
+              <option value="Oklahoma">Oklahoma</option>
+              <option value="Oregon">Oregon</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+              <option value="Puerto Rico">Puerto Rico</option>
+              <option value="Rhode Island">Rhode Island</option>
+              <option value="South Carolina">South Carolina</option>
+              <option value="South Dakota">South Dakota</option>
+              <option value="Tennessee">Tennessee</option>
+              <option value="Texas">Texas</option>
+              <option value="Utah">Utah</option>
+              <option value="Vermont">Vermont</option>
+              <option value="Virginia">Virginia</option>
+              <option value="Washington">Washington</option>
+              <option value="West Virginia">West Virginia</option>
+              <option value="Wisconsin">Wisconsin</option>
+              <option value="Wyoming">Wyoming</option>
+            </select>
+        </div>
+
+        <div class="form-field-group">
+          <select
+              class="field__input"
+              id="ContactForm-state"
+              name="contact[{{ 'customer.addresses.state' | t }}]"
+              value="{% if addresses.state %}{{ addresses.state }}{% elsif customer %}{{ customer.state }}{% endif %}"
+              placeholder="Enter State"
+            >
+              <option class="field__label" for="ContactForm-name" selected>Enter State<span aria-hidden="true">*</span></option>
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizona</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="California">California</option>
+              <option value="Colorado">Colorado</option>
+              <option value="Connecticut">Connecticut</option>
+              <option value="Delaware">Delaware</option>
+              <option value="District of Columbia">District of Columbia</option>
+              <option value="Florida">Florida</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Guam">Guam</option>
+              <option value="Hawaii">Hawaii</option>
+              <option value="Idaho">Idaho</option>
+              <option value="Illinois">Illinois</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Iowa">Iowa</option>
+              <option value="Kansas">Kansas</option>
+              <option value="Kentucky">Kentucky</option>
+              <option value="Louisiana">Louisiana</option>
+              <option value="Maine">Maine</option>
+              <option value="Maryland">Maryland</option>
+              <option value="Massachusetts">Massachusetts</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Minnesota">Minnesota</option>
+              <option value="Mississippi">Mississippi</option>
+              <option value="Missouri">Missouri</option>
+              <option value="Montana">Montana</option>
+              <option value="Nebraska">Nebraska</option>
+              <option value="Nevada">Nevada</option>
+              <option value="New Hampshire">New Hampshire</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="New Mexico">New Mexico</option>
+              <option value="New York">New York</option>
+              <option value="North Carolina">North Carolina</option>
+              <option value="North Dakota">North Dakota</option>
+              <option value="Ohio">Ohio</option>
+              <option value="Oklahoma">Oklahoma</option>
+              <option value="Oregon">Oregon</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+              <option value="Puerto Rico">Puerto Rico</option>
+              <option value="Rhode Island">Rhode Island</option>
+              <option value="South Carolina">South Carolina</option>
+              <option value="South Dakota">South Dakota</option>
+              <option value="Tennessee">Tennessee</option>
+              <option value="Texas">Texas</option>
+              <option value="Utah">Utah</option>
+              <option value="Vermont">Vermont</option>
+              <option value="Virginia">Virginia</option>
+              <option value="Washington">Washington</option>
+              <option value="West Virginia">West Virginia</option>
+              <option value="Wisconsin">Wisconsin</option>
+              <option value="Wyoming">Wyoming</option>
+            </select>
+        </div>
+
+        <div class="form-field-group">
+          <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-lname"
+            name="contact[{{ 'customer.addresses.zip' | t }}]"
+            value="{% if addresses.zip %}{{ addresses.zip }}{% elsif customer %}{{ zip }}{% endif %}"
+            placeholder="Enter ZipCode"
+          >
+        </div>
+      </div>
+    
+
+      <div class="contact__button">
+        <button type="submit" class="button">
+          {{ 'templates.contact.form.send' | t }}
+        </button>
+      </div>
+    {%- endform -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Wholesale Inqueri",
+  "tag": "section",
+  "class": "section wholesale-form",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "text",
+      "id": "form-head",
+      "label": "Form Heading"
+    },
+    {
+      "type": "text",
+      "id": "desc",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Wholesale Inqueri"
+    }
+  ]
+}
+{% endschema %}
