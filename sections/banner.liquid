@@ -1,0 +1,57 @@
+<div class="container-fluid">
+    <div class="banner-image">
+        {%if section.settings.banner_img != blank%}
+            <img src="{{section.settings.banner_img | img_url: 'medium'}}" />
+        {%endif%}
+    </div>
+    <div class="banner-details">
+        {%if section.settings.head != blank%}
+            <h2>{{section.settings.head}}</h2>
+        {%endif%}
+        {%if section.settings.desc != blank%}
+            <p>{{section.settings.desc}}</p>
+        {%endif%}
+        {%if section.settings.btn_lebel != blank%}
+            <a href="{{section.settings.btn_url}}">{{section.settings.btn_lebel}}</a>
+        {%endif%}
+    </div>
+</div>
+{%schema%}
+{
+    "name": "Banner",
+    "tag": "section",
+    "class": "result-banner",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_img",
+            "label": "Banner Image"
+        },
+        {
+            "type": "richtext",
+            "id": "head",
+            "label": "Banner Heading"
+        },
+        {
+            "type": "richtext",
+            "id": "desc",
+            "label": "Description"
+        },
+        {
+            "type": "text",
+            "id": "btn_lebel",
+            "label": "Button Lebel"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button Link"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Banner"
+        }
+    ]
+}
+{%endschema%}
