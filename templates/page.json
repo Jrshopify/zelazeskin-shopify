@@ -17,10 +17,65 @@
         "btn_lebel": "Shop Now",
         "btn_url": "#"
       }
+    },
+    "22266a99-7375-451e-8b94-121c1a942d39": {
+      "type": "testimonial",
+      "blocks": {
+        "df1604f6-c7ed-493a-84f5-6a6d0e1b98db": {
+          "type": "Testimonial",
+          "settings": {
+            "testi_image": "shopify:\/\/shop_images\/Z_23.jpg",
+            "msg": "<p><strong>“I cleared my skin in just 4 weeks. My skin is glowing!”<\/strong><\/p>",
+            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+          }
+        },
+        "4e3394bd-fb93-4599-9d85-f0692d63f460": {
+          "type": "Testimonial",
+          "settings": {
+            "testi_image": "shopify:\/\/shop_images\/Z_23.jpg",
+            "msg": "<p><strong>“I cleared my skin in just 4 weeks. My skin is glowing!”<\/strong><\/p>",
+            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+          }
+        },
+        "775f3a94-ae67-4ed4-bd4a-6b203cf9f7e9": {
+          "type": "Testimonial",
+          "settings": {
+            "testi_image": "shopify:\/\/shop_images\/Z_23.jpg",
+            "msg": "<p><strong>“I cleared my skin in just 4 weeks. My skin is glowing!”<\/strong><\/p>",
+            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+          }
+        },
+        "b9f9e549-d77f-4a89-a4b7-5baffa2571aa": {
+          "type": "Testimonial",
+          "settings": {
+            "testi_image": "shopify:\/\/shop_images\/Z_23.jpg",
+            "msg": "<p><strong>“I cleared my skin in just 4 weeks. My skin is glowing!”<\/strong><\/p>",
+            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+          }
+        },
+        "b74ef561-f86b-453f-90bc-98e96bbd6265": {
+          "type": "Testimonial",
+          "settings": {
+            "testi_image": "shopify:\/\/shop_images\/Z_23.jpg",
+            "msg": "<p><strong>“I cleared my skin in just 4 weeks. My skin is glowing!”<\/strong><\/p>",
+            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "df1604f6-c7ed-493a-84f5-6a6d0e1b98db",
+        "4e3394bd-fb93-4599-9d85-f0692d63f460",
+        "775f3a94-ae67-4ed4-bd4a-6b203cf9f7e9",
+        "b9f9e549-d77f-4a89-a4b7-5baffa2571aa",
+        "b74ef561-f86b-453f-90bc-98e96bbd6265"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "9c1834d8-a5b8-48f7-bb66-c214d11cf786"
+    "9c1834d8-a5b8-48f7-bb66-c214d11cf786",
+    "22266a99-7375-451e-8b94-121c1a942d39"
   ]
 }
