@@ -181,7 +181,15 @@
       "type": "zelaze-component",
       "settings": {
         "heading": "{{ product.metafields.custom.component_title.value }}",
-        "components": "{{ product.metafields.custom.component_details | metafield_tag }}"
+        "components": "<p>{{ product.metafields.custom.component_details | metafield_tag }}<\/p>"
+      }
+    },
+    "d2f4aa0e-6138-4982-8ab0-53b6095fca87": {
+      "type": "product-comperision",
+      "settings": {
+        "comperision_heading": "{{ product.metafields.custom.comarison_title.value }}",
+        "comprision_image": "{{ product.metafields.custom.comparison_image.value }}",
+        "ingredient": "{{ product.metafields.custom.comparision_details | metafield_tag }}"
       }
     }
   },
@@ -189,6 +197,7 @@
     "main",
     "03fc36a9-5c06-495a-95cc-bbdc0c212322",
     "a440ff4e-6402-496f-88ad-d35b1150bf2a",
-    "51052261-1f12-42be-9eb9-70cd35efe06e"
+    "51052261-1f12-42be-9eb9-70cd35efe06e",
+    "d2f4aa0e-6138-4982-8ab0-53b6095fca87"
   ]
 }
