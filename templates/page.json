@@ -7,9 +7,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "9c1834d8-a5b8-48f7-bb66-c214d11cf786": {
+      "type": "banner",
+      "settings": {
+        "banner_img": "shopify:\/\/shop_images\/Z_25.jpg",
+        "head": "<p><strong>Real. Natural.Results.<\/strong><\/p>",
+        "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
+        "btn_lebel": "Shop Now",
+        "btn_url": "#"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "9c1834d8-a5b8-48f7-bb66-c214d11cf786"
   ]
 }
