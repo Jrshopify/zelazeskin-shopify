@@ -106,10 +106,8 @@ h2 {
 .btn {background: url(btn-bg.png) no-repeat;background-size: 100% 100%;background-position: center center;text-align: center;color: #fff;border-radius: 30px; padding: 12px 40px;box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.03), 0px 7px 10px 0px rgba(0, 0, 0, 0.14);text-transform: uppercase;text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);font-size: 20px;font-weight: 500;font-family: 'Poppins';border: none;}
 .btn:hover {color: #fff;transform: scale(1.02);}
 
-.owl-nav .owl-prev {width: 60px;
-    height: 60px;
-    margin: 0;
-    border-radius: 100%;background: url(left-arrow.png) no-repeat;background-size: contain ;}
+.owl-nav .owl-prev {width: 60px;height: 60px;margin: 0 !important;border-radius: 100% !important;background: url(left-arrow.png) no-repeat !important;background-size: contain !important;background-position: center center !important;box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.03), 0px 7px 10px 0px rgba(0, 0, 0, 0.14);position: absolute;left: -80px;top: 50%;transform: translateY(-50%);}
+.owl-nav .owl-next {width: 60px;height: 60px;margin: 0 !important;border-radius: 100% !important;background: url(right-arrow.png) no-repeat !important;background-size: contain !important;background-position: center center !important;box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.03), 0px 7px 10px 0px rgba(0, 0, 0, 0.14); position: absolute;right: -80px;top: 50%;transform: translateY(-50%);}
 .owl-nav button span {font-size: 0;}
 
 /*---common-style---*/
