@@ -109,4 +109,8 @@ h2 {
 /*---common-style---*/
 
 .playbtn {background-color: aquamarine;}
+.custom-header {background: linear-gradient(90deg, #8D69B0 0%, #252ABA 27.17%, #1F64E5 38.00%, #46CAF9 49.97%, #72EBE3 61.77%, #79DFC9 67.30%, #C7AE88 73.22%, #D94442 79.38%, #E52A46 85.12%, #D6376B 96.91%, #96597E 100%); box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.15);} 
 .custom-header .header {max-width: 100%; padding: 0 60px;}
+.custom-header .header__icons .sec_menu ul {display: flex;align-items: center;}
+.custom-header .header-wrapper {margin-top: 10px;}
+.custom-header .list-menu .header__menu-item {font-size: 20px;font-weight: 500;color: #1c1c1c;letter-spacing: 0;padding: 0;}
