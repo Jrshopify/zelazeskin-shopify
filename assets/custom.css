@@ -93,7 +93,7 @@ h4,
 h5,
 h6 {
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #000;
 }
@@ -106,8 +106,7 @@ h2 {
     line-height: 50px;
 }
 
-/*--------------------------*/
+/*---common-style---*/
 
-.playbtn {
-    background-color: aquamarine;
-}
+.playbtn {background-color: aquamarine;}
+.header {max-width: 100%; padding: 0 60px;}
