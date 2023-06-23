@@ -19,32 +19,32 @@
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Z_26.jpg",
-            "msg": "<p><strong>“I cleared my skin in just 4weeks. My skin is glowing!”<\/strong><\/p>",
-            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<h6>— Rachel Evans<\/h6>"
           }
         },
         "977db53f-0e3d-4e53-8432-2f2181f21d34": {
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Z_23.jpg",
-            "msg": "<p><strong>“I cleared my skin in just 4weeks. My skin is glowing!”<\/strong><\/p>",
-            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<h6>— Rachel Evans<\/h6>"
           }
         },
         "48e1ba61-faf1-40ed-88de-d2605ff2b569": {
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Z_16.jpg",
-            "msg": "<p><strong>“I cleared my skin in just 4weeks. My skin is glowing!”<\/strong><\/p>",
-            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<h6>— Rachel Evans<\/h6>"
           }
         },
         "e699cef2-78d6-4ac3-be2c-838469a99274": {
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Z_52_9aae7186-3e17-44aa-ac11-8cf1a804f750.jpg",
-            "msg": "<p><strong>“I cleared my skin in just 4weeks. My skin is glowing!”<\/strong><\/p>",
-            "client_name": "<p><strong>— Rachel Evans<\/strong><\/p>"
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<h6><strong>— Rachel Evans<\/strong><\/h6>"
           }
         }
       },
@@ -55,7 +55,7 @@
         "e699cef2-78d6-4ac3-be2c-838469a99274"
       ],
       "settings": {
-        "heading": "<p><strong>See Real Results<\/strong><\/p>"
+        "heading": "<h2>See Real Results<\/h2>"
       }
     },
     "9e03e833-8852-4e31-a120-1df6c8f8d5d4": {
