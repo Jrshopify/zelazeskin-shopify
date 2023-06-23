@@ -141,3 +141,8 @@ h2 {
 .client-feedback .client-info {padding: 20px;}
 .client-feedback .client-info p {margin: 0 auto 30px;font-weight: 500; max-width: 350px;}
 .client-feedback .client-info p:last-child {margin-bottom: 0;}
+
+.product-select .details-list ul {display: flex;flex-wrap: wrap;justify-content: center;}
+.product-select .details-list ul li {width: 50%;display: flex;align-items: center;justify-content: center;}
+.product-select .details-list ul li h4 {font-size: 18pt;font-weight: 500;margin: 0;}
+.product-select .details-list ul li img {width: 60px;height: 60px;object-fit: contain;margin-right: 20px;}
