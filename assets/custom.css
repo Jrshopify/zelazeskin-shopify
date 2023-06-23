@@ -109,4 +109,4 @@ h2 {
 /*---common-style---*/
 
 .playbtn {background-color: aquamarine;}
-.header {max-width: 100%; padding: 0 60px;}
+.custom-header .header {max-width: 100%; padding: 0 60px;}
