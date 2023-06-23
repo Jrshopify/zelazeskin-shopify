@@ -20,7 +20,7 @@
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Group_51_1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
-            "client_name": "<h6>— Rachel Evans<\/h6>"
+            "client_name": "<p>— Rachel Evans<\/p>"
           }
         },
         "977db53f-0e3d-4e53-8432-2f2181f21d34": {
@@ -28,7 +28,7 @@
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Group_89_1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
-            "client_name": "<h6>— Rachel Evans<\/h6>"
+            "client_name": "<p>— Rachel Evans<\/p>"
           }
         },
         "48e1ba61-faf1-40ed-88de-d2605ff2b569": {
@@ -36,7 +36,7 @@
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
-            "client_name": "<h6>— Rachel Evans<\/h6>"
+            "client_name": "<p>— Rachel Evans<\/p>"
           }
         },
         "e699cef2-78d6-4ac3-be2c-838469a99274": {
@@ -44,7 +44,7 @@
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/Group_51_1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
-            "client_name": "<h6><strong>— Rachel Evans<\/strong><\/h6>"
+            "client_name": "<p>— Rachel Evans<\/p>"
           }
         }
       },
@@ -55,7 +55,7 @@
         "e699cef2-78d6-4ac3-be2c-838469a99274"
       ],
       "settings": {
-        "heading": "<h2>See Real Results<\/h2>"
+        "heading": "<p>See Real Results<\/p>"
       }
     },
     "9e03e833-8852-4e31-a120-1df6c8f8d5d4": {
