@@ -64,42 +64,42 @@
         "3717d0f3-fc44-4e5a-b176-56c60ed0f1d3": {
           "type": "details_list",
           "settings": {
-            "details_logo": "shopify:\/\/shop_images\/Asset_13.png",
+            "details_logo": "shopify:\/\/shop_images\/Group_49.png",
             "details_head": "Brighten Skin"
           }
         },
         "f09bffef-f3c9-430b-a738-b79eecb1577b": {
           "type": "details_list",
           "settings": {
-            "details_logo": "shopify:\/\/shop_images\/Asset_14.png",
+            "details_logo": "shopify:\/\/shop_images\/hydrating_1.png",
             "details_head": "Moisturize"
           }
         },
         "b9b87d8d-f1f9-404a-92a3-e55b4ad15612": {
           "type": "details_list",
           "settings": {
-            "details_logo": "shopify:\/\/shop_images\/Asset_11.png",
+            "details_logo": "shopify:\/\/shop_images\/Group_49_1.png",
             "details_head": "Fade Dark Spots"
           }
         },
         "dcc50df1-cb28-4931-a0ee-f862a15d8b06": {
           "type": "details_list",
           "settings": {
-            "details_logo": "shopify:\/\/shop_images\/Asset_14.png",
+            "details_logo": "shopify:\/\/shop_images\/hydrating_1_1.png",
             "details_head": "Hydrate"
           }
         },
         "00993c4c-351d-45af-87de-6560369783e9": {
           "type": "details_list",
           "settings": {
-            "details_logo": "shopify:\/\/shop_images\/wind.jpg",
+            "details_logo": "shopify:\/\/shop_images\/Group_49_2.png",
             "details_head": "Minimize Pores"
           }
         },
         "ea96a714-360e-4e86-8875-74cff4aeacf8": {
           "type": "details_list",
           "settings": {
-            "details_logo": "shopify:\/\/shop_images\/alco.jpg",
+            "details_logo": "shopify:\/\/shop_images\/Group_49_3.png",
             "details_head": "Dermatologist Tested"
           }
         }
@@ -115,7 +115,7 @@
       "settings": {
         "product_image": "shopify:\/\/shop_images\/23_01_11_Zelaze0100_1_3.jpg",
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "head": "<p><strong>Backed by Science and Nature<\/strong><\/p>",
+        "head": "<p>Backed by Science and Nature<\/p>",
         "sub-head": "DESIGNED TO MAKE SKIN DEWY AND GLOWY.",
         "product": "zelaze-brightening-moisturizer"
       }
