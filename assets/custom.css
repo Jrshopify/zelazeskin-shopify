@@ -105,6 +105,7 @@ h2 {
     font-size: 40px;
     line-height: 50px;
 }
+.btn {background: url(btn-bg.png) no-repeat;}
 
 /*---common-style---*/
 
@@ -113,4 +114,7 @@ h2 {
 .custom-header .header {max-width: 100%; padding: 0 60px;}
 .custom-header .header__icons .sec_menu ul {display: flex;align-items: center;}
 .custom-header .header-wrapper {margin-top: 10px;}
-.custom-header .list-menu .header__menu-item {font-size: 20px;font-weight: 500;color: #1c1c1c;letter-spacing: 0;padding: 0;}
+.custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a  {font-size: 20px;font-weight: 500;color: #1c1c1c;letter-spacing: 0;padding: 0;}
+.custom-header .list-menu li, .custom-header .header__icons .sec_menu ul li {margin-right: 30px;}
+.custom-header .list-menu li:last-child {margin-right: 0;}
+.custom-header .list-menu .header__menu-item span {text-decoration: none;}
