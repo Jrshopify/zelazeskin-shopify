@@ -1,7 +1,7 @@
 {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
 {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
 <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
-<script defer src="{{ 'owl.js' | asset_url }}"></script>
+<script defer src="{{ 'custom.js' | asset_url }}"></script>
 <div class="container">
     <div class="owl-carousel owl-theme" id="testimonial">
             {% for block in section.blocks %}
