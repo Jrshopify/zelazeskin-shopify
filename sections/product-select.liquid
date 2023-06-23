@@ -32,23 +32,21 @@
             {% endfor %}
           </ul>
         </div>
-    </div>
-  </div>
-  
- 
-    {% if section.settings.product %}
-      {% assign selected_product = section.settings.product %}
-      {% assign product = all_products[selected_product] %}
-      <h2>{{ product.title }}</h2>
-      <p>{{ product.description }}</p>
-      <p>{{ product.price | money_with_currency }}</p>
-      <!-- RYVIU APP :: WIDGET-TOTAL -->
-      <div class="review-widget">
-      <ryviu-widget-total reviews_data="{{product.metafields.ryviu.product_reviews_info  | escape  }}" product_id="{{product.id}}" handle="{{product.handle}}"></ryviu-widget-total>
+        {% if section.settings.product %}
+          {% assign selected_product = section.settings.product %}
+          {% assign product = all_products[selected_product] %}
+          <h2>{{ product.title }}</h2>
+          <p>{{ product.description }}</p>
+          <p>{{ product.price | money_with_currency }}</p>
+          <!-- RYVIU APP :: WIDGET-TOTAL -->
+          <div class="review-widget">
+          <ryviu-widget-total reviews_data="{{product.metafields.ryviu.product_reviews_info  | escape  }}" product_id="{{product.id}}" handle="{{product.handle}}"></ryviu-widget-total>
+          </div>
+          <!-- / RYVIU APP -->
+          <a href="{{ product.url }}" class="btn">Shop Now</a>
+        {% endif %}
       </div>
-      <!-- / RYVIU APP -->
-      <a href="{{ product.url }}" class="btn">Shop Now</a>
-    {% endif %}
+    </div>
   </div>
 </div>
 {% schema %}
