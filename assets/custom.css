@@ -130,3 +130,9 @@ h2 {
 .banner-text .client .client-img img {width: 100%; height: 100%; object-fit: cover;}
 .banner-text .client .client-info h4 {font-size: 26pt;line-height: 31pt;font-weight: 500;}
 .banner-text .client .client-info h6 {font-size: 16pt;font-weight: 500;margin: 0;}
+
+.client-feedback {padding: 100px 0;}
+.client-feedback .container-fluid {padding-left: 100px; padding-right: 100px;}
+.client-feedback .client-info {padding: 20px;}
+.client-feedback .client-info p {margin: 0 auto 30px;font-weight: 500; max-width: 350px;}
+.client-feedback .client-info p:last-child {margin-bottom: 0;}
