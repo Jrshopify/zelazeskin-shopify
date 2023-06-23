@@ -1,3 +1,6 @@
 .playbtn {
     background-color: aquamarine;
 }
+body{
+    display:none;
+}
