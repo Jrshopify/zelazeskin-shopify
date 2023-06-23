@@ -10,7 +10,9 @@
     <div class="col-lg-7 p-0">
       <div class="right-side text-center">
         {% if section.settings.logo != blank %}
-          <img src="{{ section.settings.logo | img_url: 'medium' }}" />
+          <div class="top-logo-ps">
+            <img src="{{ section.settings.logo | img_url: 'medium' }}" />
+          </div>
         {% endif %}
         {% if section.settings.head != blank %}
           <h2>{{ section.settings.head }}</h2>
