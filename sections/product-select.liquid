@@ -18,7 +18,7 @@
           <h2>{{ section.settings.head }}</h2>
         {% endif %}
         {% if section.settings.sub-head != blank %}
-          <p>{{ section.settings.sub-head }}</p>
+          <h3>{{ section.settings.sub-head }}</h3>
         {% endif %}
         <div class="details-list">
           <ul>
@@ -37,9 +37,9 @@
         {% if section.settings.product %}
           {% assign selected_product = section.settings.product %}
           {% assign product = all_products[selected_product] %}
-          <h2>{{ product.title }}</h2>
+          <h5>{{ product.title }}</h5>
           <p>{{ product.description }}</p>
-          <p>{{ product.price | money_with_currency }}</p>
+          <h6>{{ product.price | money_with_currency }}</h6>
           <!-- RYVIU APP :: WIDGET-TOTAL -->
           <div class="review-widget">
           <ryviu-widget-total reviews_data="{{product.metafields.ryviu.product_reviews_info  | escape  }}" product_id="{{product.id}}" handle="{{product.handle}}"></ryviu-widget-total>
