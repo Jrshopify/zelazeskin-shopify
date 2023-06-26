@@ -79,4 +79,4 @@ h2 {font-size: 40px;line-height: 50px;}
 .product-select .details-list ul li {width: 50%;display: flex;align-items: center;justify-content: center;}
 .product-select .details-list ul li h4 {font-size: 18pt;font-weight: 500;margin: 0;min-width: 260px;text-align: left;}
 .product-select .details-list ul li img {width: 60px;height: 60px;object-fit: contain;margin-right: 20px;}
-.product-select .right-side {padding: 100px;}
+.product-select .right-side {padding: 100px;background: url(color-bg.png) no-repeat;background-size: cover; background-position: center center;}
