@@ -42,11 +42,11 @@ jQuery('#clientfeedback').owlCarousel({
 });
 jQuery('#videoSlide').owlCarousel({
   loop:false,
-  margin:20,
+  margin:30,
   nav:true,
   dots:false,
   autoplay:true,
-  autoplayTimeout:3000,
+  autoplayTimeout:5000,
   autoplayHoverPause:true,
   responsive:{
       0:{
