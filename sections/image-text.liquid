@@ -1,18 +1,20 @@
-<div class="container-fluid">
+<div class="container">
   {% for block in section.blocks %}
-    <div class="contant">
+    <div class="row">
       {% capture image_layout %}
+      <div class="col-lg-6">
         <div class="content_img">
             {%if block.settings.cont_image != blank%}
                 <img src="{{block.settings.cont_image | img_url: 'large'}}">
             {%endif%}
         </div>
+      </div>
       {% endcapture %}
 
       {%if block.settings.vertical_alignment == 'left'%}
         {{image_layout}}
       {%endif%}
-
+      <div class="col-lg-6">
       <div class="content-details">
         {%if block.settings.head != blank%}
             <h2>{{block.settings.head}}</h2>
@@ -21,7 +23,7 @@
             <p>{{block.settings.sub_head}}</p>
         {%endif%}
       </div>
-
+      </div>
       {%if block.settings.vertical_alignment == 'right'%}
         {{image_layout}}
       {%endif%}

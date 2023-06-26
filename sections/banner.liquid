@@ -1,19 +1,25 @@
 <div class="container-fluid">
-    <div class="banner-image">
-        {%if section.settings.banner_img != blank%}
-            <img src="{{section.settings.banner_img | img_url: 'large'}}" />
-        {%endif%}
-    </div>
-    <div class="banner-details">
-        {%if section.settings.head != blank%}
-            <h2>{{section.settings.head}}</h2>
-        {%endif%}
-        {%if section.settings.desc != blank%}
-            <p>{{section.settings.desc}}</p>
-        {%endif%}
-        {%if section.settings.btn_lebel != blank%}
-            <a href="{{section.settings.btn_url}}">{{section.settings.btn_lebel}}</a>
-        {%endif%}
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="banner-image">
+                {%if section.settings.banner_img != blank%}
+                    <img src="{{section.settings.banner_img | img_url: 'large'}}" />
+                {%endif%}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="banner-details">
+                {%if section.settings.head != blank%}
+                    <h2>{{section.settings.head}}</h2>
+                {%endif%}
+                {%if section.settings.desc != blank%}
+                    <p>{{section.settings.desc}}</p>
+                {%endif%}
+                {%if section.settings.btn_lebel != blank%}
+                    <a href="{{section.settings.btn_url}}">{{section.settings.btn_lebel}}</a>
+                {%endif%}
+            </div>
+        </div>
     </div>
 </div>
 {%schema%}
