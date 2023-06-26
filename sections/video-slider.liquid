@@ -3,12 +3,12 @@
 <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
 <script defer src="{{ 'custom.js' | asset_url }}"></script>
 <div class="container">
-  <div class="head-sub">
+  <div class="head-sub text-center">
     {% if section.settings.head != blank %}
-      <h3>{{ section.settings.head }}</h3>
+      <h2>{{ section.settings.head }}</h2>
     {% endif %}
     {% if section.settings.description != blank %}
-      <h3>{{ section.settings.description }}</h3>
+      <p>{{ section.settings.description }}</p>
     {% endif %}
   </div>
   <div class="owl-carousel owl-theme" id="videoSlide">
