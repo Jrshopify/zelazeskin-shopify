@@ -34,7 +34,7 @@ h2 {font-size: 48px;line-height: 58px;}
 /*---common-style---*/
 
 .custom-header {background: linear-gradient(90deg, #8D69B0 0%, #252ABA 27.17%, #1F64E5 38.00%, #46CAF9 49.97%, #72EBE3 61.77%, #79DFC9 67.30%, #C7AE88 73.22%, #D94442 79.38%, #E52A46 85.12%, #D6376B 96.91%, #96597E 100%); box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.15);} 
-.custom-header .header {max-width: 100%; padding: 0 60px;}
+.custom-header .header {max-width: 100%; padding: 0 60px !important;}
 .custom-header .header__icons .sec_menu ul {display: flex;align-items: center;}
 .custom-header .header-wrapper {margin-top: 10px;}
 .custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a  {font-size: 20px;font-weight: 500;color: #1c1c1c;letter-spacing: 0;padding: 0;}
@@ -109,7 +109,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .footer-block--newsletter .footer-block__heading {margin-bottom: 20px;}
 .footer .footer-block--newsletter .footer-block__newsletter {max-width: 600px;}
 .footer .footer-block--newsletter .footer-block__subheading {color: #000;;}
-.footer .social-media h4  {font-size: 26pt;line-height: 30pt;margin-bottom: 20px;color: #000;;}
+.footer .social-media h4  {font-size: 26pt;line-height: 30pt;margin-bottom: 20px;color: #000;text-align: right;}
 .footer .footer-block--newsletter {align-items: flex-start;margin-top: 80px;}
 .footer .social-media .list-social__item .icon { height: 2.5rem;width: 2.5rem;}
 .footer .social-media .list-social__link {padding: 0;color: #000;}
@@ -130,18 +130,38 @@ h2 {font-size: 48px;line-height: 58px;}
 @media screen and (min-width: 1700px) {
 .container {max-width: 1430px;}
 .page-width {max-width: 1430px; padding-left: 12px; padding-right: 12px;;}
-
 }
 
 @media screen and (max-width: 1699px) {
-
-
+body {font-size: 16px;;}
+.btn {font-size: 16px;;}
+h1 {font-size: 48px;line-height: 58px;}
+h2 {font-size: 36px;line-height: 46px;}
+.banner-text .left {padding: 60px;padding-right: 60px;}
+.banner-text .client .client-img {min-width: 180px;max-width: 180px;}
+.banner-text .client .client-info h4 {font-size: 20pt;line-height: 30px;}
+.product-select .right-side h3 {font-size: 14pt;}
+.product-select .right-side {padding: 60px}
+.product-select .details-list ul li h4 {font-size: 14pt;min-width: 205px;}
+.product-select .details-list ul {max-width: 600px;}
+.video-slider .head-sub h6 {font-size: 16pt;}
+.video-slider .video-wrap .video, .video-slider .video-wrap {height: 350px;}
+.dual-approach .dual-app ul li h6, .custom-image-text .image-with-text__text p {font-size: 16pt;}
+.dual-approach .dual-app ul li span {max-width: 100px;max-height: 100px;}
+.custom-image-text .image-with-text__heading {font-size: 36px;}
+#insta-feed h2 {font-size: 36px !important;}
+.footer .footer-block__heading, .footer .social-media h4 {font-size: 20pt;}
+.footer .footer-block__details-content li a {font-size: 16pt;}
+.footer .footer-block--newsletter .footer-block__newsletter {max-width: 480px;}
+.custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a {font-size: 16px;}
+.custom-header .header { padding: 0 30px !important;}
+.custom-header .list-menu li, .custom-header .header__icons .sec_menu ul li {margin-right: 15px;}
+.custom-header .header__heading-link {max-width: 200px;}
+.custom-header .header__icons .sec_menu ul li a.btn {padding: 12px 30px;}
+.owl-nav .owl-prev {width: 45px;height: 45px;left: -60px;}
+.owl-nav .owl-next {width: 45px;height: 45px;right: -60px;}
+.footer .footer__content-bottom .footer-content {max-width: 200px;}
+.footer .footer__content-bottom {padding: 30px 0;}
 }
-
-
-
-
-
-
 
 /*---Responsive---*/
