@@ -110,3 +110,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .custom-image-text .image-with-text__heading {font-size: 48px;letter-spacing: 0;font-weight: 500;}
 .custom-image-text  .image-with-text__text p {font-size: 24pt;color: #939393;font-weight: 400;max-width: 695px;}
 .custom-image-text .image-with-text__media {border: none;}
+
+#insta-feed {padding: 0 !important;margin: 0;margin-bottom: 100px;}
+#insta-feed h2 {font-size: 48px;}
+
+.footer  {border: none;margin: 0;background: url(footer-bg.png) no-repeat; background-size: cover; background-position: center center;}
