@@ -114,7 +114,7 @@ h2 {font-size: 48px;line-height: 58px;}
 #insta-feed {padding: 0 !important;margin: 0 !important;margin-bottom: 100px !important;}
 #insta-feed h2 {font-size: 48px !important;}
 
-.footer  {border: none;margin: 0 !important;background: url(footer-bg.png) no-repeat; background-size: cover; background-position: center center;padding-top: 60px !important;}
+.footer  {border: none;margin: 0 !important;background: url(footer-bg.png) no-repeat; background-size: cover; background-position: center center;padding-top: 100px !important;}
 .footer .footer-block__heading {font-size: 26pt;line-height: 30pt;margin-bottom: 50px;}
 .footer .footer-block__heading strong {font-weight: 500;}
 .footer .footer-block__details-content li a {font-size: 20pt;color: #000;font-weight: 500;letter-spacing: 0;line-height: 20pt;padding: 0;}
@@ -133,6 +133,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .newsletter-form__button {min-width: 190px;}
 .footer .field__input {height: 60px;border: none;padding-right: 20rem;border-radius: 60px;}
 .footer .field__input:focus {box-shadow: none;;}
-.newsletter-form__field-wrapper .field::before, .newsletter-form__field-wrapper .field::after {display: none;}
+.footer .newsletter-form__field-wrapper .field::before, .newsletter-form__field-wrapper .field::after {display: none;}
+.footer .footer__content-bottom {background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center;text-align: center; border: none;padding: 30px 0;}
 
 
