@@ -12,7 +12,7 @@
       "type": "banner",
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/abt1.jpg",
-        "head": "<p><strong>Our Story<\/strong><\/p>",
+        "head": "<p>Our Story<\/p>",
         "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
         "btn_lebel": "",
         "btn_url": ""
@@ -26,7 +26,7 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_1.png",
             "vertical_alignment": "left",
-            "head": "<p><strong>Subtitle<\/strong><\/p>",
+            "head": "<p>Subtitle<\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
           }
         },
@@ -35,7 +35,7 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_2.png",
             "vertical_alignment": "right",
-            "head": "<p><strong>Subtitle<\/strong><\/p>",
+            "head": "<p>Subtitle<\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
           }
         },
@@ -44,7 +44,7 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_3.png",
             "vertical_alignment": "left",
-            "head": "<p><strong>Subtitle<\/strong><\/p>",
+            "head": "<p>Subtitle<\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
           }
         }
