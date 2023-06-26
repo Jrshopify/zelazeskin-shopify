@@ -123,6 +123,12 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .footer-block--newsletter .footer-block__heading {margin-bottom: 20px;}
 .footer .footer-block--newsletter .footer-block__newsletter {max-width: 50%;}
 .footer .footer-block--newsletter .footer-block__subheading {color: #000;;}
-.footer .newsletter-form__field-wrapper {}
 .footer .social-media h4  {font-size: 26pt;line-height: 30pt;margin-bottom: 20px;color: #000;;}
+.footer .footer-block--newsletter {align-items: flex-start;margin-top: 60px;}
+.footer .social-media .list-social__item .icon { height: 2.5rem;width: 2.5rem;}
+.footer .social-media .list-social__link {padding: 0;color: #000;}
+.footer .social-media ul li {margin-left: 20px;;}
+.footer .newsletter-form {max-width: 100%;}
+.footer .newsletter-form__field-wrapper {max-width: 100%;}
+
 
