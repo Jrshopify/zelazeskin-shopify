@@ -43,6 +43,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .owl-nav .owl-next {width: 60px;height: 60px;margin: 0 !important;border-radius: 100% !important;background: url(right-arrow.png) no-repeat !important;background-size: contain !important;background-position: center center !important;box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.03), 0px 7px 10px 0px rgba(0, 0, 0, 0.14); position: absolute;right: -80px;top: 33%;transform: translateY(-33%);}
 .owl-nav button span {font-size: 0;}
 .container {max-width: 1430px;}
+.page-width {max-width: 1430px; padding-left: 12px; padding-right: 12px;;}
 
 /*---common-style---*/
 
@@ -101,5 +102,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .dual-approach .dual-app ul {flex-wrap: wrap;display: flex;}
 .dual-approach .dual-app ul li {width: 25%;padding: 0 15px;}
 .dual-approach .dual-app ul li span {display: inline-block;max-width: 130px;max-height: 130px;margin-bottom: 30px;}
-.dual-approach .dual-app ul li h6 {margin: 0;font-size: 20pt;}
+.dual-approach .dual-app ul li h6 {max-width: 280px;margin: 0 auto;font-size: 20pt;}
 .dual-approach {padding: 100px 0; background: url(color-bg-3.jpg) no-repeat; background-size: cover; background-position: center center;}
+
+.custom-image-text {}
