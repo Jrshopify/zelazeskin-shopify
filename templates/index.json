@@ -126,7 +126,8 @@
         "cb161d4c-346b-43ad-9e59-82c32ac80575": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef63da8d73424f1b9958687b580e6bdf.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef63da8d73424f1b9958687b580e6bdf.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd1.png"
           }
         },
         "3939e62a-a42a-4212-9f75-0353c2f8f919": {
