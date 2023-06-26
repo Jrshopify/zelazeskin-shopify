@@ -132,6 +132,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .image-text .content-details {padding-left: 50px;}
 .image-text .container .row:nth-child(even) .content-details {padding-right: 50px; padding-left: 0;}
 .result-banner .banner-details {padding-left: 70px;padding-right: 70px;max-width: 650px;}
+.result-banner .banner-details .btn {margin-top: 20px;;}
 
 
 /*---Responsive---*/
