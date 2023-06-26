@@ -82,6 +82,6 @@ h2 {font-size: 48px;line-height: 58px;}
 .product-select .right-side {padding: 100px;background: url(color-bg.png) no-repeat;background-size: cover; background-position: center center; height: 100%;}
 .product-select .right-side h3 {font-size: 20pt;letter-spacing: 3px;}
 .product-select .right-side .top-logo-ps {margin-bottom: 30px;}
-.product-select .right-side .product-select-bottom-text h3 {font-size: 18pt;}
+.product-select .right-side .product-select-bottom-text h5 {font-size: 18pt;}
 .product-select .right-side .product-select-bottom-text {max-width: 650px; margin: 0 auto;}
 .product-select .right-side .product-select-bottom-text h6 {font-size: 20pt;font-weight: 600;color: #00B3DF;}
