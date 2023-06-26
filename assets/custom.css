@@ -114,4 +114,7 @@ h2 {font-size: 48px;line-height: 58px;}
 #insta-feed {padding: 0 !important;margin: 0 !important;margin-bottom: 100px !important;}
 #insta-feed h2 {font-size: 48px !important;}
 
-.footer  {border: none;margin: 0;background: url(footer-bg.png) no-repeat; background-size: cover; background-position: center center;padding-top: 60px;}
+.footer  {border: none;margin: 0 !important;background: url(footer-bg.png) no-repeat; background-size: cover; background-position: center center;padding-top: 60px !important;}
+.footer .footer-block__heading {font-size: 26pt;line-height: 36pt;}
+.footer .footer-block__heading strong {font-weight: 500;}
+.footer .footer-block__details-content li a {font-size: 20pt;color: #000;font-weight: 500;letter-spacing: 0;line-height: 20pt;text-decoration: none;}
