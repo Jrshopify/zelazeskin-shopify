@@ -76,8 +76,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .client-feedback .client-info p {margin: 0 auto 30px;font-weight: 500; max-width: 350px;}
 .client-feedback .client-info p:last-child {margin-bottom: 0;}
 
-.product-select .details-list ul {display: flex;flex-wrap: wrap;justify-content: center;max-width: 790px;margin: 50px auto;}
-.product-select .details-list ul li {width: 50%;display: flex;align-items: center;justify-content: center;}
+.product-select .details-list ul {display: flex;flex-wrap: wrap;justify-content: center;max-width: 790px;margin: 50px auto 30px;}
+.product-select .details-list ul li {width: 50%;display: flex;align-items: center;justify-content: center;margin-bottom: 30px;}
 .product-select .details-list ul li h4 {font-size: 18pt;font-weight: 500;margin: 0;min-width: 260px;text-align: left;}
 .product-select .details-list ul li img {width: 60px;height: 60px;object-fit: contain;margin-right: 20px;}
 .product-select .right-side {padding: 100px;background: url(color-bg.png) no-repeat;background-size: cover; background-position: center center; height: 100%;}
@@ -124,16 +124,16 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .footer-block--newsletter .footer-block__newsletter {max-width: 600px;}
 .footer .footer-block--newsletter .footer-block__subheading {color: #000;;}
 .footer .social-media h4  {font-size: 26pt;line-height: 30pt;margin-bottom: 20px;color: #000;;}
-.footer .footer-block--newsletter {align-items: flex-start;margin-top: 60px;}
+.footer .footer-block--newsletter {align-items: flex-start;margin-top: 80px;}
 .footer .social-media .list-social__item .icon { height: 2.5rem;width: 2.5rem;}
 .footer .social-media .list-social__link {padding: 0;color: #000;}
 .footer .social-media ul li {margin-left: 20px;;}
 .footer .newsletter-form {max-width: 100%;}
 .footer .newsletter-form__field-wrapper {max-width: 100%;margin-top: 20px;}
 .footer .newsletter-form__button {min-width: 190px;}
-.footer .field__input {height: 60px;border: none;padding-right: 20rem;border-radius: 60px;}
+.footer .field__input {height: 60px;border: none;padding-right: 20rem !important; border-radius: 60px;font-size: 14px;}
 .footer .field__input:focus {box-shadow: none;;}
 .footer .newsletter-form__field-wrapper .field::before, .newsletter-form__field-wrapper .field::after {display: none;}
-.footer .footer__content-bottom {background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center;text-align: center; border: none;padding: 30px 0;}
-
-
+.footer .footer__content-bottom {background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center;text-align: center; border: none;padding: 40px 0;}
+.footer .footer__content-bottom .footer-content {max-width: 225px;margin: 0 auto;}
+.footer .footer__content-top {padding-bottom: 100px;}
