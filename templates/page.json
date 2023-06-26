@@ -20,6 +20,7 @@
     },
     "22266a99-7375-451e-8b94-121c1a942d39": {
       "type": "testimonial",
+      "disabled": true,
       "blocks": {
         "df1604f6-c7ed-493a-84f5-6a6d0e1b98db": {
           "type": "Testimonial",
@@ -71,11 +72,58 @@
       ],
       "settings": {
       }
+    },
+    "406d1e7b-477e-4730-9ced-e282d41eaaea": {
+      "type": "client-feedback",
+      "blocks": {
+        "ffc253f4-cd77-4533-92b2-07928f9c8a19": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
+        },
+        "54458c40-c62d-419f-b75e-d7cdeeecde79": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
+        },
+        "a7aaeb04-4df9-447f-811a-2d4621f73b47": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
+        },
+        "a46c63b2-f424-4858-8401-62bea3f05324": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ffc253f4-cd77-4533-92b2-07928f9c8a19",
+        "54458c40-c62d-419f-b75e-d7cdeeecde79",
+        "a7aaeb04-4df9-447f-811a-2d4621f73b47",
+        "a46c63b2-f424-4858-8401-62bea3f05324"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "main",
     "9c1834d8-a5b8-48f7-bb66-c214d11cf786",
-    "22266a99-7375-451e-8b94-121c1a942d39"
+    "22266a99-7375-451e-8b94-121c1a942d39",
+    "406d1e7b-477e-4730-9ced-e282d41eaaea"
   ]
 }
