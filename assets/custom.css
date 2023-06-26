@@ -91,6 +91,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .video-slider {padding: 100px 0;}
 .video-slider .head-sub  p {font-size: 24pt;color: #939393;}
 .video-slider .head-sub {margin-bottom: 50px;}
-.video-slider .video-wrap {position: relative;}
-.video-slider .video-wrap .video {height: 440px; width: 100%;}
-.video-slider .video-wrap .playbtn {position: absolute;bottom: 30px;right: 20px;width: 60px;height: 60px;cursor: pointer;}
+.video-slider .video-wrap {position: relative;border-radius: 10px;overflow: hidden;height: 440px;}
+.video-slider .video-wrap .video {height: 440px; width: 100%;object-fit: cover;}
+.video-slider .video-wrap .playbtn {position: absolute;bottom: 20px;right: 20px;width: 60px;height: 60px;cursor: pointer;}
+.video-slider .owl-nav .owl-prev, .video-slider .owl-nav .owl-next {top: 50%;transform: translateY(-50%);}
