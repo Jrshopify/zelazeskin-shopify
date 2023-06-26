@@ -120,3 +120,9 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .footer-block__details-content li a {font-size: 20pt;color: #000;font-weight: 500;letter-spacing: 0;line-height: 20pt;padding: 0;}
 .footer .footer-block__details-content li {margin-bottom: 20px;;}
 .footer .footer__blocks-wrapper .footer-block.grid__item:nth-child(2) {padding-left: 5%;}
+.footer .footer-block--newsletter .footer-block__heading {margin-bottom: 20px;}
+.footer .footer-block--newsletter .footer-block__newsletter {max-width: 50%;}
+.footer .footer-block--newsletter .footer-block__subheading {color: #000;;}
+.footer .newsletter-form__field-wrapper {}
+.footer .social-media h4  {font-size: 26pt;line-height: 30pt;margin-bottom: 20px;color: #000;;}
+
