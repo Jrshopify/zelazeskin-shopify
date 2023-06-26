@@ -129,8 +129,9 @@ h2 {font-size: 48px;line-height: 58px;}
 .image-text .content_img {overflow: hidden;border-top-left-radius: 50px;border-bottom-right-radius: 50px;}
 .image-text .container {max-width: 950px;}
 .image-text .container .row:nth-child(even) {padding: 100px 0;}
-.image-text .content-details {padding-left: 30px;}
-.image-text .container .row:nth-child(even) .content-details {padding-right: 30px; padding-left: 0;}
+.image-text .content-details {padding-left: 50px;}
+.image-text .container .row:nth-child(even) .content-details {padding-right: 50px; padding-left: 0;}
+.result-banner .banner-details {padding-left: 70px;padding-right: 70px;max-width: 650px;}
 
 
 /*---Responsive---*/
