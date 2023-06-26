@@ -200,14 +200,14 @@
           "type": "dual-approach",
           "settings": {
             "dual_image": "shopify:\/\/shop_images\/Asset_13.png",
-            "dual_text": "Brighten skin"
+            "dual_text": "Brighten<br>skin"
           }
         },
         "e83927b4-3e44-4234-81b0-95735a54f972": {
           "type": "dual-approach",
           "settings": {
             "dual_image": "shopify:\/\/shop_images\/Asset_14.png",
-            "dual_text": "Hydrate skin"
+            "dual_text": "Hydrate<br>skin"
           }
         }
       },
