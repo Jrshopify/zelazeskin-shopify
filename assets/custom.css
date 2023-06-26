@@ -95,3 +95,10 @@ h2 {font-size: 48px;line-height: 58px;}
 .video-slider .video-wrap .video {height: 440px; width: 100%;object-fit: cover;}
 .video-slider .video-wrap .playbtn {position: absolute;bottom: 20px;right: 20px;width: 60px;height: 60px;cursor: pointer;}
 .video-slider .owl-nav .owl-prev, .video-slider .owl-nav .owl-next {top: 50%;transform: translateY(-50%);}
+
+.dual-approach .dual {margin-bottom: 50px;}
+.dual-approach .dual img {margin-bottom: 20px;}
+.dual-approach .dual-app ul {flex-wrap: wrap;}
+.dual-approach .dual-app ul li {width: 25%;padding: 0 15px;}
+.dual-approach .dual-app ul li span {display: inline-block;max-width: 130px;max-height: 130px;margin-bottom: 30px;}
+.dual-approach .dual-app ul li h6 {margin: 0;font-size: 20pt;}
