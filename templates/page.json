@@ -12,7 +12,7 @@
       "type": "banner",
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/Z_25.jpg",
-        "head": "<p><strong>Real. Natural.Results.<\/strong><\/p>",
+        "head": "<p>Real. Natural. Results.<\/p>",
         "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
         "btn_lebel": "Shop Now",
         "btn_url": "#"
@@ -87,7 +87,7 @@
         "54458c40-c62d-419f-b75e-d7cdeeecde79": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/Group_89_1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
@@ -95,7 +95,7 @@
         "a7aaeb04-4df9-447f-811a-2d4621f73b47": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/Group_51_1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
