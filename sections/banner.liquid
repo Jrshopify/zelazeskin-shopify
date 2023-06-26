@@ -1,13 +1,13 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-6">
+<div class="container-fluid p-0">
+    <div class="row m-0 align-items-center">
+        <div class="col-lg-6 p-0">
             <div class="banner-image">
                 {%if section.settings.banner_img != blank%}
                     <img src="{{section.settings.banner_img | img_url: 'master'}}" />
                 {%endif%}
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 p-0">
             <div class="banner-details">
                 {%if section.settings.head != blank%}
                     <h2>{{section.settings.head}}</h2>
