@@ -133,31 +133,36 @@
         "3939e62a-a42a-4212-9f75-0353c2f8f919": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01918c5c275c41bf8a04b65259606eb0.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01918c5c275c41bf8a04b65259606eb0.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd2.png"
           }
         },
         "3c15556c-b061-4f51-a5fc-7f4ae14c2095": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd3.png"
           }
         },
         "c5c290a4-613e-4805-9428-9403b0776df7": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd4.png"
           }
         },
         "747c16a0-257d-4526-b10e-66c9331593e2": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd1.png"
           }
         },
         "a66bc253-2960-4620-8ab5-ec6a1a7f660c": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd2.png"
           }
         }
       },
