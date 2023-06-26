@@ -11,7 +11,7 @@
     "9399a951-1358-4704-af3c-99994f355336": {
       "type": "banner",
       "settings": {
-        "banner_img": "shopify:\/\/shop_images\/Z_52_9aae7186-3e17-44aa-ac11-8cf1a804f750.jpg",
+        "banner_img": "shopify:\/\/shop_images\/abt1.jpg",
         "head": "<p><strong>Our Story<\/strong><\/p>",
         "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
         "btn_lebel": "",
@@ -24,7 +24,7 @@
         "3bfc0156-e2fb-4757-8f3a-ea8eb6098db5": {
           "type": "content",
           "settings": {
-            "cont_image": "shopify:\/\/shop_images\/Z_26.jpg",
+            "cont_image": "shopify:\/\/shop_images\/Asset_1.png",
             "vertical_alignment": "left",
             "head": "<p><strong>Subtitle<\/strong><\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
@@ -33,7 +33,7 @@
         "f4f66aad-fd30-4c49-ac35-0ca7d1239e17": {
           "type": "content",
           "settings": {
-            "cont_image": "shopify:\/\/shop_images\/Z_23.jpg",
+            "cont_image": "shopify:\/\/shop_images\/Asset_2.png",
             "vertical_alignment": "right",
             "head": "<p><strong>Subtitle<\/strong><\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
@@ -42,7 +42,7 @@
         "fc4b4c5e-a279-4ae9-ba88-266cb0c65adf": {
           "type": "content",
           "settings": {
-            "cont_image": "shopify:\/\/shop_images\/Z_24.jpg",
+            "cont_image": "shopify:\/\/shop_images\/Asset_3.png",
             "vertical_alignment": "left",
             "head": "<p><strong>Subtitle<\/strong><\/p>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
