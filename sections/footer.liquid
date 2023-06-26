@@ -357,7 +357,7 @@
 
     <div class="footer-content">
       {% if section.settings.footer_content != blank %}
-        <span class="text-center">{{ section.settings.footer_content }}</span>
+        <img src="{{ section.settings.footer_content | img_url: 'master' }}" />
       {% endif %}
     </div>
 
@@ -592,9 +592,9 @@
       "label": "t:sections.footer.settings.show_policy.label"
     },
     {
-      "type": "inline_richtext",
+      "type": "image_picker",
       "id": "footer_content",
-      "label": "Footer Button Content"
+      "label": "Footer Bottom Content"
     },
     {
       "type": "header",
