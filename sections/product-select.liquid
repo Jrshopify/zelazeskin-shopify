@@ -37,9 +37,11 @@
         {% if section.settings.product %}
           {% assign selected_product = section.settings.product %}
           {% assign product = all_products[selected_product] %}
+          <div class="product-select-bottom-text">
           <h5>{{ product.title }}</h5>
           <p>{{ product.description }}</p>
           <h6>{{ product.price | money_with_currency }}</h6>
+          </div>
           <!-- RYVIU APP :: WIDGET-TOTAL -->
           <div class="review-widget">
           <ryviu-widget-total reviews_data="{{product.metafields.ryviu.product_reviews_info  | escape  }}" product_id="{{product.id}}" handle="{{product.handle}}"></ryviu-widget-total>
