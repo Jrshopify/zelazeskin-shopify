@@ -105,4 +105,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .dual-approach .dual-app ul li h6 {max-width: 280px;margin: 0 auto;font-size: 20pt;}
 .dual-approach {padding: 100px 0; background: url(color-bg-3.jpg) no-repeat; background-size: cover; background-position: center center;}
 
-.custom-image-text {}
+.custom-image-text .page-width {opacity: 1;}
+.custom-image-text {padding-top: 100px;padding-bottom: 100px;}
+.custom-image-text .image-with-text__heading {font-size: 48px;letter-spacing: 0;font-weight: 500;}
+.custom-image-text  .image-with-text__text p {font-size: 24pt;color: #939393;font-weight: 400;max-width: 695px;}
