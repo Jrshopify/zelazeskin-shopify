@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <div class="dual">
+<div class="container">
+  <div class="dual text-center">
     {% if section.settings.logo != blank %}
       <img src="{{ section.settings.logo | img_url: 'medium' }}" />
     {% endif %}
@@ -7,15 +7,17 @@
       {{ section.settings.head }}
     {% endif %}
   </div>
-  <div class="dual-app">
+  <div class="dual-app text-center">
     <ul>
       {% for block in section.blocks %}
         <li>
           {% if block.settings.dual_image != blank %}
+          <span>
             <img src="{{ block.settings.dual_image | img_url: 'medium' }}" />
+          </span>
           {% endif %}
           {% if block.settings.dual_text != blank %}
-            <h2>{{ block.settings.dual_text }}</h2>
+            <h6>{{ block.settings.dual_text }}</h6>
           {% endif %}
         </li>
       {% endfor %}
