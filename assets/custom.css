@@ -136,18 +136,19 @@ h2 {font-size: 48px;line-height: 58px;}
 .result-banner .banner-details h1 {text-align: left;margin-top: 0;margin-bottom: 20px;font-size: 70px;}
 .result-banner .banner-details p {color: #000;;}
 
-.accordion .accordion-item {border-radius: 0;overflow: hidden;border: none;border-top: 1px solid #5e5e5e;}
-.accordion-titel {padding: 50px 0;cursor: pointer;padding-right: 30px;}
-.accordion-contant {padding: 0 0 50px;display: none;}
-.accordion-titel h2 span {display: none;}
-.accordion-titel h4 {margin: 0; padding: 0; position: relative;font-size: 22pt;padding-right: 20px;}
-.accordion-titel h4 p {margin: 0;}
-.accordion-titel strong {font-weight: 500;}
-.accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100% !important; width: 18px; height: 18px; right: 0; top: 9px;}
-.multiple-question {padding: 100px 0;}
-.accordion-titel.active h4::before {background:url(minus.png) no-repeat;}
+.faq .accordion .accordion-item {border-radius: 0;overflow: hidden;border: none;border-top: 1px solid #5e5e5e;}
+.faq .accordion-titel {padding: 50px 0;cursor: pointer;padding-right: 30px;}
+.faq .accordion-contant {padding: 0 0 50px;display: none;}
+.faq .accordion-titel h2 span {display: none;}
+.faq .accordion-titel h4 {margin: 0; padding: 0; position: relative;font-size: 22pt;padding-right: 20px;}
+.faq .accordion-titel h4 p {margin: 0;}
+.faq .accordion-titel strong {font-weight: 500;}
+.faq .accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100% !important; width: 18px; height: 18px; right: 0; top: 9px;}
+.faq .multiple-question {padding: 100px 0;}
+.faq .accordion-titel.active h4::before {background:url(minus.png) no-repeat;}
 .faq .heading {padding: 50px 0 40px;border-top: 1px solid #5e5e5e;}
 .faq .heading h2 {margin: 0;}
+.faq .full-faq:nth-child(1) .heading {padding-top: 0;border: none;}
 
 
 /*---Responsive---*/
