@@ -27,14 +27,15 @@
       {% if section.settings.heading != blank %}
         <h2>{{ section.settings.heading }}</h2>
       {% endif %}
-      <ul>
+         <ul>
         {% assign a = 1 %}
           {% for block in section.blocks %}
             <li><span>{{ a }})</span> {{ block.settings.point }}</li>
           {% assign a = a | plus: 1 %}
         {% endfor %}
-      </ul>
-      <div class="video-making-form contact page-width page-width--narrow section-{{ section.id }}-padding">
+         </ul>
+      <div class="video-making-form contact page-width--narrow section-{{ section.id }}-padding">
+        <div class="contact-bg-wrap">
         {%- liquid
         assign contact_form_class = 'isolate'
         if settings.animations_reveal_on_scroll
@@ -323,6 +324,7 @@
           </button>
         </div>
       {%- endform -%}
+    </div>
   </div>
   </div>
   </div>
