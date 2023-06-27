@@ -17,7 +17,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact container section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <h2 class="title text-center title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
       </h2>
     {%- else -%}
@@ -63,7 +63,7 @@
           </li>
         </ul>
       {%- endif -%}
-      <div class="contact__fields">
+      <div class="contact__fields field-group">
         <div class="form-group">
           <span>{{ 'templates.contact.form.firstname' | t }}</span>
           <input
@@ -154,8 +154,8 @@
           {{- form.body -}}
         </textarea>
       </div>
-      <div class="contact__button">
-        <button type="submit" class="button">
+      <div class="contact__button text-center">
+        <button type="submit" class="button btn">
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>

@@ -153,8 +153,14 @@ h2 {font-size: 48px;line-height: 58px;}
 .faq_content ul li {font-size: 14pt; margin-bottom: 20px;;}
 .faq_content ul li a {color: #00b0dc;}
 
-.contact-bg-wrap {background: url(contact-bg.png) no-repeat;max-width: 450px; margin: 0 auto; background-size: cover; background-position: center center;padding: 20px 15px;}
+.contact-bg-wrap {background: url(contact-bg.png) no-repeat;max-width: 450px; margin: 0 auto; background-size: cover; background-position: center center;padding: 20px 15px;position: relative;}
 .contact-bg-wrap:before {position: absolute;content: '';background: #fff; width: calc(100% - 4px);height: calc(100% - 5px);left: 2px;top: 2px;}
+.contact-bg-wrap .info h4 {font-size: 18pt;color: #00AFDB;}
+.contact-bg-wrap .info p, .contact-bg-wrap .info a {font-size: 12pt;}
+.contact-bg-wrap .field__input {border: 1px solid #8B8B8B;border-radius: 10px;padding: 10px;font-size: 14px;}
+.contact-bg-wrap .btn::before, .contact-bg-wrap .btn::after {display: none;}
+.contact-bg-wrap .field-group span {display: block;font-size: 10pt;font-weight: 500;color: #000;margin-bottom: 5px;}
+.contact-bg-wrap .field-group {margin-bottom: 10px;;}
 
 
 /*---Responsive---*/
