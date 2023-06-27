@@ -1,6 +1,6 @@
 <script defer src="{{ 'custom.js' | asset_url }}"></script> 
 <style>
-  *{
+  {% comment %} *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,47 +46,67 @@ h1{
     font-size: 22px;
     text-align: center;
     margin: 50px 0;
-}
+} {% endcomment %}
 </style>
 <div class="container">
-  <div class="faq_content">
-    <ul>
-      {% if section.settings.most_ask != blank %}
-        <li><a href="#mostask">{{ section.settings.most_ask }}</a></li>
-      {% endif %}
-      {% if section.settings.product_info != blank %}
-        <li><a href="#prodinfo">{{ section.settings.product_info }}</a></li>
-      {% endif %}
-      {% if section.settings.order != blank %}
-        <li><a href="#order">{{ section.settings.order }}</a></li>
-      {% endif %}
-      {% if section.settings.shipping != blank %}
-        <li><a href="#shipping">{{ section.settings.shipping }}</a></li>
-      {% endif %}
-      {% if section.settings.subs != blank %}
-        <li><a href="#subscriber">{{ section.settings.subs }}</a></li>
-      {% endif %}
-      {% if section.settings.com_info != blank %}
-        <li><a href="#company">{{ section.settings.com_info }}</a></li>
-      {% endif %}
-    </ul>
-  </div>
-  <div class="faq">
-    {% for block in section.blocks %}
-        <div class="full-faq" id="mostask">
-          {% if block.type == 'heading' %}
-            <div class="heaing">
-              {% if block.settings.faq_head != blank %}
-                <h2>{{ block.settings.faq_head }}</h2>
-              {% endif %}
-            </div>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="faq_content">
+        <ul>
+          {% if section.settings.most_ask != blank %}
+            <li><a href="#mostask">{{ section.settings.most_ask }}</a></li>
           {% endif %}
+          {% if section.settings.product_info != blank %}
+            <li><a href="#prodinfo">{{ section.settings.product_info }}</a></li>
+          {% endif %}
+          {% if section.settings.order != blank %}
+            <li><a href="#order">{{ section.settings.order }}</a></li>
+          {% endif %}
+          {% if section.settings.shipping != blank %}
+            <li><a href="#shipping">{{ section.settings.shipping }}</a></li>
+          {% endif %}
+          {% if section.settings.subs != blank %}
+            <li><a href="#subscriber">{{ section.settings.subs }}</a></li>
+          {% endif %}
+          {% if section.settings.com_info != blank %}
+            <li><a href="#company">{{ section.settings.com_info }}</a></li>
+          {% endif %}
+        </ul>
+      </div>
+   </div>
+   <div class="col-lg-9">
+    <div class="faq">
+      {% for block in section.blocks %}
+          <div class="full-faq" id="mostask">
+            {% if block.type == 'heading' %}
+              <div class="heaing">
+                {% if block.settings.faq_head != blank %}
+                  <h2>{{ block.settings.faq_head }}</h2>
+                {% endif %}
+              </div>
+            {% endif %}
+            <div class="accordion">
+              {% if block.type == 'most_asked_questions' %}
+                <div class="accordion-item">
+                  {% if block.settings.question != blank %}
+                    <div class="accordion-titel">
+                        <h2>{{ block.settings.question }} <span><i class="fa-solid fa-angle-down"></i></span></h2>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.answer != blank %}
+                    <div class="accordion-contant">
+                        <p>{{ block.settings.answer }}</p>
+                    </div>
+                  {% endif %}
+                </div>
+              {% endif %}
+          </div>
           <div class="accordion">
-            {% if block.type == 'most_asked_questions' %}
-              <div class="accordion-item">
+          {% if block.type == 'product_info' %}
+              <div class="accordion-item" id="prodinfo">
                 {% if block.settings.question != blank %}
                   <div class="accordion-titel">
-                      <h2>{{ block.settings.question }} <span><i class="fa-solid fa-angle-down"></i></span></h2>
+                      <h2>{{ block.settings.question }}</h2>
                   </div>
                 {% endif %}
                 {% if block.settings.answer != blank %}
@@ -97,25 +117,57 @@ h1{
               </div>
             {% endif %}
         </div>
-        <div class="accordion">
-        {% if block.type == 'product_info' %}
-            <div class="accordion-item" id="prodinfo">
-              {% if block.settings.question != blank %}
-                <div class="accordion-titel">
-                    <h2>{{ block.settings.question }}</h2>
+          <div class="accordion">
+            {% if block.type == 'order_payment' %}
+                <div class="accordion-item" id="order">
+                  {% if block.settings.question != blank %}
+                    <div class="accordion-titel">
+                        <h2>{{ block.settings.question }}</h2>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.answer != blank %}
+                    <div class="accordion-contant">
+                        <p>{{ block.settings.answer }}</p>
+                    </div>
+                  {% endif %}
                 </div>
-              {% endif %}
-              {% if block.settings.answer != blank %}
-                <div class="accordion-contant">
-                    <p>{{ block.settings.answer }}</p>
+            {% endif %}
+        </div>
+          <div class="accordion">
+            {% if block.type == 'shipping' %}
+                <div class="accordion-item" id="shipping">
+                  {% if block.settings.question != blank %}
+                    <div class="accordion-titel">
+                        <h2>{{ block.settings.question }}</h2>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.answer != blank %}
+                    <div class="accordion-contant">
+                        <p>{{ block.settings.answer }}</p>
+                    </div>
+                  {% endif %}
                 </div>
-              {% endif %}
-            </div>
-          {% endif %}
-      </div>
-        <div class="accordion">
-          {% if block.type == 'order_payment' %}
-              <div class="accordion-item" id="order">
+            {% endif %}
+        </div>
+          <div class="accordion">
+            {% if block.type == 'subscribe' %}
+                <div class="accordion-item" id="subscriber">
+                  {% if block.settings.question != blank %}
+                    <div class="accordion-titel">
+                        <h2>{{ block.settings.question }}</h2>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.answer != blank %}
+                    <div class="accordion-contant">
+                        <p>{{ block.settings.answer }}</p>
+                    </div>
+                  {% endif %}
+                </div>
+            {% endif %}
+        </div>
+          <div class="accordion">
+            {% if block.type == 'company' %}
+              <div class="accordion-item" id="company">
                 {% if block.settings.question != blank %}
                   <div class="accordion-titel">
                       <h2>{{ block.settings.question }}</h2>
@@ -127,58 +179,12 @@ h1{
                   </div>
                 {% endif %}
               </div>
-          {% endif %}
-      </div>
-        <div class="accordion">
-          {% if block.type == 'shipping' %}
-              <div class="accordion-item" id="shipping">
-                {% if block.settings.question != blank %}
-                  <div class="accordion-titel">
-                      <h2>{{ block.settings.question }}</h2>
-                  </div>
-                {% endif %}
-                {% if block.settings.answer != blank %}
-                  <div class="accordion-contant">
-                      <p>{{ block.settings.answer }}</p>
-                  </div>
-                {% endif %}
-              </div>
-          {% endif %}
-      </div>
-        <div class="accordion">
-          {% if block.type == 'subscribe' %}
-              <div class="accordion-item" id="subscriber">
-                {% if block.settings.question != blank %}
-                  <div class="accordion-titel">
-                      <h2>{{ block.settings.question }}</h2>
-                  </div>
-                {% endif %}
-                {% if block.settings.answer != blank %}
-                  <div class="accordion-contant">
-                      <p>{{ block.settings.answer }}</p>
-                  </div>
-                {% endif %}
-              </div>
-          {% endif %}
-      </div>
-        <div class="accordion">
-          {% if block.type == 'company' %}
-            <div class="accordion-item" id="company">
-              {% if block.settings.question != blank %}
-                <div class="accordion-titel">
-                    <h2>{{ block.settings.question }}</h2>
-                </div>
-              {% endif %}
-              {% if block.settings.answer != blank %}
-                <div class="accordion-contant">
-                    <p>{{ block.settings.answer }}</p>
-                </div>
-              {% endif %}
-            </div>
-          {% endif %}
-      </div>
-      </div>
-    {% endfor %}
+            {% endif %}
+        </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
   </div>
 </div>
 {% schema %}
