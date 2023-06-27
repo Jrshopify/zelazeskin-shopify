@@ -10,10 +10,10 @@
     "8a697dbf-6f9a-4869-95c1-caad069f49f3": {
       "type": "wholesale-inquiriy",
       "settings": {
-        "heading": "Complete & Submit Inquiry",
+        "heading": "",
         "heading_size": "h1",
         "color_scheme": "",
-        "form-head": "",
+        "form-head": "Complete & Submit Inquiry",
         "desc": "<p>Please fill out the following form to become Wholesale\/Distributor or Retail partner and we will get back to you as soon as we can. If you would like to reach out to us directly you can do so by emailing us at sales<a href=\"https:\/\/@zelazeskin.com\" title=\"https:\/\/@zelazeskin.com\">@zelazeskin.com<\/a><\/p>",
         "padding_top": 100,
         "padding_bottom": 100
