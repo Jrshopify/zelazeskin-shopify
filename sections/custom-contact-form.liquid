@@ -73,7 +73,7 @@
             id="ContactForm-fname"
             name="contact[{{ 'templates.contact.form.firstname' | t }}]"
             value="{% if form.firstname %}{{ form.firstname }}{% elsif customer %}{{ firstname }}{% endif %}"
-            placeholder="Enter First Name"
+            placeholder="Enter First Name" required
           >
         </div>
         <div class="form-group">
@@ -85,7 +85,7 @@
             id="ContactForm-lname"
             name="contact[{{ 'templates.contact.form.lastname' | t }}]"
             value="{% if form.lastname %}{{ form.lastname }}{% elsif customer %}{{ lastname }}{% endif %}"
-            placeholder="Enter First Name"
+            placeholder="Enter First Name" required
           >
         </div>
       </div>
@@ -105,7 +105,7 @@
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
             {% endif %}
-            placeholder="Enter Email Address"
+            placeholder="Enter Email Address" required
           >
           {%- if form.errors contains 'email' -%}
             <small class="contact__field-error" id="ContactForm-email-error">
@@ -127,7 +127,7 @@
             id="ContactForm-sub"
             name="contact[{{ 'templates.contact.form.subject' | t }}]"
             value="{% if form.subject %}{{ form.subject }}{% elsif customer %}{{ customer.subject }}{% endif %}"
-            placeholder="Enter Subject"
+            placeholder="Enter Subject" required
           >
       </div>
     <div class="field-group">
@@ -139,7 +139,7 @@
             id="ContactForm-sub"
             name="contact[{{ 'templates.contact.form.orderno' | t }}]"
             value="{% if form.orderno %}{{ form.orderno }}{% elsif customer %}{{ customer.orderno }}{% endif %}"
-            placeholder="Enter Order Number"
+            placeholder="Enter Order Number" required
           >
       </div>
       <div class="field-group">
