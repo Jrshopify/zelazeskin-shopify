@@ -33,7 +33,7 @@
         "548200f0-8dca-4568-a2d1-8d81a1acde24": {
           "type": "heading",
           "settings": {
-            "faq_head": "<p><strong>Most Asked Questions<\/strong><\/p>"
+            "faq_head": "<p>Most Asked Questions<\/p>"
           }
         },
         "b3fd9c2b-f4b7-468b-bef8-1f8877214e7a": {
@@ -95,7 +95,7 @@
         "17956fa1-fa6f-45a3-ba9a-9cfec85e47b9": {
           "type": "heading",
           "settings": {
-            "faq_head": "<p><strong>Product Info<\/strong><\/p>"
+            "faq_head": "<p>Product Info<\/p>"
           }
         },
         "820c42f5-55d9-42d1-862a-38ed74142d0c": {
@@ -143,7 +143,7 @@
         "2eac3a78-fb59-4ff6-9623-5164416f2ce3": {
           "type": "heading",
           "settings": {
-            "faq_head": "<p><strong>Orders, Payments, & Refunds<\/strong><\/p>"
+            "faq_head": "<p>Orders, Payments, & Refunds<\/p>"
           }
         },
         "00b00921-d2e5-43fa-aa0e-2a318a67136d": {
@@ -191,7 +191,7 @@
         "6dcde7e9-7b16-4146-bd1f-91559c6d82b3": {
           "type": "heading",
           "settings": {
-            "faq_head": "<p><strong>Shipping & Delivery<\/strong><\/p>"
+            "faq_head": "<p>Shipping & Delivery<\/p>"
           }
         },
         "16b1f0e5-ccbe-4a80-a2e6-21490798340c": {
@@ -225,7 +225,7 @@
         "df406039-a7bb-45ec-ba60-6ad52716a85c": {
           "type": "heading",
           "settings": {
-            "faq_head": "<p><strong>Subscribe & Save<\/strong><\/p>"
+            "faq_head": "<p>Subscribe & Save<\/p>"
           }
         },
         "c17b8b93-753c-4e14-ad50-24cce2775d0e": {
@@ -252,7 +252,7 @@
         "c2321fea-e9bc-48aa-abc1-e0db749e1b1e": {
           "type": "heading",
           "settings": {
-            "faq_head": "<p><strong>Company Info<\/strong><\/p>"
+            "faq_head": "<p>Company Info<\/p>"
           }
         },
         "a5c14a68-e566-45b4-b30d-35a02afbadf3": {
