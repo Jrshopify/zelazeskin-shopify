@@ -153,6 +153,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .faq_content ul li {font-size: 14pt; margin-bottom: 20px;;}
 .faq_content ul li a {color: #00b0dc;}
 
+.contact-bg-wrap {background: url(contact-bg.png) no-repeat;max-width: 430px; margin: 0 auto; background-size: cover; background-position: center center;}
+
 
 /*---Responsive---*/
 
