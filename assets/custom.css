@@ -146,6 +146,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100% !important; width: 18px; height: 18px; right: 0; top: 9px;}
 .multiple-question {padding: 100px 0;}
 .accordion-titel.active h4::before {background:url(minus.png) no-repeat;}
+.faq .heading {padding: 50px 0 40px;border-top: 1px solid #5e5e5e;}
+.faq .heading h2 {margin: 0;}
 
 
 /*---Responsive---*/
