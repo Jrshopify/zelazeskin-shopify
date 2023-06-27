@@ -136,6 +136,11 @@ h2 {font-size: 48px;line-height: 58px;}
 .result-banner .banner-details h1 {text-align: left;margin-top: 0;margin-bottom: 20px;font-size: 70px;}
 .result-banner .banner-details p {color: #000;;}
 
+.accordion .accordion-item {margin: 10px 0;border-radius: 5px;overflow: hidden;box-shadow: 0 0 8px #6e7a7a;}
+.accordion-titel {background-color: #5daaaa; padding: 10px 15px;cursor: pointer;}
+.accordion-contant {padding: 15px ;background-color: rgba(55, 138, 159, 0.521);display: none;}
+.accordion-titel h2  span {float: right;}
+
 
 /*---Responsive---*/
 
