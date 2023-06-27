@@ -144,11 +144,12 @@ h2 {font-size: 48px;line-height: 58px;}
 .faq .accordion-titel h4 p {margin: 0;}
 .faq .accordion-titel strong {font-weight: 500;}
 .faq .accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100% !important; width: 18px; height: 18px; right: 0; top: 9px;}
-.faq .multiple-question {padding: 100px 0;}
 .faq .accordion-titel.active h4::before {background:url(minus.png) no-repeat;}
 .faq .heading {padding: 50px 0 40px;border-top: 1px solid #5e5e5e;}
 .faq .heading h2 {margin: 0;}
 .faq .full-faq:nth-child(1) .heading {padding-top: 0;border: none;}
+.multiple-question {padding: 100px 0;}
+.multiple-question .container-fluid {padding-left:70px; padding-right:70px;}
 
 
 /*---Responsive---*/
