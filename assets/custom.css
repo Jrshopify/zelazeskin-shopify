@@ -123,6 +123,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .footer__content-bottom {background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center;text-align: center; border: none;padding: 40px 0;}
 .footer .footer__content-bottom .footer-content {max-width: 225px;margin: 0 auto;}
 .footer .footer__content-top {padding-bottom: 100px;}
+.footer .newsletter-form__field-wrapper .field__label {top: 20px;letter-spacing: 0;}
 
 .image-text {padding: 100px 0;}
 .image-text .content_img img {width: 100%;height: 100%;object-fit: cover;}
