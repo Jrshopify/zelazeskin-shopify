@@ -1,1 +1,29 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":36}},"86c925d0-ad79-4a93-a2f1-be4fa495146d":{"type":"custom-contact-form","settings":{"heading":"Contact form","heading_size":"h1","color_scheme":"","form-head":"Need Assistance?","desc":"Use the form below or you can email us directly at","mail":"<p><a href=\"mailto:hello@zelazeskin.com\">hello@zelazeskin.com<\/a><\/p>","padding_top":36,"padding_bottom":36}}},"order":["main","86c925d0-ad79-4a93-a2f1-be4fa495146d"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "86c925d0-ad79-4a93-a2f1-be4fa495146d": {
+      "type": "custom-contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "form-head": "Need Assistance?",
+        "desc": "Use the form below or you can email us directly at",
+        "mail": "<p><a href=\"mailto:hello@zelazeskin.com\">hello@zelazeskin.com<\/a><\/p>",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "86c925d0-ad79-4a93-a2f1-be4fa495146d"
+  ]
+}
