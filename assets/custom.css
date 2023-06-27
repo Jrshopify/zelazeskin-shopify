@@ -142,6 +142,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .accordion-titel h2 span {display: none;}
 .accordion-titel h4 {margin: 0; padding: 0; position: relative;font-size: 22pt;}
 .accordion-titel h4 p {margin: 0;}
+.accordion-titel strong {font-weight: 500;}
 .accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100%; width: 18px; height: 18px; right: 0; top: 0;}
 
 
