@@ -6,6 +6,14 @@ jQuery(document).ready(function(){
   });
 });
 
+jQuery(document).ready(function(){
+  jQuery(function() {                       
+    jQuery(".clickable").click(function() {  
+      jQuery(this).addClass("active");  
+  });
+});
+});
+
 jQuery(document).on('click', '.playbtn', function () {
   let vid_id = jQuery(this).data("vidid");
   jQuery('.playbtn').show();
