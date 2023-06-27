@@ -136,14 +136,16 @@ h2 {font-size: 48px;line-height: 58px;}
 .result-banner .banner-details h1 {text-align: left;margin-top: 0;margin-bottom: 20px;font-size: 70px;}
 .result-banner .banner-details p {color: #000;;}
 
-.accordion .accordion-item {border-radius: 0;overflow: hidden;}
-.accordion-titel {padding: 10px 15px;cursor: pointer;}
-.accordion-contant {padding: 15px;display: none;}
+.accordion .accordion-item {border-radius: 0;overflow: hidden;border: none;border-top: 1px solid #5e5e5e;}
+.accordion-titel {padding: 50px 0;cursor: pointer;padding-right: 30px;}
+.accordion-contant {padding: 0 0 50px;display: none;}
 .accordion-titel h2 span {display: none;}
-.accordion-titel h4 {margin: 0; padding: 0; position: relative;font-size: 22pt;}
+.accordion-titel h4 {margin: 0; padding: 0; position: relative;font-size: 22pt;padding-right: 20px;}
 .accordion-titel h4 p {margin: 0;}
 .accordion-titel strong {font-weight: 500;}
-.accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100%; width: 18px; height: 18px; right: 0; top: 0;}
+.accordion-titel h4::before {position: absolute; content: '' ;background:url(plus.png) no-repeat; background-size: 100% 100%; width: 18px; height: 18px; right: 0; top: 9px;}
+.multiple-question {padding: 100px 0;}
+.accordion-titel.active h4::before {background:url(minus.png) no-repeat;}
 
 
 /*---Responsive---*/
