@@ -133,7 +133,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .image-text .container .row:nth-child(even) .content-details {padding-right: 50px; padding-left: 0;}
 .result-banner .banner-details {padding-left: 70px;padding-right: 70px;max-width: 650px;}
 .result-banner .banner-details .btn {margin-top: 20px;;}
-.result-banner .banner-details h1 {text-align: left;margin-top: 0;}
+.result-banner .banner-details h1 {text-align: left;margin-top: 0;margin-bottom: 20px;font-size: 70px;}
 .result-banner .banner-details p {color: #000;;}
 
 
