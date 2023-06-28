@@ -222,11 +222,11 @@ h2 {font-size: 48px;line-height: 58px;}
 .why-choose-people .head-sub h3 {font-size: 48px;}
 .why-choose-people .head-sub h3 + h3 {font-size: 14pt; font-weight: 400;}
 .why-choose-people .col {width: 14.28%;}
-.why-choose-people .video-wrap {height: 260px; overflow: hidden;}
+.why-choose-people .video-wrap {height: 260px; overflow: hidden;position: relative;}
 .why-choose-people .video-wrap video {width: 100%; height: 260px; object-fit: cover;}
-.why-choose-people .video-wrap .playbtn {position: absolute;top: 50%;background: none;max-width: 50px;border-radius: 100%;overflow: hidden;transform: translateY(-50%);right: 0; margin: 0 auto;left: 0;}
+.why-choose-people .video-wrap .playbtn {position: absolute;top: 50%;background: none;max-width: 50px;border-radius: 100%;overflow: hidden;transform: translateY(-50%);right: 0; margin: 0 auto;left: 0; cursor: pointer;}
 .why-choose-people .video-wrap .playbtn img {background-color: rgba(0,0,0,0.2);}
-.benefit {background: url(color-bg-3.jpg) no-repeat; padding: 100px 0;margin-top: 100px;;}
+.shopify-section.benefit {background: url(color-bg-3.jpg) no-repeat; padding: 100px 0;margin-top: 100px; background-position: center center;}
 
 
 
