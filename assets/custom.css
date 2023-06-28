@@ -185,6 +185,14 @@ h2 {font-size: 48px;line-height: 58px;}
 
 .shop-now-button {position: fixed;right: 30px;bottom: 30px;max-width: 150px;max-height: 150px;overflow: hidden;border-radius: 100%;z-index: 9;}
 
+.collection-hero .collection-hero__title {margin-top: 100px;}
+.facets-container .facets__summary, .facets-container .facet-filters__field .select__select, .facets-container .mobile-facets__sort .select__select,
+.product-count__text, .facets__heading
+{font-family: 'Poppins';letter-spacing: 0;color: #000;}
+.collection .card {border: none;}
+.collection .card .card__inner .card__media {border: 1px solid #ddd;}
+.collection .card__heading {font-family: 'Poppins';font-size: 14px;color: #000;}
+
 
 
 /*---Responsive---*/
