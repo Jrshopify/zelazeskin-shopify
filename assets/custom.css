@@ -227,7 +227,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .why-choose-people .video-wrap .playbtn {position: absolute;top: 50%;background: none;max-width: 50px;border-radius: 100%;overflow: hidden;transform: translateY(-50%);right: 0; margin: 0 auto;left: 0; cursor: pointer;}
 .why-choose-people .video-wrap .playbtn img {background-color: rgba(0,0,0,0.2);}
 .shopify-section.benefit {background: url(color-bg-3.jpg) no-repeat; padding: 100px 0;margin-top: 100px; background-position: center center;background-size: cover;}
-
+.shopify-section.benefit .container-fluid {max-width: 1430px; text-align: center;}
+.shopify-section.benefit .product_image {max-width: 240px;margin: 0 auto 30px;}
 
 
 /*---Responsive---*/
