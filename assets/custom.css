@@ -221,6 +221,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .why-choose-people .head-sub {text-align: center;}
 .why-choose-people .head-sub h3 {font-size: 48px;}
 .why-choose-people .head-sub h3 + h3 {font-size: 14pt; font-weight: 400;}
+.why-choose-people .col {width: 14.28%;}
+.why-choose-people .video-wrap video {width: 100%; height: 260px;}
 
 
 
