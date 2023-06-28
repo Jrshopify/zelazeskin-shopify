@@ -53,7 +53,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
         },
@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Consumer Results",
             "icon": "none",
-            "content": "",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
         },
@@ -71,7 +71,7 @@
           "settings": {
             "heading": "Ingredient List",
             "icon": "none",
-            "content": "",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Directions",
             "icon": "none",
-            "content": "",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
         },
@@ -89,7 +89,7 @@
           "settings": {
             "heading": "Shipping info",
             "icon": "none",
-            "content": "",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
         }
@@ -176,7 +176,7 @@
       "type": "zelaze-component",
       "settings": {
         "heading": "{{ product.metafields.custom.component_title.value }}",
-        "components": "<p>{{ product.metafields.custom.component_details | metafield_tag }}<\/p>"
+        "components": "{{ product.metafields.custom.component_details | metafield_tag }}"
       }
     },
     "d2f4aa0e-6138-4982-8ab0-53b6095fca87": {
@@ -184,7 +184,7 @@
       "settings": {
         "comperision_heading": "{{ product.metafields.custom.comarison_title.value }}",
         "comprision_image": "{{ product.metafields.custom.comparison_image.value }}",
-        "ingredient": "<p>{{ product.metafields.custom.comparision_details | metafield_tag }}<\/p>"
+        "ingredient": "{{ product.metafields.custom.comparision_details | metafield_tag }}"
       }
     },
     "168742394500bb4c82": {
