@@ -206,7 +206,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .product .quantity__button svg {width: 24px;;color: #fff;}
 .product .quantity__input {font-size: 18px;color: #000;}
 .product-media-modal__content img {max-width: 400px;}
-.product .product-form__submit {background: url(btn-bg.png) no-repeat;}
+.product .product-form__submit {background: url(btn-bg.png) no-repeat; background-size: cover;; background-position: center center; border-radius: 50px;;}
 .product .product-form__submit::before, .product .product-form__submit::after {display: none;}
 
 /*---Responsive---*/
