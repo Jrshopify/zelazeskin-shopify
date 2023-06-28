@@ -355,13 +355,7 @@
       </div>
     </div>
 
-    <div class="shop-now-button">
-      <a href="{{section.settings.shop_img_url}}">
-        {% if section.settings.shop_img != blank %}
-          <img src="{{section.settings.shop_img | img_url:'master'}}" />
-        {% endif %}
-      </a>
-    </div>
+    
 
     <div class="footer-content">
       {% if section.settings.footer_content != blank %}
@@ -393,6 +387,13 @@
     </div> -->
   </div>
 </footer>
+<div class="shop-now-button">
+  <a href="{{section.settings.shop_img_url}}">
+    {% if section.settings.shop_img != blank %}
+      <img src="{{section.settings.shop_img | img_url:'master'}}" />
+    {% endif %}
+  </a>
+</div>
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
   <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
