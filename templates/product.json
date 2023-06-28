@@ -150,13 +150,34 @@
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01918c5c275c41bf8a04b65259606eb0.mp4"
           }
+        },
+        "45858ab0-53f4-4f5b-a797-a07c8ee5d6df": {
+          "type": "why_choose",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01918c5c275c41bf8a04b65259606eb0.mp4"
+          }
+        },
+        "9a36225d-532c-4fbc-8aec-fe173f2594df": {
+          "type": "why_choose",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01918c5c275c41bf8a04b65259606eb0.mp4"
+          }
+        },
+        "4dfffc12-fdbb-45d6-b503-86ae4e6eead6": {
+          "type": "why_choose",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01918c5c275c41bf8a04b65259606eb0.mp4"
+          }
         }
       },
       "block_order": [
         "a7aed20f-c257-44a9-bb49-447c20ff5a81",
         "b72778be-8ad9-4a96-8dd1-d0e50342e3c8",
         "8cec8641-072d-493f-93da-4bd9e7544df8",
-        "769729a7-0eda-481e-8679-9f34c7038023"
+        "769729a7-0eda-481e-8679-9f34c7038023",
+        "45858ab0-53f4-4f5b-a797-a07c8ee5d6df",
+        "9a36225d-532c-4fbc-8aec-fe173f2594df",
+        "4dfffc12-fdbb-45d6-b503-86ae4e6eead6"
       ],
       "settings": {
         "head": "<p>Why are people choosing Zelaze?<\/p>",
