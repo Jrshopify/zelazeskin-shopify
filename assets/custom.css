@@ -218,6 +218,9 @@ h2 {font-size: 48px;line-height: 58px;}
 .product .return-policy {margin-top: 100px !important;}
 .product .return-policy ul {display: flex; flex-wrap: wrap;align-items: center;}
 .product .return-policy ul li {width: 33.33%;padding: 0 10px;}
+.why-choose-people .head-sub {text-align: center;}
+.why-choose-people .head-sub h3 {font-size: 48px;}
+.why-choose-people .head-sub h3 + h3 {font-size: 14pt; font-weight: 400;}
 
 
 
