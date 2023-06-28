@@ -215,6 +215,9 @@ h2 {font-size: 48px;line-height: 58px;}
 .product  .product__accordion .accordion__content {padding: 0;margin-bottom: 2rem;font-size: 14pt;}
 .product summary .icon-caret {background: url(plus.png) no-repeat;background-size: 20px !important;width: 20px; height: 20px !important;color: transparent;top: 27px;}
 .product .accordion details[open]>summary .icon-caret {background: url(minus.png) no-repeat;}
+.product .return-policy {margin-top: 100px !important;}
+.product .return-policy ul {display: flex; flex-wrap: wrap;align-items: center;}
+.product .return-policy ul li {width: 33.33%;padding: 0 10px;}
 
 
 
