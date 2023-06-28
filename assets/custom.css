@@ -191,7 +191,8 @@ h2 {font-size: 48px;line-height: 58px;}
 {font-family: 'Poppins';letter-spacing: 0;color: #000;}
 .collection .card {border: none;}
 .collection .card .card__inner .card__media {border: 1px solid #ddd;}
-.collection .card__heading {font-family: 'Poppins';font-size: 14px;color: #000;}
+.collection .card__heading {font-family: 'Poppins';font-size: 14px;color: #000;letter-spacing: 0;}
+.collection .price  {letter-spacing: 0;font-family: 'Poppins';font-weight: 600;color: #000;}
 
 
 
