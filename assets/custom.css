@@ -155,7 +155,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .multiple-question .container-fluid {padding-left:80px; padding-right:80px;}
 .faq_content ul li {font-size: 14pt; margin-bottom: 20px;;}
 .faq_content ul li a {color: #00b0dc;}
-.faq_content {margin-top: 10px;;}
+.faq_content {margin-top: 5px;}
 
 .contact-bg-wrap {background: url(contact-bg.png) no-repeat;max-width: 550px; margin: 0 auto; background-size: cover; background-position: center center;padding: 20px 15px;position: relative;}
 .contact-bg-wrap:before {position: absolute;content: '';background: #fff; width: calc(100% - 4px);height: calc(100% - 5px);left: 2px;top: 2px;}
