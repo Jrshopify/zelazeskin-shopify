@@ -200,10 +200,9 @@ h2 {font-size: 48px;line-height: 58px;}
 .opinew-no-reviews-stars-plugin b {font-weight: 400;}
 .product .price {letter-spacing: 0;color: #00B0DC;font-weight: 700;font-size: 20pt;line-height: 20pt;}
 .product .product__description  {color: #8A8A8A;font-size: 14pt;}
-.product .product__info-container>*+*,
-.product__info-container .product-form, .product__info-container .product__description, .product__info-container .icon-with-text
-{margin: 2rem 0;}
-
+.product .product__info-container>*+*, .product__info-container .product-form, .product__info-container .product__description, .product__info-container .icon-with-text {margin: 2rem 0 !important;}
+.product .quantity__label {display: none;}
+.product .quantity__button {background: url(btn-bg.png) no-repeat; background-size: 100% 100%; background-position: center center;}
 
 /*---Responsive---*/
 
