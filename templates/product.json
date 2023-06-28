@@ -130,7 +130,8 @@
         "a7aed20f-c257-44a9-bb49-447c20ff5a81": {
           "type": "why_choose",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
+            "poster_img": "shopify:\/\/shop_images\/vd4.png"
           }
         },
         "b72778be-8ad9-4a96-8dd1-d0e50342e3c8": {
