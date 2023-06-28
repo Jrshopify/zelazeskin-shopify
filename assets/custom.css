@@ -234,9 +234,9 @@ cart-items .title-wrapper-with-link a {color: #000;text-decoration: underline;te
 cart-remove-button .button {color: red;}
 .cart-item__name {letter-spacing: 0;}
 .price {letter-spacing: 0;}
-.cart__checkout-button::before, .cart__checkout-button::after  {display: none;}
+.cart__checkout-button::before, .cart__checkout-button::after, .button::before, .button::after  {display: none;}
 .cart__checkout-button, .cart__warnings .button {border-radius: 50px;letter-spacing: 0;color: #fff;}
-
+ 
 
 /*---Responsive---*/
 
