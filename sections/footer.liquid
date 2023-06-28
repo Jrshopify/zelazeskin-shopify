@@ -355,6 +355,14 @@
       </div>
     </div>
 
+    <div class="shop-now-button">
+      <a href="{{section.settings.shop_img_url}}">
+        {% if section.settings.shop_img != blank %}
+          <img src="{{section.settings.shop_img | img_url:'master'}}" />
+        {% endif %}
+      </a>
+    </div>
+
     <div class="footer-content">
       {% if section.settings.footer_content != blank %}
         <img src="{{ section.settings.footer_content | img_url: 'master' }}" />
@@ -590,6 +598,16 @@
       "id": "show_policy",
       "default": false,
       "label": "t:sections.footer.settings.show_policy.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "shop_img",
+      "label": "Fixed Shop Buttom Image"
+    },
+    {
+      "type": "url",
+      "id": "shop_img_url",
+      "label": "Fixed Shop Buttom Image Link"
     },
     {
       "type": "image_picker",
