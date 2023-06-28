@@ -65,7 +65,7 @@
           </ul>
         {%- endif -%}
         <div class="contact__fields">
-          <div class="form-group">
+          <div class="form-group field-group">
             <span>{{ 'templates.contact.form.firstname' | t }}</span>
             <input
               class="field__input"
@@ -78,7 +78,7 @@
             >
           </div>
   
-          <div class="form-group">
+          <div class="form-group field-group">
             <span>{{ 'templates.contact.form.lastname' | t }}</span>
             <input
               class="field__input"
@@ -124,7 +124,7 @@
   
         <div class="contact__fields">
           <div class="form-group field-group">
-            <span>{{ 'templates.contact.form.ticktok' | t }} <p>and/or</p></span>
+            <span>{{ 'templates.contact.form.ticktok' | t }} <small>and/or</small> </span>
             <input
               class="field__input"
               autocomplete="name"
@@ -318,8 +318,8 @@
           </div>
         </div>
         
-        <div class="contact__button">
-          <button type="submit" class="button">
+        <div class="contact__button text-center">
+          <button type="submit" class="button btn">
             {{ 'templates.contact.form.send' | t }}
           </button>
         </div>
