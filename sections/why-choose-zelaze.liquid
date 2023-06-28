@@ -8,7 +8,7 @@
       <h3>{{ section.settings.description }}</h3>
     {% endif %}
   </div>
-  <div class="row" id="videoSlide">
+  <div class="row">
     {% assign count = 1 %}
     {% for block in section.blocks %}
       <div class="col">
@@ -68,7 +68,7 @@
         {
           "type": "image_picker",
           "id": "poster_img",
-          "Label": "poster Image"
+          "label": "poster Image"
         }
       ]
     }
