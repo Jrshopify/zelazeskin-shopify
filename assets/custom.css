@@ -213,8 +213,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .product .product__accordion {border-top: none !important; border-bottom: 1px solid #8A8A8A !important;margin: 0 !important;}
 .accordion.product__accordion  summary {padding: 2rem 0;}
 .product  .product__accordion .accordion__content {padding: 0;margin-bottom: 2rem;font-size: 14pt;}
-.product summary .icon-caret {background: url(plus.png) no-repeat;}
-
+.product summary .icon-caret {background: url(plus.png) no-repeat;background-size: 20px !important;width: 20px; height: 20px !important;color: transparent;top: 27px;}
+.product .accordion details[open]>summary .icon-caret {background: url(minus.png) no-repeat;}
 
 
 
