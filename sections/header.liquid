@@ -217,8 +217,6 @@
       endif
     %}
 
-    {{ myValue }}
-
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
@@ -362,7 +360,7 @@
       {%- endfor -%}
 
       {% render 'header-search', input_id: 'Search-In-Modal' %}
-      {% render 'header-drawer', sec_menu_text: section.settings.sec_menu, sec_menu_link: section.settings.sec_menu_url %}
+      {% render 'header-drawer', sec_menu_text: myValue, sec_menu_link: section.settings.sec_menu_url %}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
