@@ -371,6 +371,10 @@ h2 {font-size: 24px;line-height: 34px;}
 .footer .field__input {padding-right: 14rem !important;}
 .product-select .details-list ul li h4 {min-width: auto;text-align: center; max-width: 150px;margin: 15px auto 0; font-size: 14px;}
 .product-select .details-list ul li img { margin-right: 0;}
+.dual-approach .dual-app ul li h6, .custom-image-text .image-with-text__text p {font-size: 14px;}
+.banner-text .client .client-info h4 {font-size: 14px;line-height: 20px;}
+.banner-text .client .client-info h6 {font-size: 12px;}
+.custom-image-text .image-with-text__heading {font-size: 24px;}
 
 }
 
