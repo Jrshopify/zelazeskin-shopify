@@ -239,7 +239,7 @@ cart-remove-button .button {color: red;}
 .cart__warnings {padding-bottom: 7rem !important;}
 .cart-notification-product__name, #cart-notification-button, #cart-notification-form .button, .cart-notification__links .link, .cart-notification__heading {letter-spacing: 0;}
 
-.customer {padding-top: 100px; padding-bottom: 100px;}
+.customer {}
 
 /*---Responsive---*/
 
