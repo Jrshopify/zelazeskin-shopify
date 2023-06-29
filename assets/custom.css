@@ -344,11 +344,11 @@ h2 {font-size: 36px;line-height: 46px;}
 .menu-drawer__inner-container {background: #f6f6f6;}
 .menu-drawer__menu-item {font-size: 14px;color: #000;font-weight: 500;}
 #menu-drawer .menu-drawer__utility-links, .custom-header .header__icons .sec_menu {display: none;}
-
-
-
-
-
+.footer .footer-block--newsletter .footer-block__newsletter {max-width: 400px;}
+.footer .social-media .list-social__item .icon {height: 1.8rem;width: 1.8rem;}
+.footer .social-media ul li {margin-left: 15px;}
+.footer .newsletter-form__button {min-width: 150px;}
+.footer .field__input {padding-right: 16rem !important;}
 
 
 }
