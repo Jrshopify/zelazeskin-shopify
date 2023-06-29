@@ -14,7 +14,6 @@
   {% render 'header-drawer', sec_menu_text: section.settings.sec_menu, sec_menu_link: section.settings.sec_menu_url %}
 {% endcomment %}
 
-
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary
@@ -132,7 +131,7 @@
                 </li>
               {%- endfor -%}
               <li>
-                <a href="{{ sec_menu_link }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}">{{ sec_menu_text }}</a>
+                <a href="{{ sec_menu_link }}" class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}">{{sec_menu_text}}</a>
               </li>
             </ul>
           </nav>
