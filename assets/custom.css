@@ -319,6 +319,23 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .footer__content-bottom .footer-content {max-width: 150px;}
 .footer .footer__content-bottom {padding: 15px 0;}
 .video-slider .owl-nav .owl-prev, .video-slider .owl-nav .owl-next {top: 0;transform: none;}
+.banner-text .left {padding: 50px;padding-right: 50px;}
+}
+@media screen and (max-width: 1199px) {
+.custom-header .header {padding: 0 12px !important;}
+.custom-header .list-menu li, .custom-header .header__icons .sec_menu ul li {margin-right: 10px;}
+.custom-header .header__heading-link {max-width: 150px;}
+.custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a {font-size: 12px;}
+.custom-header .header__icons .sec_menu ul li a.btn {padding: 6px 10px;}
+
+
+
+
+
+
+
+
+
 
 }
 
