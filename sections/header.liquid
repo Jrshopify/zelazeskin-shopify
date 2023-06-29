@@ -358,7 +358,7 @@
       {%- endfor -%}
 
       {% render 'header-search', input_id: 'Search-In-Modal' %}
-      {% render 'header-drawer', text: section.settings.sec_menu, link: section.settings.sec_menu_url %}
+      {% render 'header-drawer', sec_menu_text: section.settings.sec_menu, sec_menu_link: section.settings.sec_menu_url %}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
