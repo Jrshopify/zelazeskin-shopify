@@ -242,6 +242,9 @@ cart-remove-button .button {color: red;}
 .customer button {background: #000 !important; color: #fff !important;}
 .addresses h2 {text-align: center !important;}
 
+.template-search__header h1 {font-size: 48px;line-height: 58px;}
+.template-search__header p {text-align: center;}
+
 
 /*---Responsive---*/
 
