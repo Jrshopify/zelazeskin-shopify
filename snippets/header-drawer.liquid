@@ -3,6 +3,15 @@
 
   Usage:
   {% render 'header-drawer' %}
+
+  Renders secc menu
+
+  Accepts:
+  - sec_menu_text: {String} This is menu text
+  - sec_menu_link: {Boolean} This is menu link
+
+  Usage:
+  {% render 'header-drawer', sec_menu_text: section.settings.sec_menu, sec_menu_link: section.settings.sec_menu_url %}
 {% endcomment %}
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
