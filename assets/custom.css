@@ -320,6 +320,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .footer__content-bottom {padding: 15px 0;}
 .video-slider .owl-nav .owl-prev, .video-slider .owl-nav .owl-next {top: 0;transform: none;}
 .banner-text .left {padding: 50px;padding-right: 50px;}
+.custom-image-text .image-with-text__heading {font-size: 30px;}
 }
 @media screen and (max-width: 1199px) {
 .custom-header .header {padding: 0 12px !important;}
@@ -329,10 +330,24 @@ h2 {font-size: 36px;line-height: 46px;}
 .custom-header .header__icons .sec_menu ul li a.btn {padding: 6px 10px;}
 }
 @media screen and (max-width: 991px) {
-.banner-text .left {text-align: center;}
+.banner-text .left {text-align: center;padding: 50px 15px;}
 .banner-text .client {justify-content: center;text-align: left; max-width: 480px;margin-left: auto;margin-right: auto;margin-top: 40px;}
 .banner-text .client .client-img {min-width: 120px;max-width: 120px;margin-right: 15px;}
 .banner-text .left h1 {margin-bottom: 30px;}
+.product-select .right-side {padding: 50px 15px;}
+.client-feedback .container-fluid {padding-left: 15px;padding-right: 15px;}
+.dual-approach .dual-app ul li {width: 50%;margin-bottom: 30px;}
+.dual-approach .dual-app ul li h6 {max-width: 170px;}
+
+
+
+
+
+
+
+
+
+
 }
 
 
