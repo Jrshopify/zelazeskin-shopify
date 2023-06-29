@@ -288,12 +288,36 @@ h2 {font-size: 36px;line-height: 46px;}
 
 @media screen and (max-width: 1299px) {
  body {font-size: 14px;}
+ .btn {font-size: 14px;}
  h1 {font-size: 36px;line-height: 46px;}
  h1 {font-size: 30px;line-height: 40px;}
 .custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a {font-size: 14px;}
 .custom-header .header__icons .sec_menu ul li a.btn {padding: 10px 15px;}
-
-
+.banner-text .client .client-info h4 {font-size: 14pt;line-height: 20pt;}
+.banner-text .client .client-info h6 {font-size: 12pt;}
+.banner-text .client .client-img {min-width: 150px;max-width: 150px;}
+.owl-nav .owl-prev {left: 0;position: relative;transform: none;top: 0; margin: 0 10px !important;}
+.owl-nav .owl-next {right: 0;position: relative;transform: none;top: 0;margin: 0 10px !important;}
+.client-feedback, .video-slider, .dual-approach, .custom-image-text {padding-top: 50px; padding-bottom: 50px;}
+.video-slider .head-sub h6 {font-size: 14px;}
+.video-slider .video-wrap .video, .video-slider .video-wrap {height: 300px;}
+.product-select .right-side h3 {font-size: 14px;letter-spacing: 2px;}
+.product-select .details-list ul li h4 {font-size: 16px;min-width: 175px;}
+.product-select .details-list ul {max-width: 500px;}
+.product-select .details-list ul li img {width: 45px;height: 45px;margin-right: 10px;}
+.product-select .right-side {padding: 50px;}
+.dual-approach .dual-app ul li span {max-width: 60px;max-height: 60px;margin-bottom: 20px;}
+.dual-approach .dual-app ul li h6, .custom-image-text .image-with-text__text p {font-size: 16px;}
+#insta-feed h2 {font-size: 30px !important;}
+#insta-feed {margin-bottom: 50px !important;}
+.footer {padding-top: 50px !important;}
+.footer .footer-block__heading, .footer .social-media h4 {font-size: 16pt;margin-bottom: 20px;}
+.footer .footer-block__details-content li a {font-size: 16px;}
+.footer .footer-block__details-content li {margin-bottom: 10px;}
+.footer .footer__content-top {padding-bottom: 50px;}
+.footer .footer-block--newsletter {margin-top: 50px;}
+.footer .footer__content-bottom .footer-content {max-width: 150px;}
+.footer .footer__content-bottom {padding: 15px 0;}
 
 
 }
