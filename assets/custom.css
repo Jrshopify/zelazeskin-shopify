@@ -234,10 +234,12 @@ cart-items .title-wrapper-with-link a {color: #000;text-decoration: underline;te
 cart-remove-button .button {color: red;}
 .cart-item__name {letter-spacing: 0;}
 .price {letter-spacing: 0;}
-.cart__checkout-button::before, .cart__checkout-button::after, .button::before, .button::after  {display: none;}
+.cart__checkout-button::before, .cart__checkout-button::after, .button::before, .button::after, button:before, button::after  {display: none;}
 .cart__checkout-button, .cart__warnings .button {border-radius: 50px;letter-spacing: 0;color: #fff;}
 .cart__warnings {padding-bottom: 7rem !important;}
 .cart-notification-product__name, #cart-notification-button, #cart-notification-form .button, .cart-notification__links .link, .cart-notification__heading {letter-spacing: 0;}
+
+.customer {padding-top: 100px; padding-bottom: 100px;}
 
 /*---Responsive---*/
 
