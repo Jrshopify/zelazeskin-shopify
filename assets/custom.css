@@ -239,7 +239,7 @@ cart-remove-button .button {color: red;}
 .cart__warnings {padding-bottom: 7rem !important;}
 .cart-notification-product__name, #cart-notification-button, #cart-notification-form .button, .cart-notification__links .link, .cart-notification__heading {letter-spacing: 0;}
 .customer h1 {font-size: 48px; line-height: 58px;outline: 0;box-shadow: none;}
-.customer button {background: #000 !important; color: #fff !important;}
+.customer button {background: #000 !important; color: #fff !important;display: block;margin-left: auto !important;margin-right: auto !important;}
 .addresses h2 {text-align: center !important;}
 
 .template-search__header h1 {font-size: 48px;line-height: 58px;}
