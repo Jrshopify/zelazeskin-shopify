@@ -116,6 +116,8 @@
   }
 {%- endstyle -%}
 
+{% assign myValue = section.settings.sec_menu %}
+
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
@@ -214,6 +216,8 @@
         endif
       endif
     %}
+
+    {{ myValue }}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
