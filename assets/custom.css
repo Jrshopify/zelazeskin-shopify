@@ -275,7 +275,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .footer-block__details-content li a {font-size: 16pt;}
 .footer .footer-block--newsletter .footer-block__newsletter {max-width: 480px;}
 .custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a {font-size: 16px;}
-.custom-header .header { padding: 0 30px !important;}
+.custom-header .header { padding: 0 20px !important;}
 .custom-header .list-menu li, .custom-header .header__icons .sec_menu ul li {margin-right: 15px;}
 .custom-header .header__heading-link {max-width: 200px;}
 .custom-header .header__icons .sec_menu ul li a.btn {padding: 12px 30px;}
@@ -283,8 +283,20 @@ h2 {font-size: 36px;line-height: 46px;}
 .owl-nav .owl-next {width: 45px;height: 45px;right: -60px;}
 .footer .footer__content-bottom .footer-content {max-width: 200px;}
 .footer .footer__content-bottom {padding: 30px 0;}
+.shop-now-button {right: 15px;bottom: 15px; max-width: 75px;max-height: 75px;}
 }
 
+@media screen and (max-width: 1299px) {
+ body {font-size: 14px;}
+ h1 {font-size: 36px;line-height: 46px;}
+ h1 {font-size: 30px;line-height: 40px;}
+.custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a {font-size: 14px;}
+.custom-header .header__icons .sec_menu ul li a.btn {padding: 10px 15px;}
+
+
+
+
+}
 
 
 
