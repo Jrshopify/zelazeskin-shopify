@@ -360,6 +360,7 @@
       {%- endfor -%}
 
       {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {{section.settings.sec_menu}}
       {% render 'header-drawer', sec_menu_text: section.settings.sec_menu, sec_menu_link: section.settings.sec_menu_url %}
     </div>
   </header>
