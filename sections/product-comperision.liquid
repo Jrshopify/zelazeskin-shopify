@@ -1,18 +1,24 @@
-<div class="container-fluid">
+<div class="container">
     <div class="comperision-heading">
         {%if section.settings.comperision_heading != blank%}
             <h2>{{section.settings.comperision_heading}}</h2>
         {%endif%}
     </div>
     <div class="comperision">
-        <div class="com-img">
-            {%if section.settings.comprision_image != blank%}
-                <img src="{{section.settings.comprision_image | img_url: 'medium'}}">
-            {%endif%}
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="com-img">
+                {%if section.settings.comprision_image != blank%}
+                    <img src="{{section.settings.comprision_image | img_url: 'medium'}}">
+                {%endif%}
+            </div>
         </div>
-        <div class="details">
-            {{ product.metafields.global.comparision-details.value }}
-        </div> 
+        <div class="col-lg-4">
+            <div class="details">
+                {{ product.metafields.global.comparision-details.value }}
+            </div> 
+        </div>
+        </div>
     </div>
 </div>
 {%schema%}
