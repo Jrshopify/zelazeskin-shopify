@@ -262,7 +262,7 @@ cart-remove-button .button {color: red;}
 .single-chosse figcaption h4 {font-size: 20pt;min-height: 64px;}
 .single-chosse {padding: 0 15px;}
 .choose-wrap .col-lg-3 {margin-bottom: 50px;}
-.comperision {padding: 100px 0;background: url(color-bg-3.jpg) no-repeat;background-size: cover;background-position: center center;}
+.shopify-section.comperision {padding: 100px 0;background: url(color-bg-3.jpg) no-repeat;background-size: cover;background-position: center center;}
 
 
 /*---Responsive---*/
