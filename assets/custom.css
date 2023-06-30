@@ -251,15 +251,16 @@ cart-remove-button .button {color: red;}
 .shopify-section.benefit .details .benefit .benefit-image img {width: 100%;height: 100%;object-fit: contain;}
 .shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 20pt;margin: 0;line-height: 24pt;text-align: left;}
 .shopify-section.benefit .details .benefit .benefit-head {width: 100%; max-width: 355px;}
-.benifits-max-wrap {max-width: 904px;margin: 60px auto;}
+.benifits-max-wrap {max-width: 904px;margin: 60px auto 30px;}
 .small-logo ul {display: flex;align-items: center;justify-content: center;flex-wrap: wrap;}
 .small-logo ul li {width: 11.11%;padding: 0 15px;}
 .small-logo ul li img {width: 100%; height: 100%; object-fit: contain;}
-
-
-
-
-
+.zelaze-component {text-align: center;padding: 100px 0;}
+.zelaze-component h2 {margin-bottom: 50px;}
+.single-chosse figure {max-width: 135px; max-height: 135px; overflow: hidden; margin-bottom: 20px;}
+.single-chosse figure img {width: 100%; height: 100%; object-fit: contain;}
+.single-chosse figcaption h4 {font-size: 20pt;}
+.single-chosse {padding: 0 15px;}
 
 
 
