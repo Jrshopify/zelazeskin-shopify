@@ -351,6 +351,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .video-slider .owl-nav .owl-prev, .video-slider .owl-nav .owl-next {top: 0;transform: none;}
 .banner-text .left {padding: 50px;padding-right: 50px;}
 .custom-image-text .image-with-text__heading {font-size: 30px;}
+.result-banner .banner-details h1 {font-size: 36px;line-height: 46px;}
 }
 @media screen and (max-width: 1199px) {
 .custom-header .header {padding: 0 12px !important;}
