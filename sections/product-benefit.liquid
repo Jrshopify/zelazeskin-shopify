@@ -10,7 +10,7 @@
         {%endif%}
         {{ product.metafields.global.benefit-details.value }}
         <div class="brands">
-            {{ section.settings.brand }}
+          {{ product.metafields.global.brand.value }}
         </div>
     </div>
 </div>
@@ -29,11 +29,6 @@
       "type": "text",
       "id": "product_heading",
       "label": "Product Heading"
-    },
-    {
-      "type": "richtext",
-      "id": "brand",
-      "label": "Brands"
     }
   ],
   "presets": [
