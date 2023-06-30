@@ -264,6 +264,15 @@ cart-remove-button .button {color: red;}
 .single-chosse {padding: 0 15px;}
 .choose-wrap .col-lg-3 {margin-bottom: 50px;}
 .shopify-section.comperision {padding: 100px 0;background: url(color-bg-3.jpg) no-repeat;background-size: cover;background-position: center center;}
+.shopify-section.comperision .comperision-heading {text-align: center;margin-bottom: 50px;}
+.shopify-section.comperision .com-img {max-width: 340px;height: 340px;overflow: hidden;border-radius: 100%;border: 3px solid #fff;}
+.shopify-section.comperision .com-img img {width: 100%;height: 100%;object-fit: cover;}
+.shopify-section.comperision table tr td, .shopify-section.comperision table tr th {vertical-align: middle;text-align: center;}
+.shopify-section.comperision table tr th {font-weight: 500; font-size: 20pt;}
+.shopify-section.comperision table tr tf {font-size: 18pt; color: #313BA8;;}
+
+
+
 
 
 /*---Responsive---*/
