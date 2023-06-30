@@ -257,11 +257,12 @@ cart-remove-button .button {color: red;}
 .small-logo ul li img {width: 100%; height: 100%; object-fit: contain;}
 .zelaze-component {text-align: center;padding: 100px 0;}
 .zelaze-component h2 {margin-bottom: 50px;}
-.single-chosse figure {max-width: 135px; max-height: 135px; overflow: hidden; margin-bottom: 20px;}
+.single-chosse figure {max-width: 135px; max-height: 135px; overflow: hidden; margin: 0 auto 20px;}
 .single-chosse figure img {width: 100%; height: 100%; object-fit: contain;}
-.single-chosse figcaption h4 {font-size: 20pt;}
+.single-chosse figcaption h4 {font-size: 20pt;min-height: 64px;}
 .single-chosse {padding: 0 15px;}
-
+.choose-wrap .col-lg-3 {margin-bottom: 50px;}
+.comperision {padding: 100px 0;background: url(color-bg-3.jpg) no-repeat;background-size: cover;background-position: center center;}
 
 
 /*---Responsive---*/
