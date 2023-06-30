@@ -8,11 +8,7 @@
         {%if section.settings.product_heading != blank%}
             <h2>{{ section.settings.product_heading }}</h2>
         {%endif%}
-        <div class="row-wrap">
-            {% if section.settings.benefit != blank %}
-                {{ section.settings.benefit }}
-            {% endif %}
-        </div>
+        {{ product.metafields.global.Benefit details.value }}
         <div class="brands">
             {{ section.settings.brand }}
         </div>
