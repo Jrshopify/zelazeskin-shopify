@@ -444,11 +444,11 @@ h2 {font-size: 36px;line-height: 46px;}
 .faq_content {margin-bottom: 30px;}
 .contact-bg-wrap .info h4 {font-size: 14pt;}
 .small-logo ul li {width: 20%; margin-bottom: 20px;}
-
-
-
-
-
+.choose-wrap .col-lg-3 {width: 50%;}
+.single-chosse figcaption h4 {min-height: auto;}
+.shopify-section.comperision .com-img {margin-bottom: 30px;}
+.product .return-policy {margin-top: 50px !important;}
+.why-choose-people .head-sub h3 {font-size: 30px;}
 
 
 
@@ -468,6 +468,12 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .field__input {padding-right: 16rem !important;}
 .shop-now-button {right: 10px;bottom: 10px;max-width: 50px;max-height: 50px;}
 .menu-drawer__account {margin-bottom: 0 !important; letter-spacing: 0;}
+.product .product__title h1 {font-size: 30px;line-height: 40px;}
+.why-choose-people .col {width: 50%;}
+
+
+
+
 }
 @media screen and (max-width: 749px) {
 h1 {font-size: 30px;line-height: 40px;}
