@@ -380,6 +380,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .image-text .container .row:nth-child(even) .content-details {padding-right: 0;}
 .collection-hero .collection-hero__title {margin-top: 50px;margin-bottom: 0;}
 .mobile-facets__open-label {letter-spacing: 0 !important;}
+.make-video .video-info {padding: 50px 15px;}
+.contact-bg-wrap .contact__button .btn {min-width: auto;}
 
 
 }
