@@ -316,10 +316,6 @@ h2 {font-size: 36px;line-height: 46px;}
 .shop-now-button {right: 15px;bottom: 15px; max-width: 75px;max-height: 75px;}
 .result-banner .banner-details h1 {font-size: 48px;line-height: 58px;}
 .why-choose-people .head-sub h3 {font-size: 36px;}
-
-
-
-
 }
 
 @media screen and (max-width: 1299px) {
@@ -362,8 +358,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact .title {font-size: 36px;line-height: 46px;}
 .product .product__title h1 {font-size: 36px;line-height: 46px;}
 .product .product__description {font-size: 14px;}
-
 }
+
 @media screen and (max-width: 1199px) {
 .custom-header .header {padding: 0 12px !important;}
 .custom-header .list-menu li, .custom-header .header__icons .sec_menu ul li {margin-right: 10px;}
@@ -404,20 +400,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .why-choose-people .head-sub h3 + h3 {font-size: 14px;}
 .small-logo ul li {padding: 0 10px;}
 .shopify-section.comperision .comperision-heading {margin-bottom: 30px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
 @media screen and (max-width: 991px) {
 .banner-text .left {text-align: center;padding: 50px 15px;}
 .banner-text .client {justify-content: center;text-align: left; max-width: 480px;margin-left: auto;margin-right: auto;margin-top: 40px;}
@@ -449,14 +433,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .shopify-section.comperision .com-img {margin-bottom: 30px;}
 .product .return-policy {margin-top: 50px !important;}
 .why-choose-people .head-sub h3 {font-size: 30px;}
-
-
-
-
-
-
-
 }
+
 @media screen and (max-width: 989px) {
 .menu-drawer__inner-container {background: #f6f6f6;}
 .menu-drawer__menu-item {font-size: 14px !important;color: #000;font-weight: 500;}
@@ -470,11 +448,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .menu-drawer__account {margin-bottom: 0 !important; letter-spacing: 0;}
 .product .product__title h1 {font-size: 30px;line-height: 40px;}
 .why-choose-people .col {width: 50%;}
-
-
-
-
 }
+
 @media screen and (max-width: 749px) {
 h1 {font-size: 30px;line-height: 40px;}
 .dual-approach .dual-app ul li:last-child {margin-bottom: 0;}
@@ -492,9 +467,8 @@ h1 {font-size: 30px;line-height: 40px;}
 .shopify-section.comperision .col-lg-8 .details::before {right: -3px;bottom: -3px;}
 .customer h1, .template-search__header h1 {font-size: 30px;line-height: 40px;}
 cart-items .title-wrapper-with-link a {font-size: 12px;}
-
-
 }
+
 @media screen and (max-width: 480px) {
 h2 {font-size: 24px;line-height: 34px;}
 .product-select .details-list ul li {display: block;text-align: center;padding: 0 5px;}
@@ -519,13 +493,6 @@ h2 {font-size: 24px;line-height: 34px;}
 .choose-wrap .col-lg-3 {width: 100%;}
 .product .product__title h1, .why-choose-people .head-sub h3 {font-size: 24px;line-height: 34px;}
 .product-media-modal__content img {max-width: 270px;}
-
-
-
-
-
-
-
 }
 
 /*---Responsive---*/
