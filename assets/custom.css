@@ -402,6 +402,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .make-video .video-making-form .contact-bg-wrap {margin-top: 30px;}
 .multiple-question .container-fluid {padding-left: 15px;padding-right: 15px;}
 .faq_content {margin-bottom: 30px;}
+.contact-bg-wrap .info h4 {font-size: 14pt;}
 
 }
 @media screen and (max-width: 989px) {
@@ -442,6 +443,8 @@ h2 {font-size: 24px;line-height: 34px;}
 .banner-text .client .client-info h6 {font-size: 12px;}
 .custom-image-text .image-with-text__heading {font-size: 24px;}
 .image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
+.faq .accordion-titel h4 {font-size: 14px;}
+
 
 }
 
