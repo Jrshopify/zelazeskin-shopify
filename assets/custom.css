@@ -367,6 +367,9 @@ h2 {font-size: 36px;line-height: 46px;}
 .custom-header .header__icons .sec_menu ul li a.btn {padding: 6px 10px;}
 .result-banner .banner-details {padding-left: 30px;padding-right: 30px;}
 .client-feedback .container-fluid {padding-left: 30px;padding-right: 30px;}
+.multiple-question .container-fluid {padding-left: 30px;padding-right: 30px;}
+.multiple-question {padding: 50px 0;}
+
 }
 @media screen and (max-width: 991px) {
 .banner-text .left {text-align: center;padding: 50px 15px;}
@@ -414,7 +417,7 @@ h1 {font-size: 30px;line-height: 40px;}
 .footer .social-media ul li {margin-left: 0;margin-right: 15px;}
 .result-banner .banner-details h1 {font-size: 30px;line-height: 40px;}
 .main-page-title {font-size: 30px;}
-.contact .title {font-size: 36px;line-height: 46px;}
+.contact .title {font-size: 30px;line-height: 40px;}
 }
 @media screen and (max-width: 480px) {
 h2 {font-size: 24px;line-height: 34px;}
