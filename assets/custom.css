@@ -390,7 +390,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .shopify-section.benefit .details .benefit .benefit-head {max-width: 255px;}
 .benifits-max-wrap {max-width: 750px;margin: 40px auto 30px;}
 .shopify-section.benefit {padding: 50px 0;margin-top: 50px;}
-.zelaze-component {padding-top: 50px;}
+.zelaze-component {padding-top: 50px;padding-bottom: 10px;}
 .single-chosse figure {max-width: 60px;max-height: 60px;}
 .single-chosse figcaption h4 {font-size: 14pt;min-height: 45px;}
 .single-chosse figcaption p {font-size: 14px;}
