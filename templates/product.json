@@ -23,12 +23,12 @@
           "settings": {
           }
         },
-        "d4f15bb5-9f25-4340-9503-151574f9d711": {
+        "e4faf7d9-2053-4709-89a8-86493e4e6409": {
           "type": "shopify:\/\/apps\/subify-subscriptions-app\/blocks\/app-block\/bc0dba25-cd46-4841-bea4-6bdfe9ac815f",
           "settings": {
             "product": "{{product}}",
             "use_app_block_wording": false,
-            "widget_label": "Purchase options",
+            "widget_label": "",
             "one_time_purchase_text": "One-Time Purchase",
             "subscription_text": "Subscribe and save",
             "delivery_frequency_text": "Delivery frequency",
@@ -115,7 +115,7 @@
         "47b0479e-f990-409f-ba84-4704601ce44a",
         "price",
         "description",
-        "d4f15bb5-9f25-4340-9503-151574f9d711",
+        "e4faf7d9-2053-4709-89a8-86493e4e6409",
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
