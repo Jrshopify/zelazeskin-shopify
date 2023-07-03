@@ -486,6 +486,14 @@ h1 {font-size: 30px;line-height: 40px;}
 .result-banner .banner-details h1 {font-size: 30px;line-height: 40px;}
 .main-page-title {font-size: 30px;}
 .contact .title {font-size: 30px;line-height: 40px;}
+.product-form__buttons {max-width: 100%;}
+.product .return-policy ul li {text-align: center;}
+.shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;}
+.shopify-section.comperision .col-lg-8 .details::before {right: -3px;bottom: -3px;}
+
+
+
+
 }
 @media screen and (max-width: 480px) {
 h2 {font-size: 24px;line-height: 34px;}
@@ -502,6 +510,20 @@ h2 {font-size: 24px;line-height: 34px;}
 .custom-image-text .image-with-text__heading {font-size: 24px;}
 .image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
 .faq .accordion-titel h4 {font-size: 14px;}
+.why-choose-people .col { width: 100%;}
+.shopify-section.benefit .details .benefit {display: block;text-align: center;}
+.shopify-section.benefit .details .benefit .benefit-image {margin-left: auto;margin-right: auto;margin-bottom: 15px;}
+.shopify-section.benefit .details .benefit .benefit-head {max-width: 100%;}
+.shopify-section.benefit .details .benefit .benefit-head h2  {text-align: center;}
+.small-logo ul li {width: 33.33%;}
+.choose-wrap .col-lg-3 {width: 100%;}
+
+
+
+
+
+
+
 
 
 }
