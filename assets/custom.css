@@ -491,7 +491,7 @@ h1 {font-size: 30px;line-height: 40px;}
 .shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;}
 .shopify-section.comperision .col-lg-8 .details::before {right: -3px;bottom: -3px;}
 .customer h1 {font-size: 30px;line-height: 40px;}
-
+cart-items .title-wrapper-with-link a {font-size: 12px;}
 
 
 }
