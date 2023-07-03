@@ -401,6 +401,20 @@ h2 {font-size: 36px;line-height: 46px;}
 .shopify-section.comperision table tr th {font-size: 16px;line-height: 16px;}
 .shopify-section.comperision table tr td, .shopify-section.comperision table tr th {padding: 10px;}
 .shopify-section.comperision table tr td {font-size: 14px;line-height: 20px;}
+.why-choose-people .head-sub h3 + h3 {font-size: 14px;}
+.small-logo ul li {padding: 0 10px;}
+.shopify-section.comperision .comperision-heading {margin-bottom: 30px;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -429,6 +443,18 @@ h2 {font-size: 36px;line-height: 46px;}
 .multiple-question .container-fluid {padding-left: 15px;padding-right: 15px;}
 .faq_content {margin-bottom: 30px;}
 .contact-bg-wrap .info h4 {font-size: 14pt;}
+.small-logo ul li {width: 20%; margin-bottom: 20px;}
+
+
+
+
+
+
+
+
+
+
+
 
 }
 @media screen and (max-width: 989px) {
