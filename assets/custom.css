@@ -364,6 +364,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .custom-header .header__heading-link {max-width: 150px;}
 .custom-header .list-menu .header__menu-item, .custom-header .header__icons .sec_menu ul li a {font-size: 12px;}
 .custom-header .header__icons .sec_menu ul li a.btn {padding: 6px 10px;}
+.result-banner .banner-details {padding-left: 30px;padding-right: 30px;}
+.client-feedback .container-fluid {padding-left: 30px;padding-right: 30px;}
 }
 @media screen and (max-width: 991px) {
 .banner-text .left {text-align: center;padding: 50px 15px;}
