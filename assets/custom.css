@@ -369,6 +369,13 @@ h2 {font-size: 36px;line-height: 46px;}
 .client-feedback .container-fluid {padding-left: 30px;padding-right: 30px;}
 .multiple-question .container-fluid {padding-left: 30px;padding-right: 30px;}
 .multiple-question {padding: 50px 0;}
+.faq .accordion-titel {padding: 30px 0;}
+.faq .accordion-titel h4 {font-size: 14pt;}
+.faq .accordion-contant {padding: 0 0 30px}
+.faq .accordion-titel h4::before {top: 3px;}
+.faq .heading {padding: 30px 0 20px;}
+.faq_content ul li {font-size: 12pt;margin-bottom: 15px;}
+
 
 }
 @media screen and (max-width: 991px) {
