@@ -10,6 +10,12 @@
         },
         "47b0479e-f990-409f-ba84-4704601ce44a": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "9fe38f39-0415-49a1-8974-963e236bf3af": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -108,16 +114,12 @@
             "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
-        },
-        "9fe38f39-0415-49a1-8974-963e236bf3af": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
         "47b0479e-f990-409f-ba84-4704601ce44a",
+        "9fe38f39-0415-49a1-8974-963e236bf3af",
         "price",
         "description",
         "e4faf7d9-2053-4709-89a8-86493e4e6409",
@@ -127,8 +129,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "5f64432f-cf73-4cbc-bcc2-f1dc9c532922",
-        "9fe38f39-0415-49a1-8974-963e236bf3af"
+        "5f64432f-cf73-4cbc-bcc2-f1dc9c532922"
       ],
       "settings": {
         "enable_sticky_info": true,
