@@ -172,18 +172,6 @@
 
     ],
     "blocks": {
-      "9790993569898449839": {
-        "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/global\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18306912302550125850": {
-        "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/rich-snippet\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
@@ -193,6 +181,18 @@
       "15588394620387169604": {
         "type": "shopify:\/\/apps\/subify-subscriptions-app\/blocks\/app-embed-block\/bc0dba25-cd46-4841-bea4-6bdfe9ac815f",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "9790993569898449839": {
+        "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/global\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "18306912302550125850": {
+        "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/rich-snippet\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+        "disabled": true,
         "settings": {
         }
       }
