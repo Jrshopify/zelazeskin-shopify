@@ -108,6 +108,11 @@
             "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
+        },
+        "9fe38f39-0415-49a1-8974-963e236bf3af": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -122,7 +127,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "5f64432f-cf73-4cbc-bcc2-f1dc9c532922"
+        "5f64432f-cf73-4cbc-bcc2-f1dc9c532922",
+        "9fe38f39-0415-49a1-8974-963e236bf3af"
       ],
       "settings": {
         "enable_sticky_info": true,
