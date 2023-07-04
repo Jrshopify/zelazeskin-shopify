@@ -237,7 +237,6 @@
         },
         "0ed34024-f7c0-4d45-9de7-72021f9e61fd": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
           "settings": {
           }
         }
