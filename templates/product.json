@@ -233,17 +233,25 @@
         "comprision_image": "{{ product.metafields.custom.comparison_image.value }}"
       }
     },
-    "168742394500bb4c82": {
+    "1688472634be3c557e": {
       "type": "apps",
       "blocks": {
-        "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+        "74a13d1a-2818-4f4a-b6d3-1ae926fafbb1": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        },
+        "0ed34024-f7c0-4d45-9de7-72021f9e61fd": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         }
       },
       "block_order": [
-        "8b202296-1b1a-4c9f-a70b-c791ba8d1f3d"
+        "74a13d1a-2818-4f4a-b6d3-1ae926fafbb1",
+        "0ed34024-f7c0-4d45-9de7-72021f9e61fd"
       ],
       "settings": {
         "include_margins": true
@@ -256,6 +264,6 @@
     "a440ff4e-6402-496f-88ad-d35b1150bf2a",
     "51052261-1f12-42be-9eb9-70cd35efe06e",
     "d2f4aa0e-6138-4982-8ab0-53b6095fca87",
-    "168742394500bb4c82"
+    "1688472634be3c557e"
   ]
 }
