@@ -288,9 +288,9 @@ cart-remove-button .button {color: red;}
 .subify-widget-main-title, .subify-selling-plan-section-title {padding-left: 0 !important;}
 .subify-powered-text {opacity: 0 !important;}
 .product__info-wrapper {overflow: hidden;}
-
-
-
+.instagram-feed .jdgm-rev-widg {padding: 0;}
+.instagram-feed {padding: 80px 0;}
+.instagram-feed .jdgm-rev-widg__title {font-size: 36px; margin-bottom: 50px !important;}
 
 
 
