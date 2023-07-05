@@ -287,7 +287,7 @@ cart-remove-button .button {color: red;}
 .subify-choice-price, .subify-selling-plan-price {color: #00b0dc !important;}
 .subify-widget-main-title, .subify-selling-plan-section-title {padding-left: 0 !important;}
 .subify-powered-text {opacity: 0 !important;}
-
+.product__info-wrapper {overflow: hidden;}
 
 
 
