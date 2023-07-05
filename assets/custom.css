@@ -276,6 +276,9 @@ cart-remove-button .button {color: red;}
 .shopify-section.comperision .table  {margin: 0; position: relative;}
 .main-page-title {letter-spacing: 0;}
 
+.shopify-app-block .jdgm-all-reviews-text a {justify-content: left !important;}
+.shopify-app-block .subify-product-price-wrapper {margin: 0 !important;}
+
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
