@@ -278,7 +278,7 @@ cart-remove-button .button {color: red;}
 
 .shopify-app-block .jdgm-all-reviews-text a {justify-content: left !important;}
 .shopify-app-block .subify-product-price-wrapper {margin: 0 !important;}
-.subify-product-price-wrapper .subify-current-price {font-size: 24px;color: #00b0dc;}
+.subify-product-price-wrapper .subify-current-price {font-size: 24px !important;color: #00b0dc !important;}
 .subify-widget-box {border-radius: 0 !important;border-color: #00b0dc !important;}
 .subify-choice-box-wrapper {border: none !important;}
 .subify-choice-box-wrapper.active {background: #f0f0f0;}
@@ -291,7 +291,7 @@ cart-remove-button .button {color: red;}
 .instagram-feed .jdgm-rev-widg {padding: 0;}
 .instagram-feed {padding: 80px 0;}
 .instagram-feed .jdgm-rev-widg__title {font-size: 36px; margin-bottom: 50px !important;}
-
+.subify-product-price-wrapper .subify-discount-percentage {border: none !important;background: #ddd !important;border-radius: 0 !important;text-transform: uppercase !important;}
 
 
 
