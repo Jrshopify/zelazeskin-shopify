@@ -284,7 +284,18 @@ cart-remove-button .button {color: red;}
 .subify-choice-box-wrapper.active {background: #f0f0f0;}
 .subify-root [type='radio']:checked + label:before, .subify-root [type='radio']:not(:checked) + label:before {border: 2px solid #838080 !important;}
 .subify-root [type='radio']:checked + label:after, .subify-root [type='radio']:not(:checked) + label:after {background: #00b0dc !important;}
-.subify-choice-price {color: #00b0dc;}
+.subify-choice-price, .subify-selling-plan-price {color: #00b0dc !important;}
+.subify-widget-main-title, .subify-selling-plan-section-title {padding-left: 0 !important;}
+.subify-powered-text {opacity: 0 !important;}
+
+
+
+
+
+
+
+
+
 
 
 /*---Responsive---*/
