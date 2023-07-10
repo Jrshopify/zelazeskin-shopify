@@ -293,6 +293,13 @@ cart-remove-button .button {color: red;}
 .instagram-feed .jdgm-rev-widg__title {font-size: 36px; margin-bottom: 50px !important;}
 .subify-product-price-wrapper .subify-discount-percentage {border: none !important;background: #ddd !important;border-radius: 0 !important;text-transform: uppercase !important;}
 
+.track-order {padding-bottom: 100px;}
+.track-order ul li {margin-top: 20px;}
+.track-order ul li a {color: #000; text-decoration: underline;}
+
+
+
+
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
@@ -450,6 +457,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .shopify-section.comperision .com-img {margin-bottom: 30px;}
 .product .return-policy {margin-top: 50px !important;}
 .why-choose-people .head-sub h3 {font-size: 30px;}
+.main-page-title {font-size: 36px;}
 }
 
 @media screen and (max-width: 989px) {
