@@ -1,0 +1,35 @@
+<div class="container">
+    <ul>
+        <li>{{ section.settings.ups_text }} <a href="{{ section.settings.ups }}">UPS Tracking Link</a> </li>
+        <li>{{ section.settings.usps_text }} <a href="{{ section.settings.usps }}">USPS Tracking Link</a> </li>
+    </ul>
+</div>
+{% schema %}
+{
+  "name": "Track",
+  "tag": "section",
+  "class": "section",
+  "blocks": [
+    {
+        "type": "richtext",
+        "id": "ups_text",
+        "label": "Ups Track Text"
+    },
+    {
+        "type": "url",
+        "id": "ups",
+        "label": "UPS Tracking Link"
+    },
+    {
+        "type": "richtext",
+        "id": "usps_text",
+        "label": "Usps Track Text"
+    },
+    {
+        "type": "url",
+        "id": "usps",
+        "label": "UPS Tracking Link"
+    }
+  ]
+}
+{% endschema %}
