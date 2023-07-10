@@ -494,6 +494,7 @@ h1 {font-size: 30px;line-height: 40px;}
 cart-items .title-wrapper-with-link a {font-size: 12px;}
 .instagram-feed .jdgm-rev-widg__title {font-size: 24px;margin-bottom: 30px !important;}
 .instagram-feed {padding: 50px 0;}
+.track-order {padding-bottom: 50px;}
 }
 
 @media screen and (max-width: 480px) {
