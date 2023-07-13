@@ -86,7 +86,7 @@
             id="ContactForm-lname"
             name="contact[{{ 'templates.contact.form.lastname' | t }}]"
             value="{% if form.lastname %}{{ form.lastname }}{% elsif customer %}{{ lastname }}{% endif %}"
-            placeholder="Enter First Name"
+            placeholder="Enter Last Name"
           >
         </div>
       </div>
@@ -169,7 +169,7 @@
       <div class="field-group">
         <span>{{ 'templates.contact.form.type' | t }}</span>
         <input
-            type="tel"
+            type="text"
             id="ContactForm-phone"
             class="field__input"
             autocomplete="tel"
@@ -185,7 +185,7 @@
       <div class="field-group">
         <span>{{ 'templates.contact.form.response' | t }}</span>
         <input
-            type="tel"
+            type="text"
             id="ContactForm-phone"
             class="field__input"
             autocomplete="tel"
