@@ -172,9 +172,8 @@
             type="text"
             id="ContactForm-phone"
             class="field__input"
-            autocomplete="tel"
+            autocomplete="text"
             name="contact[{{ 'templates.contact.form.type' | t }}]"
-            pattern="[0-9\-]*"
             value="{% if form.type %}{{ form.type }}{% elsif customer %}{{ customer.type }}{% endif %}"
             placeholder="Enter Type of Business"
         >
@@ -188,9 +187,8 @@
             type="text"
             id="ContactForm-phone"
             class="field__input"
-            autocomplete="tel"
+            autocomplete="text"
             name="contact[{{ 'templates.contact.form.response' | t }}]"
-            pattern="[0-9\-]*"
             value="{% if form.response %}{{ form.response }}{% elsif customer %}{{ customer.response }}{% endif %}"
             placeholder="Enter Response"
         >
