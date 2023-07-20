@@ -19,7 +19,7 @@
         "sec_menu": "Be a Brand Ambassador",
         "sec_menu_url": "https:\/\/zelazeskin.com\/apps\/convertout\/home",
         "shop_label": "Shop Now",
-        "shop_url": "#",
+        "shop_url": "shopify:\/\/products\/zelaze-brightening-moisturizer",
         "menu_type_desktop": "mega",
         "sticky_header_type": "none",
         "show_line_separator": true,
