@@ -28,7 +28,8 @@
     {%- if settings.social_tiktok_link != blank -%}
       <li class="list-social__item">
         <a href="{{ settings.social_tiktok_link }}" class="link list-social__link" >
-          {%- render 'icon-tiktok' -%}
+          {% comment %} {%- render 'icon-tiktok' -%} {% endcomment %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/tiktok.png?v=1689936351" class="tiktok">
           <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
         </a>
       </li>
