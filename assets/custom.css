@@ -301,6 +301,8 @@ cart-remove-button .button {color: red;}
 .product-select .right-side .shopify-app-block .jdgm-all-reviews-text a {justify-content: center !important;margin-bottom: 20px;}
 .jdgm-all-reviews-text--style-branded .jdgm-all-reviews-rating:before {color: #00aed9 !important;}
 .instagram-feed .shopify-app-block .jdgm-all-reviews-text a {justify-content: center !important;}
+.social-media .list-social {align-items: center;}
+.social-media .list-social img.tiktok {width: 25px;}
 
 /*---Responsive---*/
 
