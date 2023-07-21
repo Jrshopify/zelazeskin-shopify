@@ -303,7 +303,7 @@ cart-remove-button .button {color: red;}
 .instagram-feed .shopify-app-block .jdgm-all-reviews-text a {justify-content: center !important;}
 .social-media .list-social {align-items: center;}
 .social-media .list-social img.tiktok {width: 25px;}
-.instagram-feed .jdgm-carousel--done .jdgm-carousel__item-container {border: 1px solid #000;padding: 20px;}
+.instagram-feed .jdgm-carousel--done .jdgm-carousel__item-container {border: 1px solid #ddd;padding: 20px;}
 .instagram-feed .jdgm-carousel-wrapper {width: 100% !important;}
 .instagram-feed .jdgm-carousel-title {margin-bottom: 30px !important;}
 .instagram-feed .jdgm-carousel__right-arrow, .instagram-feed .jdgm-carousel__left-arrow {border-color: #000 !important;}
