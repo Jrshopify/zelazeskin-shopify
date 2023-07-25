@@ -510,6 +510,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-select .right-side h2 { font-size: 27px; max-width: 265px; margin: 0 auto 13px; }
 .product-select .right-side h3 { font-size: 15px; letter-spacing: 2px; max-width: 240px; margin: 0 auto; }
 .product-select .details-list ul { max-width: 500px; margin: 20px 0 0; }
+.product-select .right-side .top-logo-ps { margin-bottom: 20px; line-height: 0; }
+
 }
 
 @media screen and (max-width: 749px) {
