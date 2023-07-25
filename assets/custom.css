@@ -308,7 +308,7 @@ cart-remove-button .button {color: red;}
 .instagram-feed .jdgm-carousel-title {margin-bottom: 30px !important;}
 .instagram-feed .jdgm-carousel__right-arrow, .instagram-feed .jdgm-carousel__left-arrow {border-color: #000 !important;}
 
-
+.mobile-banner{display: none;}
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
@@ -486,6 +486,8 @@ h2 {font-size: 36px;line-height: 46px;}
 
 
 .header__search .header__icon--search { position: absolute; left: 40px; top: 10px; }
+.desktop-banner{display: none;}
+.mobile-banner{display: block;}
 }
 
 @media screen and (max-width: 749px) {
