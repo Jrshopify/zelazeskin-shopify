@@ -39,13 +39,23 @@
 <div class="container-fluid p-0 mobile-banner">
   <div class="row m-0">
     <div class="col-lg-6 p-0">
+      <div class="right">
+        {% if section.settings.banner_img != blank %}
+          <img src="{{ section.settings.banner_img | img_url: 'master' }}">
+        {% endif %}
+        <div class="left">
+          {% if section.settings.heading != blank %}
+            <h1>{{ section.settings.heading }}</h1>
+          {% endif %}
+          {% if section.settings.shop_lebel != blank %}
+            <a href="{{ section.settings.shop_url }}" class="btn">{{ section.settings.shop_lebel }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 p-0">
       <div class="left">
-        {% if section.settings.heading != blank %}
-          <h1>{{ section.settings.heading }}</h1>
-        {% endif %}
-        {% if section.settings.shop_lebel != blank %}
-          <a href="{{ section.settings.shop_url }}" class="btn">{{ section.settings.shop_lebel }}</a>
-        {% endif %}
         <div class="client">
           <div class="client-img">
             {% if section.settings.after_before_image != blank %}
@@ -61,13 +71,6 @@
             {% endif %}
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-lg-6 p-0">
-      <div class="right">
-        {% if section.settings.banner_img != blank %}
-          <img src="{{ section.settings.banner_img | img_url: 'master' }}">
-        {% endif %}
       </div>
     </div>
   </div>
