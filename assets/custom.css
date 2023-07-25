@@ -504,6 +504,12 @@ h2 {font-size: 36px;line-height: 46px;}
 .client-feedback .client-info p { margin: 0 auto 20px; max-width: 360px; }
 .client-feedback .client-info { padding: 20px 0 0; }
 .product-select-lt{display: none;}
+.banner-text .btn, .product-select .right-side .btn { padding: 10px 40px; font-size: 18px; line-height: 22px; text-transform: capitalize; }
+.product-select .right-side .product-select-bottom-text, .product-select .right-side .review-widget { display: none; }
+.product-select .right-side { padding: 45px 15px; }
+.product-select .right-side h2 { font-size: 27px; max-width: 265px; margin: 0 auto 13px; }
+.product-select .right-side h3 { font-size: 15px; letter-spacing: 2px; max-width: 240px; margin: 0 auto; }
+.product-select .details-list ul { max-width: 500px; margin: 20px 0 0; }
 }
 
 @media screen and (max-width: 749px) {
