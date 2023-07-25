@@ -2,7 +2,7 @@
 {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
 <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
 <script defer src="{{ 'custom.js' | asset_url }}"></script>
-<div class="container-fluid client-feedback">
+<div class="container-fluid client-feedback-wrap">
   <div class="heading text-center">
     {% if section.settings.heading != blank %}
       <h2>{{ section.settings.heading }}</h2>
