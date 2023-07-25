@@ -1,13 +1,13 @@
 <div class="container-fluid p-0">
   <div class="row m-0">
-    <div class="col-lg-5 p-0">
+    <div class="col-lg-5 p-0 product-select-lt">
       <div class="left-side">
         {% if section.settings.product_image != blank %}
           <img src="{{ section.settings.product_image | img_url: 'master' }}" />
         {% endif %}
       </div>
     </div>
-    <div class="col-lg-7 p-0">
+    <div class="col-lg-7 p-0 product-select-rt">
       <div class="right-side text-center">
         {% if section.settings.logo != blank %}
           <div class="top-logo-ps">

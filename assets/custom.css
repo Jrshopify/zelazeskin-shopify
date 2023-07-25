@@ -498,11 +498,12 @@ h2 {font-size: 36px;line-height: 46px;}
 .banner-text .client .client-info h6 { font-size: 16px; }
 .client-feedback { padding: 50px 0 35px; }
 .client-feedback h2 { font-size: 32px; }
-.client-feedback .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 130px; margin: 0 !important;}
-.client-feedback .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 130px; margin: 0 !important;}
+.client-feedback .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 33%;transform: translateY(-33%); margin: 0 !important;}
+.client-feedback .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 33%;transform: translateY(-33%); margin: 0 !important;}
 .client-feedback .owl-carousel .item{padding: 0 70px;} 
 .client-feedback .client-info p { margin: 0 auto 20px; max-width: 360px; }
 .client-feedback .client-info { padding: 20px 0 0; }
+.product-select-lt{display: none;}
 }
 
 @media screen and (max-width: 749px) {
