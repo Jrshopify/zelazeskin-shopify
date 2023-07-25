@@ -516,6 +516,12 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-select .details-list ul li h4 { min-width: auto; text-align: left; max-width: 150px; margin: 0 auto 0 12px; font-size: 14px; }
 .video-slider, .dual-approach { display: none; }
 .custom-image-text { padding-top: 20px; padding-bottom: 45px; text-align: center; }
+.custom-image-text .image-with-text__heading { font-size: 27px; max-width: 190px; margin: 0 auto; }
+.custom-image-text .image-with-text__text p { max-width: 302px; margin: 0 auto; display: block; }
+.image-with-text__text { width: 100%; }
+.instagram-feed { padding: 0 0 50px; }
+#insta-feed { margin-bottom: 0px!important; }
+#insta-feed .slider-arrow, .instafeed-shopify .slider-arrow{background: url(btn-bg.png) no-repeat; background-size: 100% 100%; background-position: center center;}
 }
 
 @media screen and (max-width: 749px) {
@@ -536,7 +542,7 @@ h1 {font-size: 30px;line-height: 40px;}
 .customer h1, .template-search__header h1 {font-size: 30px;line-height: 40px;}
 cart-items .title-wrapper-with-link a {font-size: 12px;}
 .instagram-feed .jdgm-rev-widg__title {font-size: 24px;margin-bottom: 30px !important;}
-.instagram-feed {padding: 50px 0;}
+/* .instagram-feed {padding: 50px 0;} */
 .track-order {padding-bottom: 50px;}
 }
 
@@ -552,7 +558,7 @@ h2 {font-size: 24px;line-height: 34px;}
 .dual-approach .dual-app ul li h6, .custom-image-text .image-with-text__text p {font-size: 14px;}
 /* .banner-text .client .client-info h4 {font-size: 14px;line-height: 20px;}
 .banner-text .client .client-info h6 {font-size: 12px;} */
-.custom-image-text .image-with-text__heading {font-size: 24px;}
+/* .custom-image-text .image-with-text__heading {font-size: 24px;} */
 .image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
 .faq .accordion-titel h4 {font-size: 14px;}
 .why-choose-people .col { width: 100%;}
