@@ -489,7 +489,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .desktop-banner{display: none;}
 .mobile-banner{display: block;}
 .banner-text .mobile-banner .right { height: 100%; width: 100%; position: relative; }
-.banner-text .mobile-banner .left { position: absolute; z-index: 2; top: 0; right: 0; background: transparent; text-align: left; padding: 0; width: 190px; }
+.banner-text .mobile-banner .right .left { position: absolute; z-index: 2; top: 60px; right: 0; background: transparent; text-align: left; padding: 0; width: 190px; }
+.banner-text .mobile-banner .right .left h1 { margin-bottom: 15px; line-height: 1; color: #fff; }
 }
 
 @media screen and (max-width: 749px) {
