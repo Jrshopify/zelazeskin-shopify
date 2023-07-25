@@ -2,7 +2,7 @@
 {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
 <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
 <script defer src="{{ 'custom.js' | asset_url }}"></script>
-<div class="container-fluid">
+<div class="container-fluid client-feedback">
   <div class="heading text-center">
     {% if section.settings.heading != blank %}
       <h2>{{ section.settings.heading }}</h2>
@@ -13,7 +13,7 @@
       <div class="item">
         <div class="client-image">
           {% if block.settings.after_before_image != blank %}
-            <img src="{{ block.settings.after_before_image | img_url: 'master' }}" />
+            <img src="{{ block.settings.after_before_image | img_url: 'master' }}">
           {% endif %}
         </div>
         <div class="client-info text-center">
@@ -29,44 +29,44 @@
   </div>
 </div>
 {% schema %}
-  {
-    "name": "Client Feedback",
-    "tag": "section",
-    "class": "client-feedback",
-    "settings": [
-      {
-        "type": "richtext",
-        "id": "heading",
-        "label": "Feedback Heading"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "feedback",
-        "name": "feedback",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "after_before_image",
-            "label": "After before image"
-          },
-          {
-            "type": "richtext",
-            "id": "msg",
-            "label": "Client Massege"
-          },
-          {
-            "type": "richtext",
-            "id": "client_name",
-            "label": "Client Name"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Client Feedback"
-      }
-    ]
-  }
+{
+  "name": "Client Feedback",
+  "tag": "section",
+  "class": "client-feedback",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Feedback Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feedback",
+      "name": "feedback",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "after_before_image",
+          "label": "After before image"
+        },
+        {
+          "type": "richtext",
+          "id": "msg",
+          "label": "Client Massege"
+        },
+        {
+          "type": "richtext",
+          "id": "client_name",
+          "label": "Client Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Client Feedback"
+    }
+  ]
+}
 {% endschema %}
