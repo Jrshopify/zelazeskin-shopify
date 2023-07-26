@@ -552,6 +552,15 @@ h2 {font-size: 36px;line-height: 46px;}
 .result-banner .banner-details h1 { font-size: 32px; line-height: 38px; margin-bottom: 27px; }
 .result-banner .banner-details p { color: #878787; font-size: 16px; line-height: 22px; font-weight: 500; }
 .result-banner .banner-details h1 p { font-size: inherit; line-height: inherit; color: inherit; }
+.multiple-question { padding: 26px 18px 80px 28px; }
+.faq_content ul li { font-size: 14px; line-height: 16px; margin-bottom: 14px; font-weight: 500; }
+.faq_content { margin: 0 0 36px; }
+.faq .accordion-titel { padding: 14px 0; }
+.faq .accordion-titel h4 { font-size: 12px; }
+.faq .accordion-titel h4:before { top: 50%; width: 9px; height: 10px; transform: translateY(-50%); }
+.faq .heading { padding: 40px 0 13px; }
+.faq .heading h2 { margin: 0; font-size: 16px; line-height: 19px; }
+.faq .heading  h2 p { margin: 0; }
 }
 
 @media screen and (max-width: 749px) {
@@ -590,7 +599,7 @@ h2 {font-size: 24px;line-height: 34px;}
 .banner-text .client .client-info h6 {font-size: 12px;} */
 /* .custom-image-text .image-with-text__heading {font-size: 24px;} */
 .image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
-.faq .accordion-titel h4 {font-size: 14px;}
+/* .faq .accordion-titel h4 {font-size: 14px;} */
 .why-choose-people .col { width: 100%;}
 .shopify-section.benefit .details .benefit {display: block;text-align: center;}
 .shopify-section.benefit .details .benefit .benefit-image {margin-left: auto;margin-right: auto;margin-bottom: 15px;}
