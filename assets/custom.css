@@ -571,8 +571,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .make-video .video-info .video-info-top { padding: 0 23px; }
 .make-video .video-making-form { max-width: 100%; padding: 10px 0 0 !important; }
 .contact-bg-wrap .contact__fields.three-column .form-field-group { margin-bottom: 10px; }
-.contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(1),
-.contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(2){width: 50%;}
+/* .contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(1),
+.contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(2){width: 50%;} */
 .contact-bg-wrap .field-group span small { margin: 0 0 6px; display: block; width: 100%; }
 }
 
