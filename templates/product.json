@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "251b5111-48ff-4b5c-845c-01b9fd1fa1e4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "“I cleared my skin in just 4 weeks. My skin is glowing!” \n\n-Rachel Evans"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -108,15 +114,10 @@
             "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<\/p>",
             "page": ""
           }
-        },
-        "251b5111-48ff-4b5c-845c-01b9fd1fa1e4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "“I cleared my skin in just 4 weeks. My skin is glowing!” \n\n-Rachel Evans"
-          }
         }
       },
       "block_order": [
+        "251b5111-48ff-4b5c-845c-01b9fd1fa1e4",
         "title",
         "1d78d710-04e9-4ec1-829f-895c935c0a8f",
         "price",
@@ -128,8 +129,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "5f64432f-cf73-4cbc-bcc2-f1dc9c532922",
-        "251b5111-48ff-4b5c-845c-01b9fd1fa1e4"
+        "5f64432f-cf73-4cbc-bcc2-f1dc9c532922"
       ],
       "settings": {
         "enable_sticky_info": true,
