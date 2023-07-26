@@ -164,7 +164,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .contact-bg-wrap .info p {font-size: 12pt;line-height: 20pt;}
 .contact-bg-wrap .field__input {border: 1px solid #8B8B8B;border-radius: 5px;padding: 10px;font-size: 14px;font-size: 12px;letter-spacing: 0;color: #000;}
 .contact-bg-wrap .btn::before, .contact-bg-wrap .btn::after {display: none;}
-.contact-bg-wrap .field-group span {display: block;font-size: 10pt;font-weight: 500;color: #000;margin-bottom: 5px;}
+.contact-bg-wrap .field-group span { display: flex; font-size: 10pt; font-weight: 500; color: #000; margin-bottom: 5px; align-items: center; }
+.contact-bg-wrap .field-group span small { margin-left: auto; color: #00AFDB;}
 .contact-bg-wrap .field-group {margin-bottom: 10px;;}
 .contact-bg-wrap .contact__fields {margin-top: 20px;}
 .contact-bg-wrap .contact__button {margin-top: 20px;} 
