@@ -537,7 +537,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .social-media .list-social__item .icon { height: 2.9rem; width: 2.9rem; }
 .footer .footer__content-bottom { padding: 22px 0; }
 .shop-now-button { right: 26px; bottom: auto; max-width: 122px; max-height: 122px; top: 305px; position: absolute; }
-.contact{padding-top: 55px; padding-bottom: 50px;}
+.contact { padding-top: 55px !important; padding-bottom: 50px !important; }
 .contact .title { font-size: 38px; line-height: 45px; margin-bottom: 45px;}
 .contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
 .contact-bg-wrap .info h4 { font-size: 18pt; margin-bottom: 26px; }
@@ -545,6 +545,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact-bg-wrap .field-group span { font-size: 10pt; margin-bottom: 0px; }
 .contact-bg-wrap .field-group .form-group { margin-bottom: 10px; }
 .contact-bg-wrap .contact__fields, .contact-bg-wrap .contact__button { margin-top: 30px; }
+.contact-bg-wrap .contact__button .btn { min-width: auto; padding: 6px 85px; min-height: 32px; font-size: 14px; line-height: 16px; text-transform: capitalize; }
 }
 
 @media screen and (max-width: 749px) {
