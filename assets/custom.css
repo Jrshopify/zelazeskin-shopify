@@ -308,7 +308,9 @@ cart-remove-button .button {color: red;}
 .instagram-feed .jdgm-carousel-title {margin-bottom: 30px !important;}
 .instagram-feed .jdgm-carousel__right-arrow, .instagram-feed .jdgm-carousel__left-arrow {border-color: #000 !important;}
 
+/* 25-07-2023 */
 .mobile-banner{display: none;}
+.mobile-user-icon { display: none; }
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
@@ -484,7 +486,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product .product__title h1 {font-size: 30px;line-height: 40px;}
 .why-choose-people .col {width: 50%;}
 
-/**/
+/*25-07-2023*/
 .header__search .header__icon--search { position: absolute; left: 40px; top: 10px; }
 .desktop-banner{display: none;}
 .mobile-banner{display: block;}
