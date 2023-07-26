@@ -160,7 +160,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .contact-bg-wrap {background: url(contact-bg.png) no-repeat;max-width: 550px; margin: 0 auto; background-size: cover; background-position: center center;padding: 20px 15px;position: relative;}
 .contact-bg-wrap:before {position: absolute;content: '';background: #fff; width: calc(100% - 4px);height: calc(100% - 5px);left: 2px;top: 2px;}
 .contact-bg-wrap .info h4 {font-size: 18pt;color: #00AFDB;}
-.contact-bg-wrap .info p, .contact-bg-wrap .info a {font-size: 12pt;line-height: 20pt;}
+/* .contact-bg-wrap .info p, .contact-bg-wrap .info a {font-size: 12pt;line-height: 20pt;} */
+.contact-bg-wrap .info p {font-size: 12pt;line-height: 20pt;}
 .contact-bg-wrap .field__input {border: 1px solid #8B8B8B;border-radius: 5px;padding: 10px;font-size: 14px;font-size: 12px;letter-spacing: 0;color: #000;}
 .contact-bg-wrap .btn::before, .contact-bg-wrap .btn::after {display: none;}
 .contact-bg-wrap .field-group span {display: block;font-size: 10pt;font-weight: 500;color: #000;margin-bottom: 5px;}
@@ -488,6 +489,7 @@ h2 {font-size: 36px;line-height: 46px;}
 
 /*25-07-2023*/
 .header__search .header__icon--search { position: absolute; left: 40px; top: 10px; }
+.mobile-user-icon { display: block; }
 .desktop-banner{display: none;}
 .mobile-banner{display: block;}
 .banner-text .mobile-banner .right { height: 100%; width: 100%; position: relative; }
@@ -535,6 +537,14 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .social-media .list-social__item .icon { height: 2.9rem; width: 2.9rem; }
 .footer .footer__content-bottom { padding: 22px 0; }
 .shop-now-button { right: 26px; bottom: auto; max-width: 122px; max-height: 122px; top: 305px; position: absolute; }
+.contact{padding-top: 55px; padding-bottom: 50px;}
+.contact .title { font-size: 38px; line-height: 45px; margin-bottom: 45px;}
+.contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
+.contact-bg-wrap .info h4 { font-size: 18pt; margin-bottom: 26px; }
+.contact-bg-wrap .info p{ font-size: 12pt; line-height: 14pt; margin-bottom: 6px;}
+.contact-bg-wrap .field-group span { font-size: 10pt; margin-bottom: 0px; }
+.contact-bg-wrap .field-group .form-group { margin-bottom: 10px; }
+.contact-bg-wrap .contact__fields, .contact-bg-wrap .contact__button { margin-top: 30px; }
 }
 
 @media screen and (max-width: 749px) {
@@ -547,7 +557,7 @@ h1 {font-size: 30px;line-height: 40px;}
 .footer .social-media ul li {margin-left: 0;margin-right: 15px;}
 .result-banner .banner-details h1 {font-size: 30px;line-height: 40px;}
 .main-page-title {font-size: 30px;}
-.contact .title {font-size: 30px;line-height: 40px;}
+/* .contact .title {font-size: 30px;line-height: 40px;} */
 .product-form__buttons {max-width: 100%;}
 .product .return-policy ul li {text-align: center;}
 .shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;}
