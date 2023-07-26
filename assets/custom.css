@@ -183,7 +183,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .make-video .video-info h2 {max-width: 480px;}
 .make-video .video-info ul li {display: flex;margin-bottom: 20px;font-size: 14pt;}
 .make-video .video-info ul li span {font-weight: 700;display: inline-block;margin-right: 10px;}
-
+.make-video .video-info ul li:last-child{margin-bottom: 0;}
 .shop-now-button {position: fixed;right: 30px;bottom: 30px;max-width: 150px;max-height: 150px;overflow: hidden;border-radius: 100%;z-index: 9;}
 
 .collection-hero .collection-hero__title {margin-top: 100px;}
@@ -567,6 +567,11 @@ h2 {font-size: 36px;line-height: 46px;}
 .make-video .desktop-video { display: none; }
 .make-video .mobile-video { display: block; }
 .make-video .video-info { padding: 30px 17px 45px; }
+.make-video .video-info .video-info-top { padding: 0 23px; }
+.make-video .video-making-form { max-width: 100%; padding: 10px 0 0 !important; }
+.contact-bg-wrap .contact__fields.three-column .form-field-group { margin-bottom: 10px; }
+.contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(1),
+.contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(2){width: 50%;}
 }
 
 @media screen and (max-width: 749px) {
