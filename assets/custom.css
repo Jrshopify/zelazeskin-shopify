@@ -312,6 +312,8 @@ cart-remove-button .button {color: red;}
 /* 25-07-2023 */
 .mobile-banner{display: none;}
 .mobile-user-icon { display: none; }
+.make-video .mobile-video { display: none; position: relative; padding-bottom: 62.5%; }
+.make-video .mobile-video img { position: absolute; left: 0; top: 0; }
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
@@ -561,6 +563,10 @@ h2 {font-size: 36px;line-height: 46px;}
 .faq .heading { padding: 40px 0 13px; }
 .faq .heading h2 { margin: 0; font-size: 16px; line-height: 19px; }
 .faq .heading  h2 p { margin: 0; }
+
+.desktop-video { display: none; }
+.mobile-video { display: block; }
+.make-video .video-info { padding: 30px 17px 45px; }
 }
 
 @media screen and (max-width: 749px) {

@@ -29,18 +29,20 @@
     </div>
     <div class="col-lg-6 p-0">
       <div class="video-info">
-        {% if section.settings.heading != blank %}
-          <h2>{{ section.settings.heading }}</h2>
-        {% endif %}
-        <ul>
-          {% assign a = 1 %}
-          {% for block in section.blocks %}
-            <li>
-              <span>{{ a }}</span> {{ block.settings.point }}
-            </li>
-            {% assign a = a | plus: 1 %}
-          {% endfor %}
-        </ul>
+        <div class="video-info-top">
+          {% if section.settings.heading != blank %}
+            <h2>{{ section.settings.heading }}</h2>
+          {% endif %}
+          <ul>
+            {% assign a = 1 %}
+            {% for block in section.blocks %}
+              <li>
+                <span>{{ a }}</span> {{ block.settings.point }}
+              </li>
+              {% assign a = a | plus: 1 %}
+            {% endfor %}
+          </ul>
+        </div>
         <div class="video-making-form contact page-width--narrow section-{{ section.id }}-padding">
           <div class="contact-bg-wrap">
             {%- liquid
