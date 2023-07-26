@@ -22,7 +22,7 @@
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/rs1.jpg",
         "head": "<p>Frequently Asked<br\/>Questions<\/p>",
-        "desc": "<p>See answers to our most frequently asked questions. If there is something you still have a question about, use our <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact us<\/a> form.<\/p>",
+        "desc": "<p>See answers to our most frequently asked questions. If there is something you still have a question about, use our <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact us form<\/a>.<\/p>",
         "btn_lebel": "",
         "btn_url": ""
       }
