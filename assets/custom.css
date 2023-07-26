@@ -537,6 +537,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .footer .social-media .list-social__item .icon { height: 2.9rem; width: 2.9rem; }
 .footer .footer__content-bottom { padding: 22px 0; }
 .shop-now-button { right: 26px; bottom: auto; max-width: 122px; max-height: 122px; top: 305px; position: absolute; }
+
 .contact { padding-top: 55px !important; padding-bottom: 50px !important; }
 .contact .title { font-size: 38px; line-height: 45px; margin-bottom: 45px;}
 .contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
@@ -546,6 +547,11 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact-bg-wrap .field-group .form-group { margin-bottom: 10px; }
 .contact-bg-wrap .contact__fields, .contact-bg-wrap .contact__button { margin-top: 30px; }
 .contact-bg-wrap .contact__button .btn { min-width: auto; padding: 6px 85px; min-height: 32px; font-size: 14px; line-height: 16px; text-transform: capitalize; }
+
+.result-banner .banner-details { padding-left: 40px; padding-right: 30px; padding-top: 42px; }
+.result-banner .banner-details h1 { font-size: 32px; line-height: 38px; margin-bottom: 27px; }
+.result-banner .banner-details p { color: #878787; font-size: 16px; line-height: 22px; font-weight: 500; }
+.result-banner .banner-details h1 p { font-size: inherit; line-height: inherit; color: inherit; }
 }
 
 @media screen and (max-width: 749px) {
@@ -556,7 +562,7 @@ h1 {font-size: 30px;line-height: 40px;}
 .footer .footer-block--newsletter .footer-block__newsletter {max-width: 100%;width: 100%;}
 .footer__list-social.list-social, .footer__follow-on-shop, .footer-block__newsletter {justify-content: left;}
 .footer .social-media ul li {margin-left: 0;margin-right: 15px;}
-.result-banner .banner-details h1 {font-size: 30px;line-height: 40px;}
+/* .result-banner .banner-details h1 {font-size: 30px;line-height: 40px;} */
 .main-page-title {font-size: 30px;}
 /* .contact .title {font-size: 30px;line-height: 40px;} */
 .product-form__buttons {max-width: 100%;}
