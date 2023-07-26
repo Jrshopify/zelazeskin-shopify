@@ -574,6 +574,7 @@ h2 {font-size: 36px;line-height: 46px;}
 /* .contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(1),
 .contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(2){width: 50%;} */
 .contact-bg-wrap .field-group span small { margin: 0 0 6px; display: block; width: 100%; }
+.result-banner .banner-details .btn { margin: 36px auto 0; font-size: 27px; text-transform: capitalize; line-height: 32px; padding: 12px 54px; display: table; }
 }
 
 @media screen and (max-width: 749px) {
