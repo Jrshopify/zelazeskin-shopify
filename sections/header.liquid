@@ -246,6 +246,9 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
+
+
+    cvdghcvshcvhv
     
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header__localization{% endif %}">
@@ -350,23 +353,6 @@
           </span>
         </a>
       {%- endif -%}
-
-      <div class="mobile_user">
-        {%- if shop.customer_accounts_enabled -%}
-          <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-            {% render 'icon-account' %}
-            <span class="visually-hidden">
-              {%- liquid
-                if customer
-                  echo 'customer.account_fallback' | t
-                else
-                  echo 'customer.log_in' | t
-                endif
-              -%}
-            </span>
-          </a>
-        {%- endif -%}
-      </div>
 
       {%- for block in section.blocks -%}
         {%- case block.type -%}
