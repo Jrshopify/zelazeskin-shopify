@@ -585,9 +585,10 @@ h2 {font-size: 36px;line-height: 46px;}
 .wholesale-form .contact .title { font-size: 32px; line-height: 38px; margin-bottom: 32px; }
 .wholesale-form  .contact { padding-top: 41px!important; padding-bottom: 53px!important; }
 .wholesale-form .contact-bg-wrap .contact__fields { margin-top: 16px; }
-.track123_track_wrapper { padding: 40px 24px 50px; }
-.track123_form_wrapper .track123_title { margin-bottom: 28px; text-align: center; font-size: 32px; line-height: 38px;}
-.track123_form_button { width: 100%; min-height: 40px; font-size: 22px; line-height: 26px; text-transform: capitalize;}
+.track123_track_wrapper { padding: 40px 24px 50px !important; }
+.track123_form_wrapper .track123_title { margin-bottom: 28px !important; text-align: center !important; font-size: 32px !important; line-height: 38px !important; }
+.track123_form_button { font-size: 22px !important; line-height: 26px !important; text-transform: capitalize !important; margin: 22px 0 0 !important; }
+.track123_form_label { font-size: 14px !important; line-height: 17px !important; margin-bottom: 2px !important; }
 
 }
 
