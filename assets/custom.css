@@ -315,7 +315,8 @@ cart-remove-button .button {color: red;}
 .mobile-user-icon { display: none; }
 .make-video .mobile-video { display: none; position: relative; padding-bottom: 62.5%; }
 .make-video .mobile-video img { position: absolute; left: 0; top: 0; }
-.product-testimonial { font-size: 26px; line-height: 31px; font-weight: 500; padding: 20px 42px 20px 28px; background: url(testimonial-bg.png) no-repeat; background-position: center; background-size: cover;}
+.product-testimonial { font-size: 26px; line-height: 31px; font-weight: 500; padding: 20px 42px 20px 28px; background: url(testimonial-bg.png) no-repeat; background-position: center; background-size: cover; max-width: 420px; }
+.product-testimonial span { display: block; font-size: 16px; line-height: 19px; margin-top: 3px; }
 
 /*---Responsive---*/
 
