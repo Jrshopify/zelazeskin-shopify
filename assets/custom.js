@@ -104,7 +104,7 @@ jQuery('#product-video-silder').owlCarousel({
   responsive:{      
     0:{
       items:2,
-      margin:0,
+      margin:10,
   },
   991:{
       items:4,
