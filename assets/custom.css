@@ -585,6 +585,9 @@ h2 {font-size: 36px;line-height: 46px;}
 .wholesale-form .contact .title { font-size: 32px; line-height: 38px; margin-bottom: 32px; }
 .wholesale-form  .contact { padding-top: 41px!important; padding-bottom: 53px!important; }
 .wholesale-form .contact-bg-wrap .contact__fields { margin-top: 16px; }
+.track123_track_wrapper { padding: 40px 24px 50px; }
+.track123_form_wrapper .track123_title { margin-bottom: 28px; text-align: center; font-size: 32px; line-height: 38px;}
+.track123_form_button { width: 100%; min-height: 40px; font-size: 22px; line-height: 26px; text-transform: capitalize;}
 
 }
 
