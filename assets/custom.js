@@ -95,7 +95,7 @@ jQuery('#testimonial').owlCarousel({
 
 jQuery('#product-video-silder').owlCarousel({
   loop:false,
-  margin:30,
+  margin:20,
   nav:true,
   dots:false,
   autoplay:true,
@@ -107,7 +107,7 @@ jQuery('#product-video-silder').owlCarousel({
           margin:10,
       },
       1000:{
-          items:3
+          items:7
       }
   }
 })
