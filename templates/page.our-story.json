@@ -26,7 +26,7 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_1.png",
             "vertical_alignment": "left",
-            "head": "<p>Subtitle<\/p>",
+            "head": "<h2>Subtitle<\/h2>",
             "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
           }
         },
