@@ -102,10 +102,15 @@ jQuery('#product-video-silder').owlCarousel({
   autoplayTimeout:5000,
   autoplayHoverPause:true,
   responsive:{      
-      600:{
-          items:2,
-          margin:10,
-      },
+    0:{
+      items:2,
+      margin:0,
+  },
+  991:{
+      items:4,
+      margin:10,
+  },
+
       1000:{
           items:7
       }
