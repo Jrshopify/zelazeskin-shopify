@@ -513,8 +513,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-video-silder .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 33%;transform: translateY(-33%); margin: 0 !important;}
 .client-feedback .owl-carousel .owl-nav button.owl-next,
 .product-video-silder .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 33%;transform: translateY(-33%); margin: 0 !important;}
-.client-feedback .owl-carousel .item, 
-.product-video-silder .owl-carousel .item {padding: 0 70px;} 
+.client-feedback .owl-carousel .item{padding: 0 70px;} 
 .client-feedback .client-info p { margin: 0 auto 20px; max-width: 360px; }
 .client-feedback .client-info { padding: 20px 0 0; }
 .product-select-lt{display: none;}
@@ -628,7 +627,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .shopify-section.comperision { padding: 32px 0 50px; margin-bottom: 40px; }
 .shopify-section.comperision .row { flex-direction: column-reverse; }
 .shopify-section.comperision .com-img { margin: 36px auto 0; }
-.shopify-section.comperision .comperision-heading h2 { font-size: 26px; line-height: 31px; margin-bottom: 35px; }
+.shopify-section.comperision .comperision-heading h2 { font-size: 26px; line-height: 31px; margin-bottom: 35px; } 
+.product-video-silder .owl-carousel {padding: 0 50px;} 
 }
 
 @media screen and (max-width: 749px) {
