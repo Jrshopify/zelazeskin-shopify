@@ -520,7 +520,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-select .right-side { padding: 45px 15px 23px; }
 .product-select .right-side h2 { font-size: 27px; max-width: 265px; margin: 0 auto 13px; }
 .product-select .right-side h3 { font-size: 15px; letter-spacing: 2px; max-width: 240px; margin: 0 auto; }
-.product-select .details-list ul { max-width: 500px; margin: 20px 0 0; }
+.product-select .details-list ul { max-width: 500px; margin: 20px auto 0; }
 .product-select .right-side .top-logo-ps { margin-bottom: 20px; line-height: 0; }
 .product-select .details-list ul li { display: flex; text-align: center; padding: 0 5px; margin-bottom: 22px; align-items: center; }
 .product-select .details-list ul li h4 { min-width: auto; text-align: left; max-width: 150px; margin: 0 auto 0 12px; font-size: 14px; }
@@ -613,6 +613,11 @@ h2 {font-size: 36px;line-height: 46px;}
 .why-choose-people .head-sub h3 { font-size: 32px; line-height: 38px; margin-bottom: 12px; }
 .why-choose-people .head-sub h3+h3 { font-size: 14px; line-height: 20px; color: #8A8A8A; font-weight: 500; }
 .shopify-section.benefit .details h2 { font-size: 28px; }
+.benifits-max-wrap { margin: 30px auto 40px; }
+.benifits-max-wrap .col-lg-6 { width: 50%; }
+.shopify-section.benefit .details .benefit { display: flex; text-align: center; padding: 0 5px; margin-bottom: 22px; align-items: center; }
+.shopify-section.benefit .details .benefit .benefit-head h2 { font-size: 12px; line-height: 15px; }
+.shopify-section.benefit .details .benefit .benefit-image { width: 45px; height: 45px; min-width: 45px; margin: 0 0 10px; }
 }
 
 @media screen and (max-width: 749px) {
@@ -628,13 +633,14 @@ h1 {font-size: 30px;line-height: 40px;}
 /* .contact .title {font-size: 30px;line-height: 40px;} */
 .product-form__buttons {max-width: 100%;}
 .product .return-policy ul li {text-align: center;}
-.shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;}
+/* .shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;} */
 .shopify-section.comperision .col-lg-8 .details::before {right: -3px;bottom: -3px;}
 .customer h1, .template-search__header h1 {font-size: 30px;line-height: 40px;}
 cart-items .title-wrapper-with-link a {font-size: 12px;}
 .instagram-feed .jdgm-rev-widg__title {font-size: 24px;margin-bottom: 30px !important;}
 /* .instagram-feed {padding: 50px 0;} */
 .track-order {padding-bottom: 50px;}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -653,8 +659,8 @@ h2 {font-size: 24px;line-height: 34px;}
 .image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
 /* .faq .accordion-titel h4 {font-size: 14px;} */
 .why-choose-people .col { width: 100%;}
-.shopify-section.benefit .details .benefit {display: block;text-align: center;}
-.shopify-section.benefit .details .benefit .benefit-image {margin-left: auto;margin-right: auto;margin-bottom: 15px;}
+/* .shopify-section.benefit .details .benefit {display: block;text-align: center;} */
+/* .shopify-section.benefit .details .benefit .benefit-image {margin-left: auto;margin-right: auto;margin-bottom: 15px;} */
 .shopify-section.benefit .details .benefit .benefit-head {max-width: 100%;}
 .shopify-section.benefit .details .benefit .benefit-head h2  {text-align: center;}
 .small-logo ul li {width: 33.33%;}
