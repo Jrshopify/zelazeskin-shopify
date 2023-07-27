@@ -612,6 +612,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product .return-policy { margin: 45px 0 0 !important; }
 .why-choose-people .head-sub h3 { font-size: 32px; line-height: 38px; margin-bottom: 12px; }
 .why-choose-people .head-sub h3+h3 { font-size: 14px; line-height: 20px; color: #8A8A8A; font-weight: 500; }
+.shopify-section.benefit .details h2 { font-size: 28px; }
 }
 
 @media screen and (max-width: 749px) {
