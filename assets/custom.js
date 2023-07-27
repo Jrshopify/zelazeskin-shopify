@@ -103,7 +103,8 @@ jQuery('#product-video-silder').owlCarousel({
   autoplayHoverPause:true,
   responsive:{
       600:{
-          items:1
+          items:2,
+          margin:10,
       },
       1000:{
           items:7
