@@ -11,10 +11,10 @@
       <h3>{{ section.settings.description }}</h3>
     {% endif %}
   </div>
-  <div class="row">
+  <div class="owl-carousel owl-theme" id="product-video-silder">
     {% assign count = 1 %}
     {% for block in section.blocks %}
-      <div class="col">
+      <div class="item">
         {% if block.settings.video_url != blank %}
           <div class="video-wrap">
             <video
