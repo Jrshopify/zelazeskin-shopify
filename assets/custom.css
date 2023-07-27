@@ -544,9 +544,9 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact { padding-top: 55px !important; padding-bottom: 50px !important; }
 .contact .title { font-size: 38px; line-height: 45px; margin-bottom: 45px;}
 .contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
-.contact-bg-wrap .info h4 { font-size: 18pt; margin-bottom: 26px; }
-.contact-bg-wrap .info p{ font-size: 12pt; line-height: 14pt; margin-bottom: 6px;}
-.contact-bg-wrap .field-group span { font-size: 10pt; margin-bottom: 0px; }
+.contact-bg-wrap .info h4 { font-size: 18px; margin-bottom: 26px; }
+.contact-bg-wrap .info p { font-size: 12px; line-height: 19px; margin-bottom: 6px; font-weight: 500; }
+.contact-bg-wrap .field-group span { font-size: 10px; margin-bottom: 0px; }
 .contact-bg-wrap .field-group .form-group { margin-bottom: 10px; }
 .contact-bg-wrap .contact__fields, .contact-bg-wrap .contact__button { margin-top: 30px; }
 .contact-bg-wrap .contact__button .btn { min-width: auto; padding: 6px 85px; min-height: 32px; font-size: 14px; line-height: 16px; text-transform: capitalize; }
@@ -582,6 +582,10 @@ h2 {font-size: 36px;line-height: 46px;}
 .image-text .container .row:nth-child(even) { flex-direction: column-reverse; padding: 34px 0; }
 .image-text .content-details h2 { font-size: 32px; line-height: 38px; margin-bottom: 22px; }
 .image-text .content-details p { font-size: 16px; line-height: 22px; font-weight: 500; color: #878787; }
+.wholesale-form .contact .title { font-size: 32px; line-height: 38px; margin-bottom: 32px; }
+.wholesale-form  .contact { padding-top: 41px!important; padding-bottom: 53px!important; }
+.wholesale-form .contact-bg-wrap .contact__fields { margin-top: 16px; }
+
 }
 
 @media screen and (max-width: 749px) {
