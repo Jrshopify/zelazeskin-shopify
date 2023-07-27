@@ -317,7 +317,7 @@ cart-remove-button .button {color: red;}
 .make-video .mobile-video img { position: absolute; left: 0; top: 0; }
 .product-testimonial { font-size: 26px; line-height: 31px; font-weight: 500; padding: 20px 42px 20px 28px; background: url(testimonial-bg.png) no-repeat; background-position: center; background-size: cover; max-width: 420px; }
 .product-testimonial span { display: block; font-size: 16px; line-height: 19px; margin-top: 3px; }
-
+.max-h-16 { max-height: 100px !important; }
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
@@ -629,10 +629,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-video-silder .owl-carousel {padding: 0 50px;}  
 .product-video-silder .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .product-video-silder .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
-.jdgm-carousel--focused-theme .jdgm-carousel-item__product-image {
-    height: 250px !important;
-    width: auto;
-}
+.jdgm-carousel--focused-theme .jdgm-carousel-item__product-image { height: 250px !important; width: auto; }
 
 }
 
