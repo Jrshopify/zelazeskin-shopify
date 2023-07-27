@@ -594,19 +594,24 @@ h2 {font-size: 36px;line-height: 46px;}
 .track123_form_label { font-size: 14px !important; line-height: 17px !important; margin-bottom: 2px !important; }
 .product-testimonial { font-size: 22px; line-height: 26px; padding: 17px 34px 17px 24px; margin-top: 30px !important;}
 .product-testimonial span { font-size: 13px; line-height: 16px; margin-top: 2px; }
-.shopify-app-block .jdgm-all-reviews-text a{text-align: center;}
+/* .shopify-app-block .jdgm-all-reviews-text a{text-align: center;}
 .jdgm-all-reviews-text--style-branded .jdgm-all-reviews-rating { width: 100%; }
-.jdgm-all-reviews-text--style-branded .jdgm-all-reviews-text__text { width: 100%; text-align: left; }
+.jdgm-all-reviews-text--style-branded .jdgm-all-reviews-text__text { width: 100%; text-align: left !important; } */
 .subify-product-price-wrapper .subify-original-price { display: none; }
 .subify-product-price-wrapper .subify-discount-percentage { display: none; }
 .subify-product-price-wrapper .subify-current-price { font-size: 16px !important; line-height: 19px; }
 .subify-product-price-wrapper { min-height: auto; }
 .product .product__info-container>*+* { margin: 10px 0 0 !important; }
-.subify-powered-text { display: none !important; visibility: hidden !important; opacity: 0 !important; }
+/* .subify-powered-text { display: none !important; visibility: hidden !important; opacity: 0 !important; } */
 .quantity { min-height: auto; width: 110px;}
 .product .quantity__button { background-size: 100% 100%; width: 33px !important; height: 32px !important; }
 .product .quantity__button svg { width: 15px; color: #fff; }
-
+.product__accordion .accordion__title { font-size: 18px; font-weight: 500; }
+.accordion.product__accordion summary { padding: 12px 0; }
+.product summary .icon-caret { background-size: 16px!important; width: 16px; height: 17px!important; top: 15px; }
+.product .return-policy { margin: 45px 0 0 !important; }
+.why-choose-people .head-sub h3 { font-size: 32px; line-height: 38px; margin-bottom: 12px; }
+.why-choose-people .head-sub h3+h3 { font-size: 14px; line-height: 20px; color: #8A8A8A; font-weight: 500; }
 }
 
 @media screen and (max-width: 749px) {
@@ -653,7 +658,7 @@ h2 {font-size: 24px;line-height: 34px;}
 .shopify-section.benefit .details .benefit .benefit-head h2  {text-align: center;}
 .small-logo ul li {width: 33.33%;}
 .choose-wrap .col-lg-3 {width: 100%;}
-.product .product__title h1, .why-choose-people .head-sub h3 {font-size: 24px;line-height: 34px;}
+.product .product__title h1 {font-size: 24px;line-height: 34px;}
 .product-media-modal__content img {max-width: 270px;}
 }
 
