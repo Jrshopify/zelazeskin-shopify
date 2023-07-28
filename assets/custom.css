@@ -533,7 +533,7 @@ h2 {font-size: 36px;line-height: 46px;}
 #insta-feed { margin-bottom: 0px!important; }
 #insta-feed .slider-arrow, .instafeed-shopify .slider-arrow { background: url(btn-bg.png) no-repeat; background-size: 100% 100%; background-position: center center; width: 44px !important; height: 44px !important; display: flex; align-items: center; justify-content: center; color: #fff !important; font-size: 26px !important; }
 .footer .footer__content-top { padding: 45px 28px 45px 45px; }
-.footer { padding-top: 0 !important; position: relative;}
+.footer { padding-top: 0 !important; position: relative; background: url(mobile-footer-bg.png) no-repeat; background-size: cover; background-position: center;}
 .footer .footer-block__heading { font-size: 24px; margin-bottom: 30px;}
 .footer .footer-block__details-content li { margin-bottom: 15px; }
 .footer .footer-block__details-content li a { font-size: 19px; }
@@ -629,7 +629,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-video-silder .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .product-video-silder .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .jdgm-carousel--focused-theme .jdgm-carousel-item__product-image { height: 250px !important; width: auto; }
-.footer { background: url(mobile-footer-bg.png) no-repeat; }
+
 }
 
 @media screen and (max-width: 749px) {
