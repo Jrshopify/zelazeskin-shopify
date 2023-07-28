@@ -184,6 +184,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .make-video .video-info h2 {max-width: 480px;}
 .make-video .video-info ul li {display: flex;margin-bottom: 20px;font-size: 14pt;}
 .make-video .video-info ul li span {font-weight: 700;display: inline-block;margin-right: 10px;}
+.make-video .video-info ul li span:after { content: ')'; display: none;}
 .make-video .video-info ul li:last-child{margin-bottom: 0;}
 .shop-now-button {position: fixed;right: 30px;bottom: 30px;max-width: 150px;max-height: 150px;overflow: hidden;border-radius: 100%;z-index: 9;}
 
@@ -629,7 +630,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-video-silder .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .product-video-silder .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .jdgm-carousel--focused-theme .jdgm-carousel-item__product-image { height: 250px !important; width: auto; }
-
+.make-video .video-info h2 { max-width: 100%; font-size: 32px; }
 }
 
 @media screen and (max-width: 749px) {
