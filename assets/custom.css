@@ -656,6 +656,11 @@ cart-items .title-wrapper-with-link a {font-size: 12px;}
 .track-order {padding-bottom: 50px;}
 .small-logo ul li { width: 77px; }
 .contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
+.shopify-section.comperision {    
+    background: url(product-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 }
 
 @media screen and (max-width: 480px) {
