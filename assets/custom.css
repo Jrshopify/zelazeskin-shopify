@@ -631,6 +631,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-video-silder .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .jdgm-carousel--focused-theme .jdgm-carousel-item__product-image { height: 250px !important; width: auto; }
 .make-video .video-info h2 { max-width: 100%; font-size: 32px; }
+.single-chosse figure { max-width: 104px; max-height: 104px; }
 }
 
 @media screen and (max-width: 749px) {
