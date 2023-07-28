@@ -562,10 +562,10 @@ h2 {font-size: 36px;line-height: 46px;}
 .faq_content ul li { font-size: 14px; line-height: 16px; margin-bottom: 14px; font-weight: 500; }
 .faq_content { margin: 0 0 36px; }
 .faq .accordion-titel { padding: 14px 0; }
-.faq .accordion-titel h4 { font-size: 12px; }
+.faq .accordion-titel h4 { font-size: 12pt; }
 .faq .accordion-titel h4:before { top: 50%; width: 9px; height: 10px; transform: translateY(-50%); }
 .faq .heading { padding: 40px 0 13px; }
-.faq .heading h2 { margin: 0; font-size: 16px; line-height: 19px; }
+.faq .heading h2 { margin: 0; font-size: 22px; line-height: 19px; }
 .faq .heading  h2 p { margin: 0; }
 
 .make-video .desktop-video { display: none; }
