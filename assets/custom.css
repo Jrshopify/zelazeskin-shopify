@@ -546,7 +546,6 @@ h2 {font-size: 36px;line-height: 46px;}
 
 .contact { padding-top: 55px !important; padding-bottom: 50px !important; }
 .contact .title { font-size: 38px; line-height: 45px; margin-bottom: 45px;}
-.contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
 .contact-bg-wrap .info h4 { font-size: 18px; margin-bottom: 26px; }
 .contact-bg-wrap .info p { font-size: 12px; line-height: 19px; margin-bottom: 6px; font-weight: 500; }
 .contact-bg-wrap .field-group span { font-size: 10pt; margin-bottom: 0px; }
@@ -654,7 +653,7 @@ cart-items .title-wrapper-with-link a {font-size: 12px;}
 /* .instagram-feed {padding: 50px 0;} */
 .track-order {padding-bottom: 50px;}
 .small-logo ul li { width: 77px; }
-
+.contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
 }
 
 @media screen and (max-width: 480px) {
