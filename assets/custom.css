@@ -549,7 +549,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
 .contact-bg-wrap .info h4 { font-size: 18px; margin-bottom: 26px; }
 .contact-bg-wrap .info p { font-size: 12px; line-height: 19px; margin-bottom: 6px; font-weight: 500; }
-.contact-bg-wrap .field-group span { font-size: 10px; margin-bottom: 0px; }
+.contact-bg-wrap .field-group span { font-size: 10pt; margin-bottom: 0px; }
 .contact-bg-wrap .field-group .form-group { margin-bottom: 10px; }
 .contact-bg-wrap .contact__fields, .contact-bg-wrap .contact__button { margin-top: 30px; }
 .contact-bg-wrap .contact__button .btn { min-width: auto; padding: 6px 85px; min-height: 32px; font-size: 14px; line-height: 16px; text-transform: capitalize; }
