@@ -118,7 +118,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .footer .newsletter-form {max-width: 100%;}
 .footer .newsletter-form__field-wrapper {max-width: 100%;margin-top: 20px;}
 .footer .newsletter-form__button {min-width: 190px;}
-.footer .field__input {height: 60px;border: none;padding-right: 20rem !important; border-radius: 60px;font-size: 14px;}
+.footer .field__input {height: 60px;border: none;padding-right: 20rem !important; border-radius: 60px;font-size: 16px;}
 .footer .field__input:focus {box-shadow: none;;}
 .footer .newsletter-form__field-wrapper .field::before, .newsletter-form__field-wrapper .field::after {display: none;}
 .footer .footer__content-bottom {background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center;text-align: center; border: none;padding: 40px 0;}
@@ -162,7 +162,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .contact-bg-wrap .info h4 {font-size: 18pt;color: #00AFDB;}
 /* .contact-bg-wrap .info p, .contact-bg-wrap .info a {font-size: 12pt;line-height: 20pt;} */
 .contact-bg-wrap .info p {font-size: 12pt;line-height: 20pt;}
-.contact-bg-wrap .field__input {border: 1px solid #8B8B8B;border-radius: 5px;padding: 10px;font-size: 14px;font-size: 12px;letter-spacing: 0;color: #000;}
+.contact-bg-wrap .field__input {border: 1px solid #8B8B8B;border-radius: 5px;padding: 10px;font-size: 16px;letter-spacing: 0;color: #000;}
 .contact-bg-wrap .btn::before, .contact-bg-wrap .btn::after {display: none;}
 .contact-bg-wrap .field-group span { display: flex; font-size: 10pt; font-weight: 500; color: #000; margin-bottom: 5px; align-items: center; flex-wrap: wrap;}
 .contact-bg-wrap .field-group span small { margin-right: 15px; color: #00afdb; }
