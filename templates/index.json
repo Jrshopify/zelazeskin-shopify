@@ -19,7 +19,7 @@
         "5409e44a-b31d-46e5-8f70-57ac8e4d2c6d": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/1.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/result-img1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
@@ -27,7 +27,7 @@
         "977db53f-0e3d-4e53-8432-2f2181f21d34": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/3.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/result-img2.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
@@ -35,15 +35,23 @@
         "48e1ba61-faf1-40ed-88de-d2605ff2b569": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/5.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/result-img3.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
         },
-        "e699cef2-78d6-4ac3-be2c-838469a99274": {
+        "8d3854b4-ed88-4270-82ae-d4679f0511d4": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/1.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/result-img4.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
+        },
+        "b0acb876-f231-471c-b6da-e877ff3c858e": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/result-img5_4844cac3-1a63-4ab3-9a67-c8cc3df0ef0b.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
@@ -53,7 +61,8 @@
         "5409e44a-b31d-46e5-8f70-57ac8e4d2c6d",
         "977db53f-0e3d-4e53-8432-2f2181f21d34",
         "48e1ba61-faf1-40ed-88de-d2605ff2b569",
-        "e699cef2-78d6-4ac3-be2c-838469a99274"
+        "8d3854b4-ed88-4270-82ae-d4679f0511d4",
+        "b0acb876-f231-471c-b6da-e877ff3c858e"
       ],
       "settings": {
         "heading": "<p>See Real Results<\/p>"
