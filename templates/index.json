@@ -39,12 +39,21 @@
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
+        },
+        "8d3854b4-ed88-4270-82ae-d4679f0511d4": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/result-img4.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
         }
       },
       "block_order": [
         "5409e44a-b31d-46e5-8f70-57ac8e4d2c6d",
         "977db53f-0e3d-4e53-8432-2f2181f21d34",
-        "48e1ba61-faf1-40ed-88de-d2605ff2b569"
+        "48e1ba61-faf1-40ed-88de-d2605ff2b569",
+        "8d3854b4-ed88-4270-82ae-d4679f0511d4"
       ],
       "settings": {
         "heading": "<p>See Real Results<\/p>"
