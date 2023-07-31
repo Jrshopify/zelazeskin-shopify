@@ -91,8 +91,9 @@
         "22623855-4a7a-447b-8d7a-ebbc9592f9b3": {
           "type": "feedback",
           "settings": {
-            "msg": "",
-            "client_name": ""
+            "after_before_image": "shopify:\/\/shop_images\/result-img10.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
           }
         }
       },
