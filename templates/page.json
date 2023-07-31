@@ -103,7 +103,15 @@
         "a46c63b2-f424-4858-8401-62bea3f05324": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/Group_90_1.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/result-img4.jpg",
+            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "client_name": "<p>— Rachel Evans<\/p>"
+          }
+        },
+        "5d50ca2b-d7a8-4596-8f64-1d80735e0901": {
+          "type": "feedback",
+          "settings": {
+            "after_before_image": "shopify:\/\/shop_images\/5.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
@@ -113,7 +121,8 @@
         "ffc253f4-cd77-4533-92b2-07928f9c8a19",
         "54458c40-c62d-419f-b75e-d7cdeeecde79",
         "a7aaeb04-4df9-447f-811a-2d4621f73b47",
-        "a46c63b2-f424-4858-8401-62bea3f05324"
+        "a46c63b2-f424-4858-8401-62bea3f05324",
+        "5d50ca2b-d7a8-4596-8f64-1d80735e0901"
       ],
       "settings": {
         "heading": ""
