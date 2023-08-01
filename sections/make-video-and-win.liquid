@@ -43,7 +43,7 @@
             {% endfor %}
           </ul>
         </div>
-        <div class="video-making-form contact page-width--narrow section-{{ section.id }}-padding">
+        {% comment %} <div class="video-making-form contact page-width--narrow section-{{ section.id }}-padding">
           <div class="contact-bg-wrap">
             {%- liquid
               assign contact_form_class = 'isolate'
@@ -340,7 +340,7 @@
               </div>
             {%- endform -%}
           </div>
-        </div>
+        </div> {% endcomment %}
       </div>
     </div>
   </div>
