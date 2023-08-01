@@ -28,12 +28,19 @@
           "settings": {
             "point": "<p>If your video gets above <strong>5000 views<\/strong>, we will send you a free product!<\/p>"
           }
+        },
+        "fb327af0-9680-442b-bfa9-8ea1abbb2e11": {
+          "type": "points",
+          "settings": {
+            "point": "<a href=\"https:\/\/zelazeskin.com\/pages\/terms-and-conditions\" target=\"blank\">Trems and Condition<\/a>"
+          }
         }
       },
       "block_order": [
         "74215e14-ca2e-4286-886b-efd2c024b75d",
         "6c8ff4a5-287b-42e2-b053-7e968f9e1dc2",
-        "383d58b4-b1ff-4754-a277-1dbcdd8e7fc0"
+        "383d58b4-b1ff-4754-a277-1dbcdd8e7fc0",
+        "fb327af0-9680-442b-bfa9-8ea1abbb2e11"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Asset_1_779cbc02-5ddf-428a-891a-5f91750c28a1.png",
