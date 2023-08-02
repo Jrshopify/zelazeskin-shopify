@@ -124,12 +124,12 @@
     },
     "pf-5c1b4a2c": {
       "type": "pf-5c1b4a2c",
-      "disabled": true,
       "settings": {
       }
     },
     "c3f67870-fa1f-4bba-845a-d49e5c734ae5": {
       "type": "why-choose-zelaze",
+      "disabled": true,
       "blocks": {
         "0fbbc4cd-f3e2-49cc-aafa-86f9acd40cc2": {
           "type": "why_choose",
