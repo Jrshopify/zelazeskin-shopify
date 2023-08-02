@@ -181,8 +181,8 @@ h2 {font-size: 48px;line-height: 58px;}
 .make-video .video-info {padding: 70px;height: 100%;}
 .make-video .video-making-form {max-width: 100%;;}
 .make-video .video-making-form .contact-bg-wrap {margin-left: 0;margin-top: 50px;}
-.make-video .video-info h2 {max-width: 480px;}
-.make-video .video-info ul li {display: flex;margin-bottom: 20px;font-size: 14pt;}
+.make-video .video-info h2 { max-width: 480px; margin-bottom: 40px; }
+.make-video .video-info ul li { display: flex; margin-bottom: 26px; font-size: 16pt; }
 .make-video .video-info ul li span {font-weight: 700;display: inline-block;margin-right: 10px;}
 .make-video .video-info ul li span:after { content: ')'; display: none;}
 .make-video .video-info ul li:last-child{margin-bottom: 0;}
