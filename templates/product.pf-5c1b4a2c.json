@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "ca5734a4-b19b-44b1-a81e-e97572b168d1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "“I cleared my skin in just 4 weeks. My skin is glowing!”\n<br>\n-Rachel Evans"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -77,6 +83,7 @@
         }
       },
       "block_order": [
+        "ca5734a4-b19b-44b1-a81e-e97572b168d1",
         "title",
         "price",
         "description",
