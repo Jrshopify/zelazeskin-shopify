@@ -319,6 +319,10 @@ cart-remove-button .button {color: red;}
 .product-testimonial { font-size: 26px; line-height: 31px; font-weight: 500; padding: 20px 42px 20px 28px; background: url(testimonial-bg.png) no-repeat; background-position: center; background-size: cover; max-width: 420px; }
 .product-testimonial span { display: block; font-size: 16px; line-height: 19px; margin-top: 3px; }
 .max-h-16 { max-height: 100px !important; }
+.quantity:after{display: none;}
+
+
+
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
@@ -619,18 +623,19 @@ h2 {font-size: 36px;line-height: 46px;}
 .shopify-section.benefit .details .benefit .benefit-image { width: 45px; height: 45px; min-width: 45px; margin: 0 10px 0px 0; }
 .shopify-section.benefit { padding: 30px 0 20px; margin-top: 50px; }
 .single-chosse figcaption h4 { min-height: 38px; font-size: 16px; line-height: 19px; margin-bottom: 12px; }
-.single-chosse figcaption p { font-size: 11px; line-height: 13px; color: #8A8A8A; }
+.single-chosse figcaption p { font-size: 11px; line-height: 1.2; color: #8A8A8A; }
 .choose-wrap .col-lg-3 { width: 50%; margin-bottom: 15px; }
 .shopify-section.comperision { padding: 32px 0 50px; margin-bottom: 40px; }
 .shopify-section.comperision .row { flex-direction: column-reverse; }
 .shopify-section.comperision .com-img { margin: 36px auto 0; }
-.shopify-section.comperision .comperision-heading h2 { font-size: 26px; line-height: 31px; margin-bottom: 35px; } 
+.shopify-section.comperision .comperision-heading h2 { font-size: 26px; line-height: 31px; margin-bottom: 35px; padding: 0px 50px;} 
 .product-video-silder .owl-carousel {padding: 0 50px;}  
 .product-video-silder .owl-carousel .owl-nav button.owl-prev { position: absolute; left: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .product-video-silder .owl-carousel .owl-nav button.owl-next{position: absolute; right: 0; top: 50%;transform: translateY(-50%); margin: 0 !important;}
 .jdgm-carousel--focused-theme .jdgm-carousel-item__product-image { height: 250px !important; width: auto; }
 .make-video .video-info h2 { max-width: 100%; font-size: 32px; }
 .single-chosse figure { max-width: 104px; max-height: 104px; }
+.zelaze-component h2 { margin-bottom: 30px; font-size: 32px; line-height: 1.2; }
 }
 
 @media screen and (max-width: 749px) {
