@@ -111,7 +111,7 @@
           "settings": {
             "heading": "Shipping info",
             "icon": "none",
-            "content": "<p>All orders are shipped from our Los Angeles warehouse using USPS with an average delivery time of 3-5 business days (M-F) for orders. <br\/><br\/>All Zelaze orders are fully trackable with tracking and shipment information provided via email. If you have any questions, please do not hesitate to reach out to a member of our Customer Success team at <a href=\"mailto:hello@zelazeskin.com\"><strong>hello@zelazeskin.com<\/strong><\/a><strong>   <\/strong><\/p>",
+            "content": "<p>All orders are shipped from our Los Angeles warehouse using USPS with an average delivery time of <strong>3-5 business days (M-F) for orders. <\/strong><br\/><br\/>All Zelaze orders are fully trackable with tracking and shipment information provided via email. If you have any questions, please do not hesitate to reach out to a member of our Customer Success team at <a href=\"mailto:hello@zelazeskin.com\"><strong>hello@zelazeskin.com<\/strong><\/a><strong>   <\/strong><\/p>",
             "page": ""
           }
         }
