@@ -60,7 +60,7 @@
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/result-img6.jpg",
-            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "msg": "<p>“My skin is glowing and dewy! This moisturizer is my go to”<\/p><p><\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
         },
@@ -68,7 +68,7 @@
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/result-img7.jpg",
-            "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
+            "msg": "<p>“My skin is glowing and dewy! This moisturizer is my go to”<\/p><p><\/p>",
             "client_name": "<p>— Rachel Evans<\/p>"
           }
         },
