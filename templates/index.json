@@ -36,7 +36,7 @@
           "type": "feedback",
           "settings": {
             "after_before_image": "shopify:\/\/shop_images\/result-img3.jpg",
-            "msg": "<p>“My dark spots are gone!”<\/p>",
+            "msg": "<p>“My dark spots are gone!”<\/p><p><\/p>",
             "client_name": "<p>— Kiara L<\/p>"
           }
         },
