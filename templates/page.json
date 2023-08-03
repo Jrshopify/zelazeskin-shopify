@@ -13,7 +13,7 @@
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/rs1.jpg",
         "head": "<p>Real. Natural. Results.<\/p>",
-        "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
+        "desc": "",
         "btn_lebel": "Shop Now",
         "btn_url": "#"
       }
