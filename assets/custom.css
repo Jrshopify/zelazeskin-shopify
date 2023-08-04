@@ -320,8 +320,8 @@ cart-remove-button .button {color: red;}
 .product-testimonial span { display: block; font-size: 16px; line-height: 19px; margin-top: 3px; }
 .max-h-16 { max-height: 100px !important; }
 .quantity:after{display: none;}
-
-
+.pwzrswiper-btn-prev, .pwzrswiper-btn-next { width: 40px !important; height: 40px !important; }
+.pwzrswiper-btn-prev svg, .pwzrswiper-btn-next svg { width: 20px; }
 
 /*---Responsive---*/
 
