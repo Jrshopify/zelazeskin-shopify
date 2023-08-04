@@ -190,10 +190,18 @@
         "settings": {
         }
       },
-      "6248343940173316906": {
-        "type": "shopify:\/\/apps\/seoant-sticky-add-to-cart\/blocks\/sticky-cart\/bba5bb0a-ae9e-4ec9-8cd1-5e9d3f32ebbe",
+      "10191866119664032810": {
+        "type": "shopify:\/\/apps\/1-click-sticky-add-to-cart-bar\/blocks\/zoorix-head\/16cf6adc-8b22-4e73-be2b-b93c1acde1da",
         "disabled": false,
         "settings": {
+          "home_product": "",
+          "show_on_out_of_stock": true,
+          "blacklisted_products": [
+
+          ],
+          "blacklisted_collections": [
+
+          ]
         }
       }
     },
