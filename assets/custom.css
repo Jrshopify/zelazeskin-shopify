@@ -637,59 +637,60 @@ h2 {font-size: 36px;line-height: 46px;}
 .single-chosse figure { max-width: 104px; max-height: 104px; }
 .zelaze-component h2 { margin-bottom: 30px; font-size: 32px; line-height: 1.2; }
 .product .product-form__submit { font-size: 14pt!important; /*padding: 10px 20px; min-height: auto; min-width: 282px; width: auto;*/ }
+
 }
 
 @media screen and (max-width: 749px) {
-h1 {font-size: 30px;line-height: 40px;}
-.dual-approach .dual-app ul li:last-child {margin-bottom: 0;}
-.footer .footer__blocks-wrapper .footer-block.grid__item:nth-child(2) {padding-left: 0;}
-.footer .footer-block--newsletter .footer-block__heading, .footer .footer-block--newsletter .footer-block__subheading, .footer .footer-block__heading, .footer .social-media h4 {text-align: left;}
-.footer .footer-block--newsletter .footer-block__newsletter {max-width: 100%;width: 100%;}
-.footer__list-social.list-social, .footer__follow-on-shop, .footer-block__newsletter {justify-content: left;}
-.footer .social-media ul li {margin-left: 0;margin-right: 15px;}
-/* .result-banner .banner-details h1 {font-size: 30px;line-height: 40px;} */
-.main-page-title {font-size: 30px;}
-/* .contact .title {font-size: 30px;line-height: 40px;} */
-.product-form__buttons {max-width: 100%;}
-.product .return-policy ul li {text-align: center;}
-/* .shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;} */
-.shopify-section.comperision .col-lg-8 .details::before {right: -3px;bottom: -3px;}
-.customer h1, .template-search__header h1 {font-size: 30px;line-height: 40px;}
-cart-items .title-wrapper-with-link a {font-size: 12px;}
-.instagram-feed .jdgm-rev-widg__title {font-size: 24px;margin-bottom: 30px !important;}
-/* .instagram-feed {padding: 50px 0;} */
-.track-order {padding-bottom: 50px;}
-.small-logo ul li { width: 77px; }
-.contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
-.shopify-section.comperision { background: url(product-bg.png) no-repeat; background-size: cover; background-position: center center; }
+    h1 {font-size: 30px;line-height: 40px;}
+    .dual-approach .dual-app ul li:last-child {margin-bottom: 0;}
+    .footer .footer__blocks-wrapper .footer-block.grid__item:nth-child(2) {padding-left: 0;}
+    .footer .footer-block--newsletter .footer-block__heading, .footer .footer-block--newsletter .footer-block__subheading, .footer .footer-block__heading, .footer .social-media h4 {text-align: left;}
+    .footer .footer-block--newsletter .footer-block__newsletter {max-width: 100%;width: 100%;}
+    .footer__list-social.list-social, .footer__follow-on-shop, .footer-block__newsletter {justify-content: left;}
+    .footer .social-media ul li {margin-left: 0;margin-right: 15px;}
+    /* .result-banner .banner-details h1 {font-size: 30px;line-height: 40px;} */
+    .main-page-title {font-size: 30px;}
+    /* .contact .title {font-size: 30px;line-height: 40px;} */
+    .product-form__buttons {max-width: 100%;}
+    .product .return-policy ul li {text-align: center;}
+    /* .shopify-section.benefit .details .benefit .benefit-head h2 {font-size: 16px;line-height: 20px;} */
+    .shopify-section.comperision .col-lg-8 .details::before {right: -3px;bottom: -3px;}
+    .customer h1, .template-search__header h1 {font-size: 30px;line-height: 40px;}
+    cart-items .title-wrapper-with-link a {font-size: 12px;}
+    .instagram-feed .jdgm-rev-widg__title {font-size: 24px;margin-bottom: 30px !important;}
+    /* .instagram-feed {padding: 50px 0;} */
+    .track-order {padding-bottom: 50px;}
+    .small-logo ul li { width: 77px; }
+    .contact-bg-wrap { max-width: 368px; width: 100%; padding: 24px 20px 30px; }
+    .shopify-section.comperision { background: url(product-bg.png) no-repeat; background-size: cover; background-position: center center; }
 }
 
 @media screen and (max-width: 480px) {
-h2 {font-size: 24px;line-height: 34px;}
-/* .product-select .details-list ul li {display: block;text-align: center;padding: 0 5px;} */
-.video-slider .video-wrap .video, .video-slider .video-wrap {height: 350px;}
-/* .footer .footer__content-top {padding-left: 15px;padding-right: 15px;} */
-.footer .newsletter-form__button {min-width: 130px; /*padding-left: 15px;padding-right: 15px;*/}
-.footer .field__input {padding-right: 14rem !important;}
-/* .product-select .details-list ul li h4 {min-width: auto;text-align: center; max-width: 150px;margin: 15px auto 0; font-size: 14px;} */
-.product-select .details-list ul li img { margin-right: 0;}
-.dual-approach .dual-app ul li h6, .custom-image-text .image-with-text__text p {font-size: 14px;}
-/* .banner-text .client .client-info h4 {font-size: 14px;line-height: 20px;}
-.banner-text .client .client-info h6 {font-size: 12px;} */
-/* .custom-image-text .image-with-text__heading {font-size: 24px;} */
-.image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
-/* .faq .accordion-titel h4 {font-size: 14px;} */
-.why-choose-people .col { width: 100%;}
-/* .shopify-section.benefit .details .benefit {display: block;text-align: center;} */
-/* .shopify-section.benefit .details .benefit .benefit-image {margin-left: auto;margin-right: auto;margin-bottom: 15px;} */
-.shopify-section.benefit .details .benefit .benefit-head {max-width: 100%;}
-/* .shopify-section.benefit .details .benefit .benefit-head h2  {text-align: center;} */
-/* .small-logo ul li {width: 33.33%;} */
-/* .choose-wrap .col-lg-3 {width: 100%;} */
-.product .product__title h1 {font-size: 24px;line-height: 34px;}
-.product-media-modal__content img {max-width: 270px;}
-.banner-text .mobile-banner .right .left { width: 190px; top: 30px; }
-.banner-text .mobile-banner .right .left h1 { color: #fff; margin-bottom: 15px; }
+    h2 {font-size: 24px;line-height: 34px;}
+    /* .product-select .details-list ul li {display: block;text-align: center;padding: 0 5px;} */
+    .video-slider .video-wrap .video, .video-slider .video-wrap {height: 350px;}
+    /* .footer .footer__content-top {padding-left: 15px;padding-right: 15px;} */
+    .footer .newsletter-form__button {min-width: 130px; /*padding-left: 15px;padding-right: 15px;*/}
+    .footer .field__input {padding-right: 14rem !important;}
+    /* .product-select .details-list ul li h4 {min-width: auto;text-align: center; max-width: 150px;margin: 15px auto 0; font-size: 14px;} */
+    .product-select .details-list ul li img { margin-right: 0;}
+    .dual-approach .dual-app ul li h6, .custom-image-text .image-with-text__text p {font-size: 14px;}
+    /* .banner-text .client .client-info h4 {font-size: 14px;line-height: 20px;}
+    .banner-text .client .client-info h6 {font-size: 12px;} */
+    /* .custom-image-text .image-with-text__heading {font-size: 24px;} */
+    .image-text .content_img {border-top-left-radius: 30px;border-bottom-right-radius: 30px;}
+    /* .faq .accordion-titel h4 {font-size: 14px;} */
+    .why-choose-people .col { width: 100%;}
+    /* .shopify-section.benefit .details .benefit {display: block;text-align: center;} */
+    /* .shopify-section.benefit .details .benefit .benefit-image {margin-left: auto;margin-right: auto;margin-bottom: 15px;} */
+    .shopify-section.benefit .details .benefit .benefit-head {max-width: 100%;}
+    /* .shopify-section.benefit .details .benefit .benefit-head h2  {text-align: center;} */
+    /* .small-logo ul li {width: 33.33%;} */
+    /* .choose-wrap .col-lg-3 {width: 100%;} */
+    .product .product__title h1 {font-size: 24px;line-height: 34px;}
+    .product-media-modal__content img {max-width: 270px;}
+    .banner-text .mobile-banner .right .left { width: 190px; top: 30px; }
+    .banner-text .mobile-banner .right .left h1 { color: #fff; margin-bottom: 15px; }
 }
 
 @media screen and (max-width: 399px){
