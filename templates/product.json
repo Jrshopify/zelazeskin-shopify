@@ -148,6 +148,7 @@
     },
     "03fc36a9-5c06-495a-95cc-bbdc0c212322": {
       "type": "why-choose-zelaze",
+      "disabled": true,
       "blocks": {
         "a7aed20f-c257-44a9-bb49-447c20ff5a81": {
           "type": "why_choose",
