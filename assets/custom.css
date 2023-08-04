@@ -636,7 +636,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .make-video .video-info h2 { max-width: 100%; font-size: 32px; }
 .single-chosse figure { max-width: 104px; max-height: 104px; }
 .zelaze-component h2 { margin-bottom: 30px; font-size: 32px; line-height: 1.2; }
-.product .product-form__submit { font-size: 14pt!important; padding: 10px 20px; min-height: auto; min-width: 282px; width: auto; }
+.product .product-form__submit { font-size: 14pt!important; /*padding: 10px 20px; min-height: auto; min-width: 282px; width: auto;*/ }
 }
 
 @media screen and (max-width: 749px) {
