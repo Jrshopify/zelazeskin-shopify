@@ -13,7 +13,7 @@
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/abt1.jpg",
         "head": "<p>Our Story<\/p>",
-        "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>",
+        "desc": "<p>We are a husband and wife that developed acne and hyperpigmentation during the Covid-19 pandemic due to prolonged mask wearing.<\/p><p>We tried products that were natural, clean, and dermatologist formulated and found that each category of skincare had its own benefits.<\/p><p>That's when we decided to bring together a multi-disciplinary to skincare to create products with natural root extracts and scientific active ingredients.<\/p><p><\/p>",
         "btn_lebel": "",
         "btn_url": ""
       }
@@ -26,8 +26,8 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_1.png",
             "vertical_alignment": "left",
-            "head": "<p>Subtitle<\/p>",
-            "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
+            "head": "<p>[ZEH-LAH-Zeh] Abbreviation<\/p>",
+            "sub_head": "<p>Zelaze is an abbreviation for the ancient phrase, ZE LEUMAT ZE, which connotes duality or the bringing together of different worlds.<\/p><p>Our formulations bring together plant-based natural ingredients and innovative scientific actives to formulate natural skincare products that actually work<\/p>"
           }
         },
         "f4f66aad-fd30-4c49-ac35-0ca7d1239e17": {
@@ -35,8 +35,8 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_2.png",
             "vertical_alignment": "right",
-            "head": "<p>Subtitle<\/p>",
-            "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
+            "head": "<p>Dermatologist Formulated For:<\/p>",
+            "sub_head": "<p>All skin types + sensitive and acne prone akin<\/p>"
           }
         },
         "fc4b4c5e-a279-4ae9-ba88-266cb0c65adf": {
@@ -44,8 +44,8 @@
           "settings": {
             "cont_image": "shopify:\/\/shop_images\/Asset_3.png",
             "vertical_alignment": "left",
-            "head": "<p>Subtitle<\/p>",
-            "sub_head": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum tellus elit, et dapibus nisl accumsan ac.<\/p>"
+            "head": "<p>Formulated Without:<\/p>",
+            "sub_head": "<p>Fragrance, Drying Alcohols, Silicones, and Dyes<\/p>"
           }
         }
       },
