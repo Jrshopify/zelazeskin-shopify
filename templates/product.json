@@ -75,7 +75,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>Our moisturizer brings together natural ingredients such turmeric root, ginseng root, aloe vera, green tea and scientific actives such as vitamin c and niacinamide to fade hyperpigmentation, clear blemishes, clear acne scarring. Leaving your skin utterly radiant<\/p>",
+            "content": "<p>Our moisturizer brings together natural ingredients such turmeric root, ginseng root, aloe vera, green tea and scientific actives such as vitamin c and niacinamide to:<\/p><ul><li>Fade hyperpigmentation<\/li><li>Brighten Skin<\/li><li>Minimize Pores<\/li><li>Clear blemishes<\/li><li>Clear acne scarring. <\/li><\/ul><p>Leaving your skin utterly radiant!<\/p>",
             "page": ""
           }
         },
@@ -148,7 +148,6 @@
     },
     "03fc36a9-5c06-495a-95cc-bbdc0c212322": {
       "type": "why-choose-zelaze",
-      "disabled": true,
       "blocks": {
         "a7aed20f-c257-44a9-bb49-447c20ff5a81": {
           "type": "why_choose",
@@ -209,6 +208,7 @@
         "9a36225d-532c-4fbc-8aec-fe173f2594df",
         "4dfffc12-fdbb-45d6-b503-86ae4e6eead6"
       ],
+      "disabled": true,
       "settings": {
         "head": "<p>Why are people choosing Zelaze?<\/p>",
         "description": "<p>Our products are formulated for all skin types. No nasties. Cruelty-free. Just what your skin needs.<\/p>"
