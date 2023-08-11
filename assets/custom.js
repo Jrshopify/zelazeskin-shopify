@@ -22,6 +22,7 @@ jQuery(document).on('click', '.playbtn', function () {
 
 jQuery(document).on('click', '.close', function () {
   let play_btn_id = jQuery(this).data("play_btn_id");
+  jQuery(`#${play_btn_id}`).trigger("pause");
   jQuery(this).trigger("pause");
   // jQuery(this).trigger("")
   jQuery(`#${play_btn_id}`).show();
