@@ -16,7 +16,7 @@ jQuery(document).on('click', '.playbtn', function () {
   let vid_id = jQuery(this).data("vidid");
   jQuery('.playbtn').show();
   jQuery(`#${vid_id}`).trigger("play");
-  jQuery(`.close`).not(`#${vid_id}`).trigger("pause");
+  jQuery(`.video`).not(`#${vid_id}`).trigger("pause");
   jQuery(this).hide();
 });
 
