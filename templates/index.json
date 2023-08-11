@@ -177,7 +177,6 @@
     },
     "12438a53-602c-49c3-971a-d521ee373b16": {
       "type": "video-slider",
-      "disabled": true,
       "blocks": {
         "cb161d4c-346b-43ad-9e59-82c32ac80575": {
           "type": "video",
