@@ -36,7 +36,7 @@
 {% assign count = 1 %}
   {% for block in section.blocks %}
     {% if block.settings.video_url != blank %}
-      <div class="modal fade video-modal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal fade video-modal" id="videoModal{{ count }}" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
