@@ -12,18 +12,36 @@ jQuery(document).ready(function(){
   }); 
 });
 
+// jQuery(document).on('click', '.playbtn', function () {
+//   let vid_id = jQuery(this).data("vidid");
+//   jQuery('.playbtn').show();
+//   jQuery(`#${vid_id}`).trigger("play");
+//   jQuery(`.close`).not(`#${vid_id}`).trigger("pause");
+//   jQuery(this).hide();
+// });
+
+// jQuery(document).on('click', '.close', function () {
+//   // let vid_id = jQuery(this).closest('.modal-content').find('playpause').attr('id').replace('playpause', '');
+//   let play_btn_id = jQuery(this).data("play_btn_id");
+//   jQuery(this).trigger("pause");
+//   jQuery(`#${play_btn_id}`).trigger("pause");
+//   // jQuery(this).trigger("")
+//   jQuery(`#${play_btn_id}`).show();
+// });
+
 jQuery(document).on('click', '.playbtn', function () {
   let vid_id = jQuery(this).data("vidid");
   jQuery('.playbtn').show();
-  jQuery(`#${vid_id}`).trigger("play");
-  jQuery(`.video`).not(`#${vid_id}`).trigger("pause");
+  jQuery(`#video${vid_id}`).trigger("play");
+  jQuery(`.close`).not(`[data-vidid="${vid_id}"]`).trigger("pause");
   jQuery(this).hide();
 });
 
-jQuery(document).on('click', '.video', function () {
-  let play_btn_id = jQuery(this).data("play_btn_id");
+jQuery(document).on('click', '.close', function () {
+  let vid_id = jQuery(this).closest('.modal-content').find('video').attr('id').replace('video', '');
   jQuery(this).trigger("pause");
-  jQuery(`#${play_btn_id}`).show();
+  jQuery(`#video${vid_id}`).trigger("pause");
+  jQuery(`[data-vidid="${vid_id}"]`).show();
 });
 
 jQuery('#clientfeedback').owlCarousel({
