@@ -322,6 +322,9 @@ cart-remove-button .button {color: red;}
 .quantity:after{display: none;}
 .pwzrswiper-btn-prev, .pwzrswiper-btn-next { width: 40px !important; height: 40px !important; }
 .pwzrswiper-btn-prev svg, .pwzrswiper-btn-next svg { width: 20px; }
+.video-modal video { width: 100%; height: 500px; }
+.modal-backdrop.show { opacity: var(--bs-backdrop-opacity); display: block; }
+.video-modal .btn-close { position: absolute; right: 10px; top: 10px; border: 2px solid #f00; opacity: 1; width: 12px; height: 12px; background-size: 12px; cursor: pointer; z-index: 2;}
 
 /*---Responsive---*/
 
