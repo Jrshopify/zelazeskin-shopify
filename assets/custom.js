@@ -7,9 +7,9 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function(){
-jQuery('.clickable').click(function() {
-  jQuery(this).toggleClass("active");
-}); 
+  jQuery('.clickable').click(function() {
+    jQuery(this).toggleClass("active");
+  }); 
 });
 
 jQuery(document).on('click', '.playbtn', function () {
@@ -130,8 +130,3 @@ let play_btn_id = jQuery(this).data("play_btn_id");
 jQuery(this).trigger("pause");
 jQuery(`#${play_btn_id}`).show();
 });*/
-
-lightbox.option({
-  'resizeDuration': 200,
-  'wrapAround': true
-})
