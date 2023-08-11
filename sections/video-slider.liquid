@@ -30,7 +30,7 @@
                 <source src="{{ block.settings.video_url }}" type="video/mp4">
               </video>
             </div> {% endcomment %}
-            <div class="modal fade" id="videoModal{{ count }}" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            {% comment %} <div class="modal fade" id="videoModal{{ count }}" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -41,14 +41,14 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> {% endcomment %}
           {% endif %}
         </div>
         {% assign count = count | plus: 1 %}
       {% endfor %}
   </div>
 
-  {% comment %} {% assign count = 1 %}
+  {% assign count = 1 %}
   {% for block in section.blocks %}
     {% if block.settings.video_url != blank %}
       <div class="modal fade" id="videoModal{{ count }}" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
@@ -65,7 +65,7 @@
       </div>
     {% endif %}
     {% assign count = count | plus: 1 %}
-  {% endfor %} {% endcomment %}
+  {% endfor %}
 </div>
 {% schema %}
   {
