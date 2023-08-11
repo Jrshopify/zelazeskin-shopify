@@ -130,3 +130,8 @@ let play_btn_id = jQuery(this).data("play_btn_id");
 jQuery(this).trigger("pause");
 jQuery(`#${play_btn_id}`).show();
 });*/
+
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+})
