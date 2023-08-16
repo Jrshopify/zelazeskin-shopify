@@ -44,7 +44,7 @@
         "payment_enable": false,
         "show_policy": false,
         "shop_img": "shopify:\/\/shop_images\/Group_44.png",
-        "shop_img_url": "shopify:\/\/products\/zelaze-brightening-moisturizer",
+        "shop_img_url": "shopify:\/\/products\/zelaze-turmeric-ginseng-brightening-moisturizer",
         "footer_content": "shopify:\/\/shop_images\/Logo_1_1.png",
         "margin_top": 0,
         "padding_top": 0,
@@ -53,7 +53,6 @@
     },
     "1e0ab687-2ee2-4a42-83ba-ced61abe2383": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "sections--16170882105520__1e0ab687-2ee2-4a42-83ba-ced61abe2383-1686898824e8b6d5f0-0": {
           "type": "heading",
@@ -79,6 +78,7 @@
         "sections--16170882105520__1e0ab687-2ee2-4a42-83ba-ced61abe2383-1686898824e8b6d5f0-1",
         "sections--16170882105520__1e0ab687-2ee2-4a42-83ba-ced61abe2383-1686898824e8b6d5f0-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "full_width": true,
