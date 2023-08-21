@@ -350,6 +350,8 @@ video::-webkit-media-controls-play-button {
      top: 0;
      bottom: 0;
      margin: auto;
+     width: 15px;
+     height: 15px;
   }
 /* audio::-webkit-media-controls,
 video::-webkit-media-controls {
