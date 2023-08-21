@@ -12,6 +12,7 @@
       "type": "banner",
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/rs1.jpg",
+        "show_title": false,
         "head": "<p>Real. Natural. Results.<\/p>",
         "desc": "",
         "btn_lebel": "Shop Now",
@@ -20,7 +21,6 @@
     },
     "22266a99-7375-451e-8b94-121c1a942d39": {
       "type": "testimonial",
-      "disabled": true,
       "blocks": {
         "df1604f6-c7ed-493a-84f5-6a6d0e1b98db": {
           "type": "Testimonial",
@@ -70,6 +70,7 @@
         "b9f9e549-d77f-4a89-a4b7-5baffa2571aa",
         "b74ef561-f86b-453f-90bc-98e96bbd6265"
       ],
+      "disabled": true,
       "settings": {
       }
     },
