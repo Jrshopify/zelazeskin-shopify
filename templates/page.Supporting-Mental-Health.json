@@ -2,13 +2,76 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "03c1d121-dd91-4f33-8ced-342880909fdf": {
+      "type": "banner",
+      "settings": {
+        "banner_img": "shopify:\/\/shop_images\/Z_52_73696602-f16c-4723-a9c2-d93f5eb55143.jpg",
+        "show_title": true,
+        "head": "<p><strong>Zelaze's Commitment to Supporting Mental and Emotional Health<\/strong><\/p>",
+        "desc": "<p>At Zelaze, we believe in the power of compassion, empathy, and collective efforts to create a positive impact on the world. Our dedication to supporting mental and emotional health is at the core of our mission. With every purchase you make, Zelaze takes a meaningful step towards improving the well-being of individuals in need.<\/p>",
+        "btn_lebel": "",
+        "btn_url": ""
+      }
+    },
+    "e541b807-f209-4ab6-9c80-9f05d89d8485": {
+      "type": "our-mission-vission",
+      "settings": {
+        "mission_head": "<p><strong>Our Vision<\/strong><\/p>",
+        "mission_desc": "<p>Mental and emotional health are vital aspects of overall well-being, yet they often go unnoticed or undervalued. Zelaze envisions a world where everyone has access to the support and resources they need to nurture their mental and emotional well-being. Through our unique initiative, we are striving to turn this vision into reality, one purchase at a time.<\/p>",
+        "vission_head": "<p><strong>How It Works<\/strong><\/p>",
+        "vission_desc": "<p>When you choose to shop at Zelaze, you are not just buying a product – you are becoming a part of a movement that aims to make a difference. For every purchase you make, a portion of the proceeds is dedicated to supporting the mental and emotional health of a person in need. This contribution goes towards providing resources, counseling, and interventions that can positively impact someone's life journey.<\/p>"
+      }
+    },
+    "1749c519-4922-4b01-a82f-345d0322c84d": {
+      "type": "image-text",
+      "blocks": {
+        "d0e1d204-8001-43fd-bf5d-c478208e2093": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_47.jpg",
+            "vertical_alignment": "left",
+            "head": "<p><strong>Collaboration with Mental Health Organizations<\/strong><\/p>",
+            "sub_head": "<p>To ensure the utmost effectiveness of our initiative, we collaborate with reputable mental health organizations and experts. These partnerships enable us to channel our support towards the most impactful programs and initiatives that directly address the challenges faced by individuals dealing with mental and emotional health issues.<\/p>"
+          }
+        },
+        "8be3db5b-071f-45e5-ace7-0ccdf3b33b3c": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_54.jpg",
+            "vertical_alignment": "right",
+            "head": "<p><strong>Join the Movement<\/strong><\/p>",
+            "sub_head": "<p>When you choose Zelaze, you're not only choosing high-quality products but also actively participating in a movement that supports mental and emotional well-being. Together, we can make a significant impact on the lives of those who need it the most. By spreading awareness and advocating for mental health, we contribute to breaking down stigma and creating a more compassionate world.<\/p>"
+          }
+        },
+        "431402fa-f8e6-4bde-9e59-eebc5720330f": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_20.jpg",
+            "vertical_alignment": "left",
+            "head": "<p><strong>Spread the Word<\/strong><\/p>",
+            "sub_head": "<p>We encourage you to share your Zelaze experience with your friends, family, and social networks. Every share, like, and comment helps us raise awareness and reach more individuals who can benefit from our initiative. Join us in creating a ripple effect of positive change in the realm of mental and emotional health.<\/p><p>At Zelaze, every purchase is a step towards a brighter, healthier future. Shop with purpose and help us make a lasting impact on mental and emotional well-being. Together, we can build a world where everyone feels supported, understood, and empowered to thrive.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d0e1d204-8001-43fd-bf5d-c478208e2093",
+        "8be3db5b-071f-45e5-ace7-0ccdf3b33b3c",
+        "431402fa-f8e6-4bde-9e59-eebc5720330f"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "03c1d121-dd91-4f33-8ced-342880909fdf",
+    "e541b807-f209-4ab6-9c80-9f05d89d8485",
+    "1749c519-4922-4b01-a82f-345d0322c84d"
   ]
 }
