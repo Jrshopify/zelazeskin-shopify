@@ -341,17 +341,12 @@ video::-webkit-media-controls-play-button { position: absolute; left: 0; right: 
 .bar { background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center; text-align: center; border: none; padding: 50px 0; }
 .bar h2 { margin: 0; font-size: 32px; color: #fff; text-shadow: 0 3px 5px #5a5a5a; }
 .bar P{margin: 0;}
-.formulation-philosophy .image-text .content-details h2, .supporting-mental-health .image-text .content-details h2 { font-size: 32px; line-height: 1.18; }
-.formulation-philosophy .image-text .content-details p, .supporting-mental-health .image-text .content-details p { font-size: 16px; font-weight: 500; color: #878787; line-height: 1.18; }
+.formulation-philosophy .image-text .content-details h2, .supporting-mental-health .image-text .content-details h2 { font-size: 32px; line-height: 1.6; }
+.formulation-philosophy .image-text .content-details p, .supporting-mental-health .image-text .content-details p { font-size: 16px; font-weight: 500; color: #878787; line-height: 1.6; }
 .formulation-philosophy .image-text .content-details h2 p, .supporting-mental-health .image-text .content-details h2 p { font-size: inherit; color: inherit; }
 .supporting-mental-health .result-banner .banner-details h1, .formulation-philosophy .result-banner .banner-details h1 { font-size: 38px; line-height: 1.2;}
 .supporting-mental-health .result-banner .banner-details, .formulation-philosophy .result-banner .banner-details { padding-left: 70px; padding-right: 0px; max-width: 500px; width: 100%;}
-.supporting-mental-health .result-banner .banner-details p, .formulation-philosophy .result-banner .banner-details p {
-    font-size: 16px;
-    font-weight: 500;
-    color: #878787;
-    line-height: 1.6;
-}
+.supporting-mental-health .result-banner .banner-details p, .formulation-philosophy .result-banner .banner-details p { font-size: 16px; font-weight: 500; color: #878787; line-height: 1.6; }
 
 /*---Responsive---*/
 
