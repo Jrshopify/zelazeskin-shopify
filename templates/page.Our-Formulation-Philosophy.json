@@ -18,10 +18,20 @@
         "btn_lebel": "",
         "btn_url": ""
       }
+    },
+    "ae5aa18c-52a9-4e9c-854d-dbf912dc6952": {
+      "type": "our-mission-vission",
+      "settings": {
+        "mission_head": "<p>Our Vision<\/p>",
+        "mission_desc": "<p>Mental and emotional health are vital aspects ofoverall well-being, yet they often go unnoticed orundervalued. Zelaze envisions a world whereeveryone has access to the support and resourcesthey need to nurture their mental and emotionalwell-being. Through our unique initiative, we arestriving to turn this vision into reality, one purchaseat a time.<\/p>",
+        "vission_head": "<p>How It Works<\/p>",
+        "vission_desc": "<p>When you choose to shop at Zelaze, you are not just buying a product – you are becoming a part of a movement that aims to make a difference. For every purchase you make, a portion of the proceeds is dedicated to supporting the mental and emotional health of a person in need. This contribution goes towards providing resources, counseling, and interventions that can positively impact someone's life journey.<\/p>"
+      }
     }
   },
   "order": [
     "main",
-    "470955b2-8c8a-41f2-bb72-781300a23752"
+    "470955b2-8c8a-41f2-bb72-781300a23752",
+    "ae5aa18c-52a9-4e9c-854d-dbf912dc6952"
   ]
 }
