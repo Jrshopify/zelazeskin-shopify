@@ -132,7 +132,7 @@ h2 {font-size: 48px;line-height: 58px;}
 .image-text {padding: 100px 0;}
 .image-text .content_img img {width: 100%;height: 100%;object-fit: cover;}
 .image-text .content_img {overflow: hidden;border-top-left-radius: 50px;border-bottom-right-radius: 50px;}
-/* .image-text .container {max-width: 950px;} */
+.image-text .container {max-width: 950px;}
 .image-text .container .row:nth-child(even) {padding: 100px 0;}
 .image-text .content-details {padding-left: 50px;}
 .image-text .container .row:nth-child(even) .content-details {padding-right: 50px; padding-left: 0;}
