@@ -330,6 +330,14 @@ cart-remove-button .button {color: red;}
 .video-modal .btn-close { position: absolute; right: 10px; top: 10px; border: 2px solid #f00; opacity: 1; width: 12px; height: 12px; background-size: 12px; cursor: pointer; z-index: 2; background-color: #fff;}
 .video-modal .modal-content { background: transparent; border: none; }
 .video-modal .modal-dialog { max-width: 300px; }
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+audio::-webkit-media-controls,
+video::-webkit-media-controls {
+    display: none;
+}
 
 .mission-vission { padding-top: 100px; }
 .mission-vission .content-details { padding-left: 50px; }
