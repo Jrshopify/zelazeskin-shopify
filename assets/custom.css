@@ -330,14 +330,11 @@ cart-remove-button .button {color: red;}
 .video-modal .modal-content { background: transparent; border: none; }
 .mission-vission { padding-top: 100px; }
 .mission-vission .content-details { padding-left: 50px; }
-.bar {
-    background: url(foo-end-bg.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    border: none;
-    padding: 40px 0;
-}
+.bar { background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center; text-align: center; border: none; padding: 50px 0; }
+.bar h2 { margin: 0; font-size: 32px; color: #fff; text-shadow: 0 3px 5px #5a5a5a; }
+.bar P{margin: 0;}
+
+
 
 /*---Responsive---*/
 
