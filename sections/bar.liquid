@@ -1,0 +1,24 @@
+<div class="container">
+    {% if section.settings.bar != blank %}
+        <h2>{{ section.settings.bar }}</h2>
+    {% endif %}
+</div>
+{% schema %}
+{
+  "name": "Bar",
+  "tag": "section",
+  "class": "mission-vission",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "bar",
+      "label": "Bar Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bar"
+    }
+  ]
+}
+{% endschema %}
