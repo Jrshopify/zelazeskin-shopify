@@ -334,10 +334,10 @@ audio::-webkit-media-controls-timeline,
 video::-webkit-media-controls-timeline {
     display: none;
 }
-audio::-webkit-media-controls,
+/* audio::-webkit-media-controls,
 video::-webkit-media-controls {
     display: none;
-}
+} */
 
 .mission-vission { padding-top: 100px; }
 .mission-vission .content-details { padding-left: 50px; }
