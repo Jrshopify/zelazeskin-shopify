@@ -44,14 +44,53 @@
         "bar": "<p>Radiance Unveiled: Turmeric Ginseng Brightening Moisturizer<\/p>"
       }
     },
-    "ae5aa18c-52a9-4e9c-854d-dbf912dc6952": {
-      "type": "our-mission-vission",
-      "disabled": true,
+    "34ba446f-9b8d-416c-a9f5-0e9500a07cc7": {
+      "type": "image-text",
+      "blocks": {
+        "a6f01cc9-5baf-40fc-ac29-b09be6656993": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_29.jpg",
+            "vertical_alignment": "left",
+            "head": "<p>Introducing our flagship creation, the Turmeric Ginseng Brightening Moisturizer<\/p>",
+            "sub_head": "<p>A testament to our formulation philosophy. Immerse yourself in the enchanting world of skincare where East meets West, and tradition embraces modernity. Enriched with the essence of turmeric root extract, ginseng root extract, Vitamin C, Niacinamide, Squalane, and hyaluronic acid, this masterpiece is designed to unveil your skin's inner radiance.<\/p>"
+          }
+        },
+        "75a63162-6340-451d-81f7-5127a9bb5ebe": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_39.jpg",
+            "vertical_alignment": "right",
+            "head": "<p>Illuminate Your Natural Beauty<\/p>",
+            "sub_head": "<p>Experience the transformative power of our Turmeric Ginseng Brightening Moisturizer. Banish dark spots and hyperpigmentation with the age-old wisdom of turmeric, while ginseng revitalizes and rejuvenates. Vitamin C and Niacinamide work in tandem to brighten your complexion, unveiling a luminous glow that emanates vitality. Meanwhile, Squalane and hyaluronic acid ensure deep hydration and refined pores, revealing skin that's as vibrant as it is supple.<\/p>"
+          }
+        },
+        "2bdcc4fc-8f4c-4b13-95d0-a6675d2e67bd": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_57.jpg",
+            "vertical_alignment": "left",
+            "head": "<p>Beyond Beauty: Our Commitment to Integrity<\/p>",
+            "sub_head": "<p>Our devotion to your skin's well-being extends beyond mere appearances. Zelaze is more than a skincare brand – it's a promise. A promise to uphold the highest standards of authenticity, transparency, and responsibility. Our products are not only Derm Tested, cruelty-free, fragrance-free, alcohol-free, and paraben-free, but we've also taken strides to minimize our environmental impact. Zelaze proudly offsets its electrical use with renewable Wind energy, nurturing the planet as it nurtures your skin.<\/p>"
+          }
+        },
+        "6695d109-98af-4dbd-a592-8df69560e8b2": {
+          "type": "content",
+          "settings": {
+            "cont_image": "shopify:\/\/shop_images\/Z_56.jpg",
+            "vertical_alignment": "right",
+            "head": "<p>Join the Journey<\/p>",
+            "sub_head": "<p>Embark on a voyage of discovery with Zelaze. Join us in celebrating the convergence of nature and science, tradition and innovation. Experience skincare that bridges the gap between worlds, enhancing your beauty and well-being in a symphony of balance and harmony. Illuminate your skin. Illuminate your soul.<\/p><p>Welcome to Zelaze – where dualities unite.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a6f01cc9-5baf-40fc-ac29-b09be6656993",
+        "75a63162-6340-451d-81f7-5127a9bb5ebe",
+        "2bdcc4fc-8f4c-4b13-95d0-a6675d2e67bd",
+        "6695d109-98af-4dbd-a592-8df69560e8b2"
+      ],
       "settings": {
-        "mission_head": "<p>Our Vision<\/p>",
-        "mission_desc": "<p>Mental and emotional health are vital aspects ofoverall well-being, yet they often go unnoticed orundervalued. Zelaze envisions a world whereeveryone has access to the support and resourcesthey need to nurture their mental and emotionalwell-being. Through our unique initiative, we arestriving to turn this vision into reality, one purchaseat a time.<\/p>",
-        "vission_head": "<p>How It Works<\/p>",
-        "vission_desc": "<p>When you choose to shop at Zelaze, you are not just buying a product – you are becoming a part of a movement that aims to make a difference. For every purchase you make, a portion of the proceeds is dedicated to supporting the mental and emotional health of a person in need. This contribution goes towards providing resources, counseling, and interventions that can positively impact someone's life journey.<\/p>"
       }
     }
   },
@@ -60,6 +99,6 @@
     "470955b2-8c8a-41f2-bb72-781300a23752",
     "ccdab419-93b2-4b6a-ac3c-b69a01d58a13",
     "18ad2ec0-234c-4be9-a6f2-23c3348ba6b4",
-    "ae5aa18c-52a9-4e9c-854d-dbf912dc6952"
+    "34ba446f-9b8d-416c-a9f5-0e9500a07cc7"
   ]
 }
