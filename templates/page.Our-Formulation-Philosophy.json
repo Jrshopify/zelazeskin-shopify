@@ -21,6 +21,7 @@
     },
     "ae5aa18c-52a9-4e9c-854d-dbf912dc6952": {
       "type": "our-mission-vission",
+      "disabled": true,
       "settings": {
         "mission_head": "<p>Our Vision<\/p>",
         "mission_desc": "<p>Mental and emotional health are vital aspects ofoverall well-being, yet they often go unnoticed orundervalued. Zelaze envisions a world whereeveryone has access to the support and resourcesthey need to nurture their mental and emotionalwell-being. Through our unique initiative, we arestriving to turn this vision into reality, one purchaseat a time.<\/p>",
@@ -64,6 +65,7 @@
         "a39921ba-3bc4-4546-a450-5e187b39cf48",
         "e0c4ed9e-d160-49e8-b6d2-e131e4cbccad"
       ],
+      "disabled": true,
       "settings": {
       }
     }
