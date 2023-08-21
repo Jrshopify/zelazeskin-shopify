@@ -330,6 +330,7 @@ cart-remove-button .button {color: red;}
 .video-modal .btn-close { position: absolute; right: 10px; top: 10px; border: 2px solid #f00; opacity: 1; width: 12px; height: 12px; background-size: 12px; cursor: pointer; z-index: 2; background-color: #fff;}
 .video-modal .modal-content { background: transparent; border: none; }
 .video-modal .modal-dialog { max-width: 300px; }
+.video-modal video{position: relative;}
 audio::-webkit-media-controls-timeline,
 video::-webkit-media-controls-timeline {
     display: none;
@@ -341,6 +342,15 @@ video::-webkit-media-controls-current-time-display,
 video::-webkit-media-controls-time-remaining-display {
   display: none !important;
 }
+video::-webkit-media-controls-play-button {
+    /* margin-left: 50px;  */
+    position: absolute;
+    left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+  }
 /* audio::-webkit-media-controls,
 video::-webkit-media-controls {
     display: none;
