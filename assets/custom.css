@@ -337,6 +337,9 @@ video::-webkit-media-controls-timeline {
 video::-webkit-media-controls-fullscreen-button {
     display: none;
 }
+video::part(currenttime) {
+    display: none;
+  }
 /* audio::-webkit-media-controls,
 video::-webkit-media-controls {
     display: none;
