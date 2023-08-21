@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render 'pagefly-head' %}
+  <head>
+    {% render 'pagefly-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -240,9 +241,8 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'bootstrap.min.css' | asset_url| stylesheet_tag }}
+    {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
-    
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -268,7 +268,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {{ page.title }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -323,15 +323,12 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {% include 'super_pinch_zoom' %}
+    {% include 'super_pinch_zoom' %}
 
- <!-- subify Snippet Start -->
-{% if content_for_header contains 'https:\/\/app-subify.shopgram.app\/subify-script-tag-for-snippet.js' %} 
-
-                {% render 'subify-snippet' %}
-        
-{% endif %}
-<!-- subify Snippet End -->
-
-</body>
+    <!-- subify Snippet Start -->
+    {% if content_for_header contains 'https:\/\/app-subify.shopgram.app\/subify-script-tag-for-snippet.js' %}
+      {% render 'subify-snippet' %}
+    {% endif %}
+    <!-- subify Snippet End -->
+  </body>
 </html>
