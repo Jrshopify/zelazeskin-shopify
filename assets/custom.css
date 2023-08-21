@@ -79,7 +79,9 @@ h2 {font-size: 48px;line-height: 58px;}
 .video-slider {padding: 100px 0;}
 .video-slider .head-sub  h6 {font-size: 24pt;color: #939393;font-weight: 400;}
 .video-slider .head-sub {margin-bottom: 50px;}
-.video-slider .video-wrap {position: relative;border-radius: 10px;overflow: hidden;height: 440px;}
+/* .video-slider .video-wrap {position: relative;border-radius: 10px;overflow: hidden;height: 440px;} */
+.video-slider .video-wrap { position: relative; border-radius: 10px; overflow: hidden; /* height: 587px; */ padding-bottom: 130%; }
+.video-slider .video-wrap img { position: absolute; width: 100%; height: 100%; object-fit: cover; }
 .video-slider .video-wrap .video {height: 440px; width: 100%;object-fit: cover;}
 .video-slider .video-wrap .playbtn {position: absolute;bottom: 20px;right: 20px;width: 60px;height: 60px;cursor: pointer;}
 .video-slider .owl-nav .owl-prev, .video-slider .owl-nav .owl-next {top: 50%;transform: translateY(-50%);}
