@@ -51,7 +51,7 @@
         <div class="modal-content">
           <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
           <div class="modal-body">
-            <video id="video{{ count }}" controls loop>
+            <video id="video{{ count }}" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
               <source src="{{ block.settings.video_url }}" type="video/mp4">
             </video>
           </div>
