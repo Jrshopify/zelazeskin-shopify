@@ -330,6 +330,8 @@ cart-remove-button .button {color: red;}
 .video-modal .modal-content { background: transparent; border: none; }
 .mission-vission { padding-top: 100px; }
 .mission-vission .content-details { padding-left: 50px; }
+.owl-carousel.owl-hidden { opacity: 1; }
+
 /*---Responsive---*/
 
 @media screen and (min-width: 1700px) {
