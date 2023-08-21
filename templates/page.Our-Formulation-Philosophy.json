@@ -22,10 +22,10 @@
     "ccdab419-93b2-4b6a-ac3c-b69a01d58a13": {
       "type": "image-text",
       "blocks": {
-        "e0c4ed9e-d160-49e8-b6d2-e131e4cbccad": {
+        "24c2b299-b38f-4b8e-ba4d-35cd6ddcd887": {
           "type": "content",
           "settings": {
-            "cont_image": "shopify:\/\/shop_images\/Z_20.jpg",
+            "cont_image": "shopify:\/\/shop_images\/Z_26_3ddbb9aa-9bb9-4f99-af36-fb77dbfcfcad.jpg",
             "vertical_alignment": "right",
             "head": "<p>The Art of Fusion: Nature's Bounty and Scientific Excellence<\/p>",
             "sub_head": "<p>Our formulations represent a harmonious convergence of nature's finest gifts and the pinnacle of scientific achievement. We meticulously select potent plant-based extracts that have stood the test of time, harnessing their natural benefits to enhance your skin's health and radiance. To elevate their efficacy, we partner these botanical wonders with breakthrough scientific actives, unlocking the full potential of skincare innovation.<\/p>"
@@ -33,15 +33,33 @@
         }
       },
       "block_order": [
-        "e0c4ed9e-d160-49e8-b6d2-e131e4cbccad"
+        "24c2b299-b38f-4b8e-ba4d-35cd6ddcd887"
       ],
       "settings": {
+      }
+    },
+    "18ad2ec0-234c-4be9-a6f2-23c3348ba6b4": {
+      "type": "bar",
+      "settings": {
+        "bar": "<p>Radiance Unveiled: Turmeric Ginseng Brightening Moisturizer<\/p>"
+      }
+    },
+    "ae5aa18c-52a9-4e9c-854d-dbf912dc6952": {
+      "type": "our-mission-vission",
+      "disabled": true,
+      "settings": {
+        "mission_head": "<p>Our Vision<\/p>",
+        "mission_desc": "<p>Mental and emotional health are vital aspects ofoverall well-being, yet they often go unnoticed orundervalued. Zelaze envisions a world whereeveryone has access to the support and resourcesthey need to nurture their mental and emotionalwell-being. Through our unique initiative, we arestriving to turn this vision into reality, one purchaseat a time.<\/p>",
+        "vission_head": "<p>How It Works<\/p>",
+        "vission_desc": "<p>When you choose to shop at Zelaze, you are not just buying a product – you are becoming a part of a movement that aims to make a difference. For every purchase you make, a portion of the proceeds is dedicated to supporting the mental and emotional health of a person in need. This contribution goes towards providing resources, counseling, and interventions that can positively impact someone's life journey.<\/p>"
       }
     }
   },
   "order": [
     "main",
     "470955b2-8c8a-41f2-bb72-781300a23752",
-    "ccdab419-93b2-4b6a-ac3c-b69a01d58a13"
+    "ccdab419-93b2-4b6a-ac3c-b69a01d58a13",
+    "18ad2ec0-234c-4be9-a6f2-23c3348ba6b4",
+    "ae5aa18c-52a9-4e9c-854d-dbf912dc6952"
   ]
 }
