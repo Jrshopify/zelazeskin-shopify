@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="content-details">
+                {%if block.settings.mission_head != blank%}
+                    <h2>{{block.settings.mission_head}}</h2>
+                {%endif%}
+                {%if block.settings.mission_desc != blank%}
+                    <p>{{block.settings.mission_desc}}</p>
+                {%endif%}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="content-details">
+                {%if block.settings.vission_head != blank%}
+                    <h2>{{block.settings.vission_head}}</h2>
+                {%endif%}
+                {%if block.settings.vission_desc != blank%}
+                    <p>{{block.settings.vission_desc}}</p>
+                {%endif%}
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Our Mission Vission",
+  "tag": "section",
+  "class": "mission-vission",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "mission_head",
+      "label": "Mission Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "mission_desc",
+      "label": "Mission Description"
+    },
+    {
+        "type": "richtext",
+        "id": "vission_head",
+        "label": "Vission Heading"
+    },
+    {
+        "type": "richtext",
+        "id": "vission_desc",
+        "label": "Vission Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Our Mission Vission"
+    }
+  ]
+}
+{% endschema %}
