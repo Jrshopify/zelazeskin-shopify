@@ -330,7 +330,14 @@ cart-remove-button .button {color: red;}
 .video-modal .modal-content { background: transparent; border: none; }
 .mission-vission { padding-top: 100px; }
 .mission-vission .content-details { padding-left: 50px; }
-.owl-carousel.owl-hidden { opacity: 1; }
+.bar {
+    background: url(foo-end-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    border: none;
+    padding: 40px 0;
+}
 
 /*---Responsive---*/
 
@@ -537,7 +544,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product-select .right-side .top-logo-ps { margin-bottom: 20px; line-height: 0; }
 .product-select .details-list ul li { display: flex; text-align: center; padding: 0 5px; margin-bottom: 22px; align-items: center; }
 .product-select .details-list ul li h4 { min-width: auto; text-align: left; max-width: 150px; margin: 0 auto 0 12px; font-size: 14px; }
-.video-slider, .dual-approach { display: none; }
+ .dual-approach { display: none; }
 .custom-image-text { padding-top: 20px; padding-bottom: 45px; text-align: center; }
 .custom-image-text .image-with-text__heading { font-size: 27px; max-width: 190px; margin: 0 auto; }
 .custom-image-text .image-with-text__text p { max-width: 302px; margin: 0 auto; display: block; }
