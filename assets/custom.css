@@ -329,14 +329,16 @@ cart-remove-button .button {color: red;}
 .modal-backdrop.show { opacity: var(--bs-backdrop-opacity); display: block; }
 .video-modal .btn-close { position: absolute; right: 10px; top: 10px; border: 2px solid #f00; opacity: 1; width: 12px; height: 12px; background-size: 12px; cursor: pointer; z-index: 2; background-color: #fff;}
 .video-modal .modal-content { background: transparent; border: none; }
+.video-modal .modal-dialog { max-width: 300px; }
+
 .mission-vission { padding-top: 100px; }
 .mission-vission .content-details { padding-left: 50px; }
 .bar { background: url(foo-end-bg.png) no-repeat; background-size: cover; background-position: center center; text-align: center; border: none; padding: 50px 0; }
 .bar h2 { margin: 0; font-size: 32px; color: #fff; text-shadow: 0 3px 5px #5a5a5a; }
 .bar P{margin: 0;}
-.Philosophy .image-text .content-details h2, .Health .image-text .content-details h2 { font-size: 32px; line-height: 1.18; }
-.Philosophy .image-text .content-details p, .Health .image-text .content-details p { font-size: 16px; font-weight: 500; color: #878787; line-height: 1.18; }
-.Philosophy .image-text .content-details h2 p, .Health .image-text .content-details h2 p { font-size: inherit; color: inherit; }
+.formulation-philosophy .image-text .content-details h2, .supporting-mental-health .image-text .content-details h2 { font-size: 32px; line-height: 1.18; }
+.formulation-philosophy .image-text .content-details p, .supporting-mental-health .image-text .content-details p { font-size: 16px; font-weight: 500; color: #878787; line-height: 1.18; }
+.formulation-philosophy .image-text .content-details h2 p, .supporting-mental-health .image-text .content-details h2 p { font-size: inherit; color: inherit; }
 
 /*---Responsive---*/
 

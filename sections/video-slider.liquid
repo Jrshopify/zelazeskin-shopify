@@ -13,80 +13,93 @@
   </div>
   <div class="owl-carousel owl-theme" id="videoSlide">
     {% assign count = 1 %}
-      {% for block in section.blocks %}
-        <div class="item">
-          {% if block.settings.video_url != blank %}
-            <div class="video-wrap">
-              <img src="{{ block.settings.poster_img | img_url: 'master' }}">
-                <div data-vidid="{{ count }}" class="playbtn" data-bs-toggle="modal" data-bs-target="#videoModal{{ count }}">
-                  <img src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/play.png?v=1686831446" title="Play" alt="Play">
-                </div>
+    {% for block in section.blocks %}
+      <div class="item">
+        {% if block.settings.video_url != blank %}
+          <div class="video-wrap">
+            <img src="{{ block.settings.poster_img | img_url: 'master' }}">
+            <div
+              data-vidid="{{ count }}"
+              class="playbtn"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal{{ count }}"
+            >
+              <img
+                src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/play.png?v=1686831446"
+                title="Play"
+                alt="Play"
+              >
             </div>
-          {% endif %}
-        </div>
-        {% assign count = count | plus: 1 %}
-      {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      {% assign count = count | plus: 1 %}
+    {% endfor %}
   </div>
-
-  
 </div>
 {% assign count = 1 %}
-  {% for block in section.blocks %}
-    {% if block.settings.video_url != blank %}
-      <div class="modal fade video-modal" id="videoModal{{ count }}" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
-            <div class="modal-body">
-              <video id="video{{ count }}">
-                <source src="{{ block.settings.video_url }}" type="video/mp4">
-              </video>
-            </div>
+{% for block in section.blocks %}
+  {% if block.settings.video_url != blank %}
+    <div
+      class="modal fade video-modal"
+      id="videoModal{{ count }}"
+      tabindex="-1"
+      aria-labelledby="videoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body">
+            <video id="video{{ count }}" controls loop>
+              <source src="{{ block.settings.video_url }}" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
-    {% endif %}
-    {% assign count = count | plus: 1 %}
-  {% endfor %}
+    </div>
+  {% endif %}
+  {% assign count = count | plus: 1 %}
+{% endfor %}
 {% schema %}
-  {
-    "name": "Video Slider",
-    "tag": "section",
-    "class": "video-slider",
-    "settings": [
-      {
-        "type": "richtext",
-        "id": "head",
-        "label": "Main Heading"
-      },
-      {
-        "type": "textarea",
-        "id": "description",
-        "label": "description"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "video",
-        "name": "video",
-        "settings": [
-          {
-            "type": "text",
-            "id": "video_url",
-            "label": "Video url"
-          },
-          {
-            "type": "image_picker",
-            "id": "poster_img",
-            "label": "Poster Image"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Video Slider"
-      }
-    ]
-  }
+{
+  "name": "Video Slider",
+  "tag": "section",
+  "class": "video-slider",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "head",
+      "label": "Main Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "video",
+      "settings": [
+        {
+          "type": "text",
+          "id": "video_url",
+          "label": "Video url"
+        },
+        {
+          "type": "image_picker",
+          "id": "poster_img",
+          "label": "Poster Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Slider"
+    }
+  ]
+}
 {% endschema %}
