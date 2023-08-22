@@ -31,6 +31,13 @@ jQuery(document).on('click', '.close', function () {
   jQuery(`[data-vidid="${vid_id}"]`).show();
 });
 
+jQuery(document).on('click', '.modal-backdrop', function () {
+  let vid_id = jQuery(this).closest('.modal-content').find('video').attr('id').replace('video', '');
+  jQuery(this).trigger("pause");
+  jQuery(`#video${vid_id}`).trigger("pause");
+  jQuery(`[data-vidid="${vid_id}"]`).show();
+});
+
 
 // Shop now button
 
