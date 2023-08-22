@@ -45,10 +45,10 @@ jQuery(document).on('click', '.close', function () {
 });
 
 jQuery(document).on('click', function (e) {
-  let vid_id = jQuery(this).closest('.modal-content').find('video').attr('id').replace('video', '');
+  // let vid_id = jQuery(this).closest('.modal-content').find('video').attr('id').replace('video', '');
   // jQuery(this).trigger("pause");
-  jQuery(`#video${vid_id}`).trigger("pause");
-  jQuery(`[data-vidid="${vid_id}"]`).show();
+  jQuery(`video`).trigger("pause");
+  // jQuery(`[data-vidid="${vid_id}"]`).show();
 });
 
 jQuery('#clientfeedback').owlCarousel({
