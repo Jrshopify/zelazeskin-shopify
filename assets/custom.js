@@ -29,6 +29,36 @@ jQuery(document).ready(function(){
 //   jQuery(`#${play_btn_id}`).show();
 // });
 
+
+
+// jQuery(document).on('click', '.playbtn', function () {
+//   let vid_id = jQuery(this).data("vidid");
+//   jQuery('.playbtn').show();
+//   jQuery(`#video${vid_id}`).trigger("play");
+//   jQuery(`.close`).not(`[data-vidid="${vid_id}"]`).trigger("pause");
+//   jQuery(this).hide();
+// });
+
+// jQuery(document).on('click', '.close', function () {
+//   let vid_id = jQuery(this).closest('.modal-content').find('video').attr('id').replace('video', '');
+//   jQuery(this).trigger("pause");
+//   jQuery(`#video${vid_id}`).trigger("pause");
+//   jQuery(`[data-vidid="${vid_id}"]`).show();
+// });
+
+// // Adding click event listener to the document to detect clicks outside the modal
+// jQuery(document).on('click', function (event) {
+//   if (!jQuery(event.target).closest('.modal-content').length) {
+//     // Click occurred outside the modal
+//     // Pause all videos
+//     jQuery('video').trigger("pause");
+//     // Show all play buttons
+//     jQuery('.playbtn').show();
+//   }
+// });
+
+
+
 jQuery(document).on('click', '.playbtn', function () {
   let vid_id = jQuery(this).data("vidid");
   jQuery('.playbtn').show();
@@ -46,14 +76,17 @@ jQuery(document).on('click', '.close', function () {
 
 // Adding click event listener to the document to detect clicks outside the modal
 jQuery(document).on('click', function (event) {
-  if (!jQuery(event.target).closest('.modal-content').length) {
-    // Click occurred outside the modal
+  // Check if the click occurred outside the modal and not on a play button or close button
+  if (!jQuery(event.target).closest('.modal-content').length &&
+      !jQuery(event.target).hasClass('playbtn') &&
+      !jQuery(event.target).hasClass('close')) {
     // Pause all videos
     jQuery('video').trigger("pause");
     // Show all play buttons
     jQuery('.playbtn').show();
   }
 });
+
 
 jQuery('#clientfeedback').owlCarousel({
   loop:false,
