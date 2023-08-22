@@ -352,11 +352,12 @@ video::-webkit-media-controls-play-button { position: absolute; left: 0; right: 
     color: #fff;
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 100px;
     width: 100%;
     z-index: 99;
     padding: 10px;
-    /* display: none; */
+    transition: all 0.4s;
+    display: none;
 }
 .mobile-shop-now-button a {
     background: url(https://zelazeskin.com/cdn/shop/t/19/assets/btn-bg.png) no-repeat;
