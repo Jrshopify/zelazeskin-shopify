@@ -31,11 +31,9 @@ jQuery(document).on('click', '.close', function () {
   jQuery(`[data-vidid="${vid_id}"]`).show();
 });
 
-jQuery(document).on('click', '.modal-backdrop', function () {
-  let vid_id = jQuery('.modal-content').find('video').attr('id').replace('video', '');
-  jQuery(this).trigger("pause");
-  jQuery(`#video${vid_id}`).trigger("pause");
-  jQuery(`[data-vidid="${vid_id}"]`).show();
+jQuery('.modal-backdrop').click(function() {
+  var video = jQuery('.modal-content').find('video')[0]; 
+  video.pause(); 
 });
 
 
