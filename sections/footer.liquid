@@ -395,6 +395,14 @@
       {% endif %}
     </a>
   </div>
+
+  <div class="mobile-shop-now-button">
+    <a href="{{section.settings.shop_img_url}}">
+      {% if section.settings.shop_img != blank %}
+        <img src="{{section.settings.shop_img | img_url:'master'}}">
+      {% endif %}
+    </a>
+  </div>
 </footer>
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
