@@ -352,7 +352,7 @@ video::-webkit-media-controls-play-button { position: absolute; left: 0; right: 
     color: #fff;
     position: fixed;
     left: 0;
-    bottom: 100px;
+    bottom: -100px;
     width: 100%;
     z-index: 99;
     padding: 10px;
