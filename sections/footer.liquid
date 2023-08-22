@@ -396,11 +396,13 @@
     </a>
   </div>
 
-  <div class="mobile-shop-now-button">
-    <a href="{{section.settings.shop_img_url}}">
-      Shop Now
-    </a>
-  </div>
+  {% if template.name == "index" %}
+    <div class="mobile-shop-now-button">
+      <a href="{{section.settings.shop_img_url}}">
+        Shop Now
+      </a>
+    </div>
+  {% endif %}
 </footer>
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
