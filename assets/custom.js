@@ -33,17 +33,17 @@ jQuery(document).on('click', '.close', function () {
 
 
 // Shop now button
-// script.js
+
 window.addEventListener('scroll', function() {
   if (window.innerWidth <= 989) {    
 
-    var hiddenDiv = document.querySelector('.mobile-shop-now-button');
+    var showDiv = document.querySelector('.mobile-shop-now-button');
     var scrollPosition = window.scrollY;
 
-    if (scrollPosition >= 100) {
-        hiddenDiv.classList.add('visible');
+    if (scrollPosition >= 200) {
+        showDiv.classList.add('visible');
     } else {
-        hiddenDiv.classList.remove('visible');
+        showDiv.classList.remove('visible');
     }
   }
 });

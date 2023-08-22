@@ -356,8 +356,8 @@ video::-webkit-media-controls-play-button { position: absolute; left: 0; right: 
     width: 100%;
     z-index: 99;
     padding: 10px;
-    transition: all 0.4s;
-    display: none;
+    transition: all 0.6s;
+    /* display: none; */
 }
 .mobile-shop-now-button a {
     background: url(https://zelazeskin.com/cdn/shop/t/19/assets/btn-bg.png) no-repeat;
@@ -374,6 +374,11 @@ video::-webkit-media-controls-play-button { position: absolute; left: 0; right: 
     height: auto;
     display: block;
     text-align: center;
+}
+.mobile-shop-now-button.visible {
+    /* display: block; */
+    bottom: 0;
+    transition: all 0.6s;
 }
 
 /*---Responsive---*/
@@ -690,7 +695,6 @@ h2 {font-size: 36px;line-height: 46px;}
 .single-chosse figure { max-width: 104px; max-height: 104px; }
 .zelaze-component h2 { margin-bottom: 30px; font-size: 32px; line-height: 1.2; }
 .product .product-form__submit { font-size: 14pt!important; /*padding: 10px 20px; min-height: auto; min-width: 282px; width: auto;*/ }
-/* .mobile-shop-now-button{display: block;} */
 
 }
 
