@@ -35,13 +35,15 @@ jQuery(document).on('click', '.close', function () {
 // Shop now button
 // script.js
 window.addEventListener('scroll', function() {
-  var hiddenDiv = document.querySelector('.mobile-shop-now-button');
-  var scrollPosition = window.scrollY;
+  if (window.innerWidth <= 989) {
+    var hiddenDiv = document.querySelector('.mobile-shop-now-button');
+    var scrollPosition = window.scrollY;
 
-  if (scrollPosition >= 100) {
-      hiddenDiv.style.display = 'block';
-  } else {
-      hiddenDiv.style.display = 'none';
+    if (scrollPosition >= 100) {
+        hiddenDiv.style.display = 'block';
+    } else {
+        hiddenDiv.style.display = 'none';
+    }
   }
 });
 
