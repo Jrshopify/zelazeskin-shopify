@@ -33,14 +33,28 @@ jQuery(document).on('click', '.close', function () {
 
 
 // Shop now button
-const scrollToShow = $(".mobile-shop-now-button");    
-jQuery(window).scroll(function() {
-    if (jQuery(this).scrollTop() > 300) {
-        scrollToShow.fadeIn();
-    } else {
-        scrollToShow.fadeOut();
-    }
-});    
+// script.js
+window.addEventListener('scroll', function() {
+  var hiddenDiv = document.querySelector('.mobile-shop-now-button');
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 100) {
+      hiddenDiv.style.display = 'block';
+  } else {
+      hiddenDiv.style.display = 'none';
+  }
+});
+
+
+
+// const scrollToShow = $(".mobile-shop-now-button");    
+// jQuery(window).scroll(function() {
+//     if (jQuery(this).scrollTop() > 300) {
+//         scrollToShow.fadeIn();
+//     } else {
+//         scrollToShow.fadeOut();
+//     }
+// });    
 
 
 
