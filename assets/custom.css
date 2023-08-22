@@ -329,7 +329,7 @@ cart-remove-button .button {color: red;}
 .modal-backdrop.show { opacity: var(--bs-backdrop-opacity); display: block; }
 .video-modal .btn-close { position: absolute; right: 20px; top: 20px; border: none; opacity: 1; width: 12px; height: 12px; background-size: 12px; cursor: pointer; z-index: 2; background-color: #fff; }
 .video-modal .modal-content { background: transparent; border: none; }
-.video-modal .modal-dialog { max-width: 300px; }
+.video-modal .modal-dialog { max-width: 300px; margin: 0 auto;}
 .video-modal video{position: relative;}
 audio::-webkit-media-controls-timeline, video::-webkit-media-controls-timeline { display: none; }
 video::-webkit-media-controls-fullscreen-button { display: none; }
@@ -347,37 +347,9 @@ video::-webkit-media-controls-play-button { position: absolute; left: 0; right: 
 .supporting-mental-health .result-banner .banner-details h1, .formulation-philosophy .result-banner .banner-details h1 { font-size: 38px; line-height: 1.2;}
 .supporting-mental-health .result-banner .banner-details, .formulation-philosophy .result-banner .banner-details { padding-left: 70px; padding-right: 0px; max-width: 500px; width: 100%;}
 .supporting-mental-health .result-banner .banner-details p, .formulation-philosophy .result-banner .banner-details p { font-size: 16px; font-weight: 500; color: #878787; line-height: 1.6; }
-.mobile-shop-now-button {
-    background-color: #263644;
-    color: #fff;
-    position: fixed;
-    left: 0;
-    bottom: -100px;
-    width: 100%;
-    z-index: 99;
-    padding: 10px;
-    transition: all 0.6s;    
-}
-.mobile-shop-now-button a {
-    background: url(https://zelazeskin.com/cdn/shop/t/19/assets/btn-bg.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 50px;
-    padding: 12px 40px;
-    color: #fff;
-    letter-spacing: 0;
-    font-size: 20pt;
-    line-height: 1;
-    box-shadow: 0 4px 1px #00000008,0 7px 10px #00000024;
-    text-shadow: 0px 2px 4px rgba(0,0,0,.2);
-    height: auto;
-    display: block;
-    text-align: center;
-}
-.mobile-shop-now-button.visible {    
-    bottom: -1px;
-    transition: all 0.6s;
-}
+.mobile-shop-now-button { background-color: #263644; color: #fff; position: fixed; left: 0; bottom: -100px; width: 100%; z-index: 99; padding: 10px; transition: all 0.6s; }
+.mobile-shop-now-button a { background: url(https://zelazeskin.com/cdn/shop/t/19/assets/btn-bg.png) no-repeat; background-size: cover; background-position: center center; border-radius: 50px; padding: 12px 40px; color: #fff; letter-spacing: 0; font-size: 20pt; line-height: 1; box-shadow: 0 4px 1px #00000008,0 7px 10px #00000024; text-shadow: 0px 2px 4px rgba(0,0,0,.2); height: auto; display: block; text-align: center; }
+.mobile-shop-now-button.visible { bottom: -1px; transition: all 0.6s; }
 
 /*---Responsive---*/
 
