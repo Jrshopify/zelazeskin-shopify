@@ -133,7 +133,7 @@ h3{font-size: 24px; line-height: 1.2;}
 .image-text {padding: 100px 0;}
 .image-text .content_img img {width: 100%;height: 100%;object-fit: cover;}
 .image-text .content_img {overflow: hidden;border-top-left-radius: 50px;border-bottom-right-radius: 50px;}
-.image-text .container {max-width: 950px;}
+.image-text .container, .mission-vission .container {max-width: 950px;}
 .image-text .container .row:nth-child(even) {padding: 100px 0;}
 .image-text .content-details {padding-left: 50px;}
 .image-text .container .row:nth-child(even) .content-details {padding-right: 50px; padding-left: 0;}
@@ -488,7 +488,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .dual-approach .dual-app ul li {width: 50%;margin-bottom: 30px;}
 .dual-approach .dual-app ul li h6 {max-width: 170px;}
 .custom-image-text .image-with-text__content {padding: 0;}
-.result-banner .banner-details {padding-left: 15px;padding-right: 15px;max-width: 100%;padding-top: 30px;}
+.result-banner .banner-details, .supporting-mental-health .result-banner .banner-details, .formulation-philosophy .result-banner .banner-details {padding-left: 15px;padding-right: 15px;max-width: 100%;padding-top: 30px;}
 .image-text .content-details, .mission-vission .content-details {padding-left: 0;padding-top: 30px;}
 .image-text .container .row:nth-child(even) {flex-direction: column-reverse;padding: 30px 0;}
 .image-text .container .row:nth-child(even) .content-details {padding-right: 0;}
@@ -610,7 +610,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact-bg-wrap .contact__fields.three-column .form-field-group:nth-child(2){width: 50%;} */
 .contact-bg-wrap .field-group span small { margin: 0 0 6px; display: block; width: 100%; }
 .result-banner .banner-details .btn { margin: 36px auto 0; font-size: 27px; text-transform: capitalize; line-height: 32px; padding: 12px 54px; display: table; }
-.image-text .container { padding: 0px 40px; }
+.image-text .container, .mission-vission .container { padding: 0px 40px; }
 .image-text { padding: 30px 0 65px; }
 .image-text .content-details { padding-left: 0; padding-top: 35px; }
 .image-text .container .row:nth-child(even) { flex-direction: column-reverse; padding: 34px 0; }
@@ -667,7 +667,7 @@ h2 {font-size: 36px;line-height: 46px;}
 .product .product-form__submit { font-size: 14pt!important; /*padding: 10px 20px; min-height: auto; min-width: 282px; width: auto;*/ }
 .bar { padding: 30px 0; }
 .bar h2 { font-size: 24px; }
-.mission-vission .container { padding: 0 40px; }
+.mission-vission { padding-top: 0px; }
 
 }
 
