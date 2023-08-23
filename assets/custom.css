@@ -585,8 +585,8 @@ h2 {font-size: 36px;line-height: 46px;}
 .contact-bg-wrap .contact__fields, .contact-bg-wrap .contact__button { margin-top: 30px; }
 .contact-bg-wrap .contact__button .btn { min-width: auto; padding: 6px 85px; min-height: 32px; font-size: 14px; line-height: 16px; text-transform: capitalize; }
 
-.result-banner .banner-details, .formulation-philosophy .result-banner .banner-details { padding-left: 40px; padding-right: 30px; padding-top: 42px; }
-.result-banner .banner-details h1, .formulation-philosophy .result-banner .banner-details h1 { font-size: 32px; line-height: 38px; margin-bottom: 27px; }
+.result-banner .banner-details, .supporting-mental-health .result-banner .banner-details, .formulation-philosophy .result-banner .banner-details { padding-left: 40px; padding-right: 30px; padding-top: 42px; }
+.result-banner .banner-details h1, .supporting-mental-health .result-banner .banner-details h1, .formulation-philosophy .result-banner .banner-details h1 { font-size: 32px; line-height: 38px; margin-bottom: 27px; }
 .result-banner .banner-details p { color: #878787; font-size: 16px; line-height: 22px; font-weight: 500; }
 .result-banner .banner-details h1 p, 
 .image-text .content-details h2 p { font-size: inherit; line-height: inherit; color: inherit; }
