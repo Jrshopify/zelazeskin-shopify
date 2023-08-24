@@ -163,8 +163,8 @@
         "8d997f76-0976-4060-b819-df19faa035e2": {
           "type": "shipping",
           "settings": {
-            "question": "<p><strong>How long does it take for my order to be delivered?<\/strong><\/p>",
-            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<\/p>"
+            "question": "<p><strong>Do you ship internationally?<\/strong><\/p>",
+            "answer": "<p>Not yet! But we are working on it.<\/p>"
           }
         },
         "3e469229-7ae1-4058-90a0-4dc80b214e84": {
