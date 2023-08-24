@@ -65,31 +65,17 @@
             "answer": "<p>Our products are vegan-friendly and cruelty-free. We do not test on animals or use any animal components or by-products.<\/p>"
           }
         },
-        "deca3963-ce64-46cf-b5b9-3b4285197cfb": {
-          "type": "most_asked_questions",
-          "settings": {
-            "question": "<p><strong>How are your products different from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour<\/p>"
-          }
-        },
         "17956fa1-fa6f-45a3-ba9a-9cfec85e47b9": {
           "type": "heading",
           "settings": {
             "faq_head": "<p>Product Info<\/p>"
           }
         },
-        "820c42f5-55d9-42d1-862a-38ed74142d0c": {
-          "type": "product_info",
-          "settings": {
-            "question": "<p><strong>How are your products different from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search<\/p>"
-          }
-        },
         "bf68f769-26eb-47fe-9f43-ff8b47783a44": {
           "type": "product_info",
           "settings": {
-            "question": "<p><strong>What sets ZeLaZe’s approach to addressing hyperpigmentationapart from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>"
+            "question": "<p><strong>What sets ZeLaZe’s approach to addressing hyperpigmentation apart from other skincare brands?<\/strong><\/p>",
+            "answer": "<p>At Zelaze, our expertise lies in hyperpigmentation innovation and our goal is to deliver the highest performance ingredients and formulations in a format that can be easily received by the skin. Our products are formulated with the duality of actives and natural root extracts(Turmeric and Ginseng) to maintain a balance to keep the skin calm and healthy, allowing for optimal usage and visible results without any unpleasant side effects.<\/p>"
           }
         },
         "192ff4fa-d7de-4e4f-9a10-4cba9cacc7cc": {
@@ -305,9 +291,7 @@
         "9741401c-ff0a-4ceb-89d9-1c40acb6b60c",
         "79b672b5-9af0-4379-a7c5-e5acd9c70126",
         "9c8594e8-3680-4127-9e67-677eab09d22a",
-        "deca3963-ce64-46cf-b5b9-3b4285197cfb",
         "17956fa1-fa6f-45a3-ba9a-9cfec85e47b9",
-        "820c42f5-55d9-42d1-862a-38ed74142d0c",
         "bf68f769-26eb-47fe-9f43-ff8b47783a44",
         "192ff4fa-d7de-4e4f-9a10-4cba9cacc7cc",
         "705960c7-9cc3-4ef1-be04-4718f6d3455b",
