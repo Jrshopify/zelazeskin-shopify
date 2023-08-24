@@ -51,13 +51,6 @@
             "answer": "<p>You can expect your order to be delivered between 3-5 business days, delivered using USPS.<\/p>"
           }
         },
-        "1a834acc-d1bb-452a-8667-b6c824a6633d": {
-          "type": "most_asked_questions",
-          "settings": {
-            "question": "<p><strong>The product in my jar looks used?<\/strong><\/p>",
-            "answer": "<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it<\/p>"
-          }
-        },
         "79b672b5-9af0-4379-a7c5-e5acd9c70126": {
           "type": "most_asked_questions",
           "settings": {
@@ -324,7 +317,6 @@
         "548200f0-8dca-4568-a2d1-8d81a1acde24",
         "b3fd9c2b-f4b7-468b-bef8-1f8877214e7a",
         "9741401c-ff0a-4ceb-89d9-1c40acb6b60c",
-        "1a834acc-d1bb-452a-8667-b6c824a6633d",
         "79b672b5-9af0-4379-a7c5-e5acd9c70126",
         "9c8594e8-3680-4127-9e67-677eab09d22a",
         "dce81b90-4823-4e65-883b-517e10fd651e",
