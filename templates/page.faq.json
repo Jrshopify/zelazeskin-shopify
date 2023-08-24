@@ -129,8 +129,8 @@
         "7fda2481-983e-4f39-9eb2-769372770f8f": {
           "type": "order_payment",
           "settings": {
-            "question": "<p><strong>What forms of payment do you accept?<\/strong><\/p>",
-            "answer": "<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below<\/p>"
+            "question": "<p><strong>Are there any discounts available?<\/strong><\/p>",
+            "answer": "<p>Subscribe to our emails for offers and promotions!<\/p>"
           }
         },
         "a980d15b-9cdf-4eb6-90e6-9a1acee32302": {
