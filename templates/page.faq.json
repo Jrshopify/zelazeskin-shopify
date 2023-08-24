@@ -99,13 +99,6 @@
             "answer": "<p>We do not.<\/p>"
           }
         },
-        "f935dfd5-a60b-437f-a655-f2aeb2d8b1ce": {
-          "type": "product_info",
-          "settings": {
-            "question": "<p><strong>What sets ZeLaZe’s approach to addressing hyperpigmentationapart from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>"
-          }
-        },
         "2eac3a78-fb59-4ff6-9623-5164416f2ce3": {
           "type": "heading",
           "settings": {
@@ -116,7 +109,7 @@
           "type": "order_payment",
           "settings": {
             "question": "<p><strong>How do I place an order?<\/strong><\/p>",
-            "answer": "<p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<\/p>"
+            "answer": "<p>Placing an order with us is easy! Here's how:<br\/><br\/>1. Browse our website and select the products you would like to purchase.<br\/><br\/>2. Add the products to your shopping cart by clicking on the \"Add to Cart\" button.<br\/><br\/>3. Once you have added all the products you want to purchase, click on the shopping cart icon.<br\/><br\/>4. Review your order to ensure that everything is correct and then click on the \"Checkout\" button.<br\/><br\/>5. Fill in your shipping and billing information and select a shipping method.<br\/><br\/>6. Review your order again and click on the \"Place Order\" button.<br\/><br\/>7. You will be directed to our secure payment gateway where you can complete your purchase using your preferred method of payment.<\/p>"
           }
         },
         "bdfc2890-04b5-4b93-864d-03170fd34411": {
@@ -296,7 +289,6 @@
         "192ff4fa-d7de-4e4f-9a10-4cba9cacc7cc",
         "705960c7-9cc3-4ef1-be04-4718f6d3455b",
         "fc0129ed-c00d-4e2e-b175-63c7f487a355",
-        "f935dfd5-a60b-437f-a655-f2aeb2d8b1ce",
         "2eac3a78-fb59-4ff6-9623-5164416f2ce3",
         "00b00921-d2e5-43fa-aa0e-2a318a67136d",
         "bdfc2890-04b5-4b93-864d-03170fd34411",
