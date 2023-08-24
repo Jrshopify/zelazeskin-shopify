@@ -122,8 +122,8 @@
         "eeeba44a-e067-46f5-bd12-26e491a8bb45": {
           "type": "order_payment",
           "settings": {
-            "question": "<p><strong>How do I place an order?<\/strong><\/p>",
-            "answer": "<p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<\/p>"
+            "question": "<p><strong>How much does shipping cost?<\/strong><\/p>",
+            "answer": "<p>We are launching with free shipping on all orders! <\/p>"
           }
         },
         "7fda2481-983e-4f39-9eb2-769372770f8f": {
