@@ -21,6 +21,7 @@
       "type": "banner",
       "settings": {
         "banner_img": "shopify:\/\/shop_images\/rs1.jpg",
+        "show_title": true,
         "head": "<p>Frequently Asked<br\/>Questions<\/p>",
         "desc": "<p>See answers to our most frequently asked questions. If there is something you still have a question about, use our <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact us form<\/a>.<\/p>",
         "btn_lebel": "",
@@ -40,7 +41,7 @@
           "type": "most_asked_questions",
           "settings": {
             "question": "<p><strong>Where is ZeLaZe made?<\/strong><\/p>",
-            "answer": "<p><strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy <\/p>"
+            "answer": "<p>We manufacture and distribute our products in the USA<\/p>"
           }
         },
         "9741401c-ff0a-4ceb-89d9-1c40acb6b60c": {
