@@ -169,6 +169,7 @@
         },
         "3e469229-7ae1-4058-90a0-4dc80b214e84": {
           "type": "shipping",
+          "disabled": true,
           "settings": {
             "question": "<p><strong>How long does it take for my order to be delivered?<\/strong><\/p>",
             "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<\/p>"
@@ -176,6 +177,7 @@
         },
         "0063384f-5ea1-45e4-b684-9487e1b342e5": {
           "type": "shipping",
+          "disabled": true,
           "settings": {
             "question": "<p><strong>How long does it take for my order to be delivered?<\/strong><\/p>",
             "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<\/p>"
@@ -191,7 +193,7 @@
           "type": "subscribe",
           "settings": {
             "question": "<p><strong>How does your subscribe & save program work?<\/strong><\/p>",
-            "answer": "<p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>"
+            "answer": "<p>Our Subscribe & Save program allows you to maintain your Zelaze routine with automatic deliveries. You can schedule your desired frequency and cancel it at any time. By automating your payments, you can take the hassle out of making orders and know that your product will automatically arrive just when you need it.<\/p>"
           }
         },
         "568acc2d-13c8-42a2-95e7-c29a23ac6675": {
