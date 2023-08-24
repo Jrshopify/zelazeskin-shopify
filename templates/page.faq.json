@@ -61,25 +61,11 @@
         "9c8594e8-3680-4127-9e67-677eab09d22a": {
           "type": "most_asked_questions",
           "settings": {
-            "question": "<p><strong>How are your products different from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour<\/p>"
-          }
-        },
-        "dce81b90-4823-4e65-883b-517e10fd651e": {
-          "type": "most_asked_questions",
-          "settings": {
-            "question": "<p><strong>How are your products different from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour<\/p>"
+            "question": "<p><strong>Do your products contain any animal products or derivatives?<\/strong><\/p>",
+            "answer": "<p>Our products are vegan-friendly and cruelty-free. We do not test on animals or use any animal components or by-products.<\/p>"
           }
         },
         "deca3963-ce64-46cf-b5b9-3b4285197cfb": {
-          "type": "most_asked_questions",
-          "settings": {
-            "question": "<p><strong>How are your products different from other skincare brands?<\/strong><\/p>",
-            "answer": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour<\/p>"
-          }
-        },
-        "08c46103-82fc-41f9-9a0a-ce8496982a51": {
           "type": "most_asked_questions",
           "settings": {
             "question": "<p><strong>How are your products different from other skincare brands?<\/strong><\/p>",
@@ -319,9 +305,7 @@
         "9741401c-ff0a-4ceb-89d9-1c40acb6b60c",
         "79b672b5-9af0-4379-a7c5-e5acd9c70126",
         "9c8594e8-3680-4127-9e67-677eab09d22a",
-        "dce81b90-4823-4e65-883b-517e10fd651e",
         "deca3963-ce64-46cf-b5b9-3b4285197cfb",
-        "08c46103-82fc-41f9-9a0a-ce8496982a51",
         "17956fa1-fa6f-45a3-ba9a-9cfec85e47b9",
         "820c42f5-55d9-42d1-862a-38ed74142d0c",
         "bf68f769-26eb-47fe-9f43-ff8b47783a44",
