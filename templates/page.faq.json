@@ -199,8 +199,8 @@
         "568acc2d-13c8-42a2-95e7-c29a23ac6675": {
           "type": "subscribe",
           "settings": {
-            "question": "<p><strong>How does your subscribe & save program work?<\/strong><\/p>",
-            "answer": "<p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<\/p>"
+            "question": "<p><strong>What are the benefits of subscribing?<\/strong><\/p>",
+            "answer": "<p>When you subscribe to our products, you'll enjoy several benefits including:<br\/><br\/>1. Convenience: You'll never run out of your favorite products and will always have them delivered right to your door on a schedule that works for you.<br\/><br\/>2. Savings: As a subscriber, you'll receive a special discount on each order.<br\/><br\/>3. Flexibility: You can easily adjust your subscription plan as your needs change, or pause or cancel your subscription at any time.<br\/><\/p>"
           }
         },
         "f0cbabb3-f3ee-446a-a518-5c6abe8af678": {
