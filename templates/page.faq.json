@@ -136,8 +136,8 @@
         "a980d15b-9cdf-4eb6-90e6-9a1acee32302": {
           "type": "order_payment",
           "settings": {
-            "question": "<p><strong>What forms of payment do you accept?<\/strong><\/p>",
-            "answer": "<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below<\/p>"
+            "question": "<p><strong>How can I request a refund?<\/strong><\/p>",
+            "answer": "<p>Email us at hello@zelazeskin.com<\/p>"
           }
         },
         "15a501a6-536f-4a17-b417-90fd2c93d8d5": {
