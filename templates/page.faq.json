@@ -115,8 +115,8 @@
         "bdfc2890-04b5-4b93-864d-03170fd34411": {
           "type": "order_payment",
           "settings": {
-            "question": "<p><strong>How do I place an order?<\/strong><\/p>",
-            "answer": "<p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<\/p>"
+            "question": "<p><strong>What forms of payment do you accept?<\/strong><\/p>",
+            "answer": "<p>We accept a variety of payment methods to make your checkout experience as smooth and convenient as possible. We accept all major credit and debit cards, including Visa, MasterCard, American Express. We also accept payments via PayPal, Amazon Pay,  and other forms of payments offered by Shopify Checkout.<br\/><\/p>"
           }
         },
         "eeeba44a-e067-46f5-bd12-26e491a8bb45": {
