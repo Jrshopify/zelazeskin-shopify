@@ -144,7 +144,7 @@
           "type": "order_payment",
           "settings": {
             "question": "<p><strong>What forms of payment do you accept?<\/strong><\/p>",
-            "answer": "<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below<\/p>"
+            "answer": "<p>If you’re not happy with Zelaze, we gladly offer a 14-day Money Back Guarantee!<\/p><p>All returns must be processed within 14 days of the delivery date. Returns and processing vary depending on the shipping location. Customer is responsible to pay for the return shipping.<\/p>"
           }
         },
         "6dcde7e9-7b16-4146-bd1f-91559c6d82b3": {
