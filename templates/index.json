@@ -75,7 +75,7 @@
         "91d53319-e47e-4a31-a2b6-f0b8f3a9fffc": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img8.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/result-img8.webp",
             "msg": "<p>“The Zelaze moisturizer minimized my pores and cleared my skin!”<\/p>",
             "client_name": "<p>— Rani B<\/p>"
           }
@@ -321,7 +321,7 @@
       "type": "apps",
       "blocks": {
         "cdcea137-2980-40bd-8179-73a756225d6e": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
