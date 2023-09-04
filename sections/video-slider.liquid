@@ -23,6 +23,7 @@
               class="playbtn"
               data-bs-toggle="modal"
               data-bs-target="#videoModal{{ count }}"
+              data-url="{{ block.settings.video_url }}"
             >
               <img
                 src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/play.png?v=1686831446"
@@ -52,7 +53,7 @@
           <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
           <div class="modal-body">
             <video id="video{{ count }}" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
-              <source src="{{ block.settings.video_url }}" type="video/mp4">
+              <source src="" type="video/mp4">
             </video>
           </div>
         </div>
