@@ -1,7 +1,7 @@
 <div class="container">
   <div class="dual text-center">
     {% if section.settings.logo != blank %}
-      <img src="{{ section.settings.logo | img_url: 'medium' }}" loading="lazy">
+      <img src="{{ section.settings.logo | img_url: 'medium' }}">
     {% endif %}
     {% if section.settings.head != blank %}
       {{ section.settings.head }}
@@ -13,7 +13,7 @@
         <li>
           {% if block.settings.dual_image != blank %}
             <span>
-              <img src="{{ block.settings.dual_image | img_url: 'medium' }}" loading="lazy">
+              <img src="{{ block.settings.dual_image | img_url: 'medium' }}">
             </span>
           {% endif %}
           {% if block.settings.dual_text != blank %}
