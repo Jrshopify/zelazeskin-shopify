@@ -1,18 +1,18 @@
-// $(window).on('load',function(){
-// 	setTimeout(function(){ // allowing 3 secs to fade out loader
-// 	    $('.loading').fadeOut('slow');
-// 	},3500);
-// });
-jQuery(document).ready(function() {
-    jQuery(".accordion-titel").click(function() {
+$(window).on('load', function () {
+    setTimeout(function () { // allowing 3 secs to fade out loader
+        $('.loading').fadeOut('slow');
+    }, 3500);
+});
+jQuery(document).ready(function () {
+    jQuery(".accordion-titel").click(function () {
         jQuery(this).parent(".accordion-item").find(".accordion-contant").slideToggle(), jQuery(this).parent(".accordion-item").prevAll(".accordion-item").find(".accordion-contant").slideUp(), jQuery(this).parent(".accordion-item").nextAll(".accordion-item").find(".accordion-contant").slideUp()
     })
-}), jQuery(document).ready(function() {
-    jQuery(".clickable").click(function() {
+}), jQuery(document).ready(function () {
+    jQuery(".clickable").click(function () {
         jQuery(this).toggleClass("active")
     })
 });
-jQuery('.playbtn').on('click',function() {
+jQuery('.playbtn').on('click', function () {
     var videoUrl = jQuery(this).data('url');
     jQuery('#video source').attr('src', videoUrl); // Set the video src
     jQuery('#video')[0].load(); // Play the video
@@ -20,13 +20,13 @@ jQuery('.playbtn').on('click',function() {
     jQuery('#videoModal').modal('show');
 });
 
-jQuery('.close').on('click', function() {
+jQuery('.close').on('click', function () {
     // Clear the video src when the modal is closed
     jQuery('#video source').attr('src', '');
     jQuery('#video')[0].pause();
     jQuery('.playbtn').show();
 });
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
     if (window.innerWidth <= 989) {
         var i = document.querySelector(".mobile-shop-now-button");
         window.scrollY >= 200 ? i.classList.add("visible") : i.classList.remove("visible")
