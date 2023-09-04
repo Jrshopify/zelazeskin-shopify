@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
 jQuery('.playbtn').on('click',function() {
     var videoUrl = jQuery(this).data('url');
     jQuery('#video source').attr('src', videoUrl); // Set the video src
-    jQuery('#video')[0].play(); // Play the video
+    jQuery('#video')[0].load(); // Play the video
     jQuery(this).hide();
     jQuery('#videoModal').modal('show');
 });
