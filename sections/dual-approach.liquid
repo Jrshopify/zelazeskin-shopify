@@ -1,7 +1,7 @@
 <div class="container">
   <div class="dual text-center">
     {% if section.settings.logo != blank %}
-      <img src="{{ section.settings.logo | img_url: 'medium' }}" />
+      <img src="{{ section.settings.logo | img_url: 'medium' }}" loading="lazy">
     {% endif %}
     {% if section.settings.head != blank %}
       {{ section.settings.head }}
@@ -12,9 +12,9 @@
       {% for block in section.blocks %}
         <li>
           {% if block.settings.dual_image != blank %}
-          <span>
-            <img src="{{ block.settings.dual_image | img_url: 'medium' }}" />
-          </span>
+            <span>
+              <img src="{{ block.settings.dual_image | img_url: 'medium' }}" loading="lazy">
+            </span>
           {% endif %}
           {% if block.settings.dual_text != blank %}
             <h6>{{ block.settings.dual_text }}</h6>
@@ -25,44 +25,44 @@
   </div>
 </div>
 {% schema %}
-  {
-    "name": "Dual Approach",
-    "tag": "section",
-    "class": "dual-approach",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "logo",
-        "label": "Select Logo"
-      },
-      {
-        "type": "richtext",
-        "id": "head",
-        "label": "Heading"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "dual-approach",
-        "name": "dual-approach",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "dual_image",
-            "label": "Dual Approach Image"
-          },
-          {
-            "type": "text",
-            "id": "dual_text",
-            "label": "Dual Approach Text"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Dual Approach"
-      }
-    ]
-  }
+{
+  "name": "Dual Approach",
+  "tag": "section",
+  "class": "dual-approach",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Select Logo"
+    },
+    {
+      "type": "richtext",
+      "id": "head",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "dual-approach",
+      "name": "dual-approach",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "dual_image",
+          "label": "Dual Approach Image"
+        },
+        {
+          "type": "text",
+          "id": "dual_text",
+          "label": "Dual Approach Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dual Approach"
+    }
+  ]
+}
 {% endschema %}

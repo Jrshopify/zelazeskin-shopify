@@ -17,7 +17,7 @@
       <div class="item">
         {% if block.settings.video_url != blank %}
           <div class="video-wrap">
-            <img src="{{ block.settings.poster_img | img_url: 'master' }}">
+            <img src="{{ block.settings.poster_img | img_url: 'master' }}" loading="lazy">
             <div
               data-vidid="{{ count }}"
               class="playbtn"

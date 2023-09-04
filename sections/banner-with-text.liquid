@@ -11,7 +11,11 @@
         <div class="client">
           <div class="client-img">
             {% if section.settings.after_before_image != blank %}
-              <img src="{{ section.settings.after_before_image | img_url: 'master' }}" alt="{{ section.settings.after_before_image.alt }}">
+              <img
+                src="{{ section.settings.after_before_image | img_url: 'master' }}"
+                alt="{{ section.settings.after_before_image.alt }}"
+                loading="lazy"
+              >
             {% endif %}
           </div>
           <div class="client-info">
@@ -28,7 +32,11 @@
     <div class="col-lg-6 p-0">
       <div class="right">
         {% if section.settings.banner_img != blank %}
-          <img src="{{ section.settings.banner_img | img_url: 'master' }}" alt="{{ section.settings.banner_img.alt }}">
+          <img
+            src="{{ section.settings.banner_img | img_url: 'master' }}"
+            alt="{{ section.settings.banner_img.alt }}"
+            loading="lazy"
+          >
         {% endif %}
       </div>
     </div>
@@ -41,7 +49,7 @@
     <div class="col-lg-6 p-0">
       <div class="right">
         {% if section.settings.mobile_banner_img != blank %}
-          <img src="{{ section.settings.mobile_banner_img | img_url: 'master' }}">
+          <img src="{{ section.settings.mobile_banner_img | img_url: 'master' }}" loading="lazy">
         {% endif %}
         <div class="left">
           {% if section.settings.heading != blank %}
@@ -59,7 +67,7 @@
         <div class="client">
           <div class="client-img">
             {% if section.settings.after_before_image != blank %}
-              <img src="{{ section.settings.after_before_image | img_url: 'master' }}">
+              <img src="{{ section.settings.after_before_image | img_url: 'master' }}" loading="lazy">
             {% endif %}
           </div>
           <div class="client-info">
