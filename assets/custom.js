@@ -1,6 +1,6 @@
 // $(window).on('load',function(){
 // 	setTimeout(function(){ // allowing 3 secs to fade out loader
-// 	$('.loading').fadeOut('slow');
+// 	    $('.loading').fadeOut('slow');
 // 	},3500);
 // });
 jQuery(document).ready(function() {
