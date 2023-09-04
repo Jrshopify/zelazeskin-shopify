@@ -8,27 +8,29 @@ jQuery(document).ready(function() {
     })
 }),
 
- jQuery(document).on("click", ".playbtn", function() {
-    let i = jQuery(this).data("vidid");
-    var videoUrl = jQuery(this).data('url');
-    jQuery('#video').attr('src', videoUrl);
-    jQuery(".playbtn").show(), jQuery(`#video${i}`).trigger("play"), jQuery(".close").not(`[data-vidid="${i}"]`).trigger("pause"), jQuery(this).hide()
-}), jQuery(document).on("click", ".close", function() {
-    let i = jQuery(this).closest(".modal-content").find("video").attr("id").replace("video", "");
-    jQuery('#video').attr('src', "");
-    jQuery(this).trigger("pause"), jQuery(`#video${i}`).trigger("pause"), jQuery(`[data-vidid="${i}"]`).show()
-}), 
-// jQuery('.playbtn').on('click',function() {
+// jQuery(document).on("click", ".playbtn", function() {
+//     let i = jQuery(this).data("vidid");
 //     var videoUrl = jQuery(this).data('url');
-//     jQuery('#video').attr('src', videoUrl); // Set the video src
-//     jQuery('#video')[0].play(); // Play the video
-//     jQuery(this).hide();
-// });
+//     jQuery('#video').attr('src', videoUrl);
+//     jQuery(".playbtn").show(), jQuery(`#video${i}`).trigger("play"), jQuery(".close").not(`[data-vidid="${i}"]`).trigger("pause"), jQuery(this).hide()
+// }), jQuery(document).on("click", ".close", function() {
+//     let i = jQuery(this).closest(".modal-content").find("video").attr("id").replace("video", "");
+//     jQuery('#video').attr('src', "");
+//     jQuery(this).trigger("pause"), jQuery(`#video${i}`).trigger("pause"), jQuery(`[data-vidid="${i}"]`).show()
+// }), 
 
-// jQuery('.close').on('click', function() {
-//     // Clear the video src when the modal is closed
-//     jQuery('#video').attr('src', '');
-// });
+
+jQuery('.playbtn').on('click',function() {
+    var videoUrl = jQuery(this).data('url');
+    jQuery('#video').attr('src', videoUrl); // Set the video src
+    jQuery('#video')[0].play(); // Play the video
+    jQuery(this).hide();
+});
+
+jQuery('.close').on('click', function() {
+    // Clear the video src when the modal is closed
+    jQuery('#video').attr('src', '');
+});
 window.addEventListener("scroll", function() {
     if (window.innerWidth <= 989) {
         var i = document.querySelector(".mobile-shop-now-button");
