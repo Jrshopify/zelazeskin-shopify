@@ -31,6 +31,7 @@ jQuery('.playbtn').on('click',function() {
 jQuery('.close').on('click', function() {
     // Clear the video src when the modal is closed
     jQuery('#video').attr('src', '');
+    jQuery('.playbtn').show();
 });
 window.addEventListener("scroll", function() {
     if (window.innerWidth <= 989) {
