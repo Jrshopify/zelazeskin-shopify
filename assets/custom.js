@@ -6,23 +6,10 @@ jQuery(document).ready(function() {
     jQuery(".clickable").click(function() {
         jQuery(this).toggleClass("active")
     })
-}),
-
-// jQuery(document).on("click", ".playbtn", function() {
-//     let i = jQuery(this).data("vidid");
-//     var videoUrl = jQuery(this).data('url');
-//     jQuery('#video').attr('src', videoUrl);
-//     jQuery(".playbtn").show(), jQuery(`#video${i}`).trigger("play"), jQuery(".close").not(`[data-vidid="${i}"]`).trigger("pause"), jQuery(this).hide()
-// }), jQuery(document).on("click", ".close", function() {
-//     let i = jQuery(this).closest(".modal-content").find("video").attr("id").replace("video", "");
-//     jQuery('#video').attr('src', "");
-//     jQuery(this).trigger("pause"), jQuery(`#video${i}`).trigger("pause"), jQuery(`[data-vidid="${i}"]`).show()
-// }), 
-
-
+});
 jQuery('.playbtn').on('click',function() {
     var videoUrl = jQuery(this).data('url');
-    jQuery('#video').attr('src', videoUrl); // Set the video src
+    jQuery('#video source').attr('src', videoUrl); // Set the video src
     jQuery('#video')[0].play(); // Play the video
     jQuery(this).hide();
     jQuery('#videoModal').modal('show');
@@ -30,7 +17,7 @@ jQuery('.playbtn').on('click',function() {
 
 jQuery('.close').on('click', function() {
     // Clear the video src when the modal is closed
-    jQuery('#video').attr('src', '');
+    jQuery('#video source').attr('src', '');
     jQuery('.playbtn').show();
 });
 window.addEventListener("scroll", function() {
