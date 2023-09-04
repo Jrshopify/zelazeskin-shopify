@@ -38,12 +38,12 @@
     {% endfor %}
   </div>
 </div>
-{% assign count = 1 %}
+{% comment %} {% assign count = 1 %}
 {% for block in section.blocks %}
-  {% if block.settings.video_url != blank %}
+  {% if block.settings.video_url != blank %} {% endcomment %}
     <div
       class="modal fade video-modal"
-      id="videoModal{{ count }}"
+      id="videoModal"
       tabindex="-1"
       aria-labelledby="videoModalLabel"
       aria-hidden="true"
@@ -52,16 +52,16 @@
         <div class="modal-content">
           <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
           <div class="modal-body">
-            <video id="video{{ count }}" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
-              <source src="{{ block.settings.video_url }}" type="video/mp4">
+            <video id="video" controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
+              <source src="" type="video/mp4">
             </video>
           </div>
         </div>
       </div>
     </div>
-  {% endif %}
+  {% comment %} {% endif %}
   {% assign count = count | plus: 1 %}
-{% endfor %}
+{% endfor %} {% endcomment %}
 {% schema %}
 {
   "name": "Video Slider",
