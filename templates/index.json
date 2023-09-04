@@ -19,7 +19,7 @@
         "5409e44a-b31d-46e5-8f70-57ac8e4d2c6d": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img1.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider1.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel E<\/p>"
           }
@@ -27,7 +27,7 @@
         "977db53f-0e3d-4e53-8432-2f2181f21d34": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img2.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider2.jpg",
             "msg": "<p>“I cleared my skin in just 4weeks. My skin is glowing!”<\/p>",
             "client_name": "<p>— Rachel E<\/p>"
           }
@@ -35,7 +35,7 @@
         "48e1ba61-faf1-40ed-88de-d2605ff2b569": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img3.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider3.jpg",
             "msg": "<p>“My dark spots are gone and my skin is so clear!”<\/p><p><\/p>",
             "client_name": "<p>— Kiara L<\/p>"
           }
@@ -43,7 +43,7 @@
         "8d3854b4-ed88-4270-82ae-d4679f0511d4": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img4.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider4.jpg",
             "msg": "<p>“My dark spots are gone and my skin is so clear!”<\/p><p><\/p>",
             "client_name": "<p>— Kiara L<\/p>"
           }
@@ -51,7 +51,7 @@
         "b0acb876-f231-471c-b6da-e877ff3c858e": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img5_4844cac3-1a63-4ab3-9a67-c8cc3df0ef0b.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider5.jpg",
             "msg": "<p>“My skin is glowing and dewy! This moisturizer is my go to”<\/p><p><\/p>",
             "client_name": "<p>— Julie V<\/p>"
           }
@@ -59,7 +59,7 @@
         "b45f79ff-9c03-4c84-b5ce-1165950ff26f": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img6.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider6.jpg",
             "msg": "<p>“My skin is glowing and dewy! This moisturizer is my go to”<\/p><p><\/p>",
             "client_name": "<p>— Julie V<\/p>"
           }
@@ -67,7 +67,7 @@
         "525b0b72-3269-463f-aca6-4fc2c52707e7": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img7.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider7.jpg",
             "msg": "<p>“My skin is glowing and dewy! This moisturizer is my go to”<\/p><p><\/p>",
             "client_name": "<p>— Julie V<\/p>"
           }
@@ -75,7 +75,7 @@
         "91d53319-e47e-4a31-a2b6-f0b8f3a9fffc": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img8.webp",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider8.jpg",
             "msg": "<p>“The Zelaze moisturizer minimized my pores and cleared my skin!”<\/p>",
             "client_name": "<p>— Rani B<\/p>"
           }
@@ -83,7 +83,7 @@
         "fa485fe0-e927-4333-95e4-31a78e5b18fa": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img9.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider9.jpg",
             "msg": "<p>“The Zelaze moisturizer minimized my pores and cleared my skin!”<\/p>",
             "client_name": "<p>— Rani B<\/p>"
           }
@@ -91,7 +91,7 @@
         "22623855-4a7a-447b-8d7a-ebbc9592f9b3": {
           "type": "feedback",
           "settings": {
-            "after_before_image": "shopify:\/\/shop_images\/result-img10.jpg",
+            "after_before_image": "shopify:\/\/shop_images\/home-slider10.jpg",
             "msg": "<p>“The Zelaze moisturizer minimized my pores and cleared my skin!”<\/p>",
             "client_name": "<p>— Rani B<\/p>"
           }
@@ -168,7 +168,7 @@
         "ea96a714-360e-4e86-8875-74cff4aeacf8"
       ],
       "settings": {
-        "product_image": "shopify:\/\/shop_images\/23_01_11_Zelaze0100_1_3.jpg",
+        "product_image": "shopify:\/\/shop_images\/img6.jpg",
         "logo": "shopify:\/\/shop_images\/logo.png",
         "head": "<p>Backed by Science and Nature<\/p>",
         "sub-head": "DESIGNED TO MAKE SKIN DEWY AND GLOWY.",
