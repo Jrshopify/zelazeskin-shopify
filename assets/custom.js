@@ -25,6 +25,7 @@ jQuery('.playbtn').on('click',function() {
     jQuery('#video').attr('src', videoUrl); // Set the video src
     jQuery('#video')[0].play(); // Play the video
     jQuery(this).hide();
+    jQuery('#videoModal').modal('show');
 });
 
 jQuery('.close').on('click', function() {
