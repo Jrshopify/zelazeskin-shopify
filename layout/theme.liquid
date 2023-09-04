@@ -244,13 +244,6 @@
     {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
 
-    {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-    {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-
     {%- if settings.predictive_search_enabled -%}
       <link
         rel="stylesheet"
@@ -266,7 +259,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  {% render 'loadify_loader' %}{% render 'loadifyOpt' %}</head>
+  </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {{ page.handle }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
