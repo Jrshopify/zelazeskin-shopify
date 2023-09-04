@@ -18,7 +18,7 @@ jQuery('.playbtn').on('click',function() {
 jQuery('.close').on('click', function() {
     // Clear the video src when the modal is closed
     jQuery('#video source').attr('src', '');
-    // jQuery('#video')[0].load();
+    jQuery('#video')[0].pause();
     jQuery('.playbtn').show();
 });
 window.addEventListener("scroll", function() {
