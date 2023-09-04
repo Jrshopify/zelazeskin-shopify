@@ -3,6 +3,7 @@
 //         $('.loading').fadeOut('slow');
 //     }, 3500);
 // });
+
 jQuery(document).ready(function () {
     $(window).on('load', function () {
         $('.loading-wrap').hide();
