@@ -6,16 +6,18 @@ jQuery(document).ready(function() {
     jQuery(".clickable").click(function() {
         jQuery(this).toggleClass("active")
     })
-}), jQuery(document).on("click", ".playbtn", function() {
-    let i = jQuery(this).data("vidid");
-    var videoUrl = jQuery(this).data('url');
-    jQuery('#video').attr('src', videoUrl);
-    jQuery(".playbtn").show(), jQuery(`#video${i}`).trigger("play"), jQuery(".close").not(`[data-vidid="${i}"]`).trigger("pause"), jQuery(this).hide()
-}), jQuery(document).on("click", ".close", function() {
-    let i = jQuery(this).closest(".modal-content").find("video").attr("id").replace("video", "");
-    jQuery('#video').attr('src', "");
-    jQuery(this).trigger("pause"), jQuery(`#video${i}`).trigger("pause"), jQuery(`[data-vidid="${i}"]`).show()
-}), window.addEventListener("scroll", function() {
+}),
+//  jQuery(document).on("click", ".playbtn", function() {
+//     let i = jQuery(this).data("vidid");
+//     var videoUrl = jQuery(this).data('url');
+//     jQuery('#video').attr('src', videoUrl);
+//     jQuery(".playbtn").show(), jQuery(`#video${i}`).trigger("play"), jQuery(".close").not(`[data-vidid="${i}"]`).trigger("pause"), jQuery(this).hide()
+// }), jQuery(document).on("click", ".close", function() {
+//     let i = jQuery(this).closest(".modal-content").find("video").attr("id").replace("video", "");
+//     jQuery('#video').attr('src', "");
+//     jQuery(this).trigger("pause"), jQuery(`#video${i}`).trigger("pause"), jQuery(`[data-vidid="${i}"]`).show()
+// }), 
+window.addEventListener("scroll", function() {
     if (window.innerWidth <= 989) {
         var i = document.querySelector(".mobile-shop-now-button");
         window.scrollY >= 200 ? i.classList.add("visible") : i.classList.remove("visible")
