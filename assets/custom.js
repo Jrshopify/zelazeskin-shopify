@@ -1,13 +1,3 @@
-// $(window).on('load', function () {
-//     setTimeout(function () { // allowing 3 secs to fade out loader
-//         $('.loading').fadeOut('slow');
-//     }, 3500);
-// });
-
-// jQuery(document).ready(function(){
-//     alert('yes');
-// });
-
 jQuery(document).ready(function () {
     jQuery('.loading-wrap').hide();
 
@@ -39,13 +29,13 @@ window.addEventListener("scroll", function () {
         window.scrollY >= 200 ? i.classList.add("visible") : i.classList.remove("visible")
     }
 }), jQuery("#clientfeedback").owlCarousel({
-    loop: !1,
+    loop: false,
     margin: 30,
-    nav: !0,
-    dots: !1,
-    autoplay: !0,
-    autoplayTimeout: 5e3,
-    autoplayHoverPause: !0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1,
@@ -60,13 +50,13 @@ window.addEventListener("scroll", function () {
         }
     }
 }), jQuery("#videoSlide").owlCarousel({
-    loop: !1,
+    loop: false,
     margin: 30,
-    nav: !0,
-    dots: !1,
-    autoplay: !0,
-    autoplayTimeout: 5e3,
-    autoplayHoverPause: !0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1,
@@ -81,13 +71,13 @@ window.addEventListener("scroll", function () {
         }
     }
 }), jQuery("#testimonial").owlCarousel({
-    loop: !1,
+    loop: false,
     margin: 30,
-    nav: !0,
-    dots: !1,
-    autoplay: !0,
-    autoplayTimeout: 5e3,
-    autoplayHoverPause: !0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1,
@@ -102,13 +92,13 @@ window.addEventListener("scroll", function () {
         }
     }
 }), jQuery("#product-video-silder").owlCarousel({
-    loop: !1,
+    loop: false,
     margin: 20,
-    nav: !0,
-    dots: !1,
-    autoplay: !0,
-    autoplayTimeout: 5e3,
-    autoplayHoverPause: !0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 2,
