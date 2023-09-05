@@ -30,8 +30,8 @@ window.addEventListener("scroll", function () {
     }
 });
 
-if("#clientfeedback"){
-    jQuery("#clientfeedback").owlCarousel({
+if("#feedback"){
+    jQuery("#feedback").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
@@ -105,7 +105,7 @@ if("#testimonial"){
     });
 }
 
-if("#testimonial"){
+if("#product-video-silder"){
     jQuery("#product-video-silder").owlCarousel({
         loop: false,
         margin: 20,
