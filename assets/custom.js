@@ -31,7 +31,7 @@ window.addEventListener("scroll", function () {
 });
 
 if("#feedback"){
-    $("#feedback").owlCarousel({
+    jQuery("#feedback").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
@@ -56,7 +56,7 @@ if("#feedback"){
 }
 
 if("#videoSlide"){
-    $("#videoSlide").owlCarousel({
+    jQuery("#videoSlide").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
@@ -81,7 +81,7 @@ if("#videoSlide"){
 } 
 
 if("#testimonial"){
-    $("#testimonial").owlCarousel({
+    jQuery("#testimonial").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
@@ -106,7 +106,7 @@ if("#testimonial"){
 }
 
 if("#product-video-silder"){
-    $("#product-video-silder").owlCarousel({
+    jQuery("#product-video-silder").owlCarousel({
         loop: false,
         margin: 20,
         nav: true,
