@@ -4,21 +4,12 @@
 //     }, 3500);
 // });
 
-jQuery(document).ready(function(){
-    alert('yes');
-});
+// jQuery(document).ready(function(){
+//     alert('yes');
+// });
 
 jQuery(document).ready(function () {
-   
-    // $('.loading-wrap').hide();
-    // $().on('load', function () {
-    // });
-    // setTimeout(function () { // allowing 3 secs to fade out loader
-    //     jQuery('.loading').hide();
-    // },3500);
-
-    jQuery('.loading-wrap').css('display', 'none');
-//    console.log(a);
+    jQuery('.loading-wrap').hide();
 
     jQuery(".accordion-titel").click(function () {
         jQuery(this).parent(".accordion-item").find(".accordion-contant").slideToggle(), jQuery(this).parent(".accordion-item").prevAll(".accordion-item").find(".accordion-contant").slideUp(), jQuery(this).parent(".accordion-item").nextAll(".accordion-item").find(".accordion-contant").slideUp()
