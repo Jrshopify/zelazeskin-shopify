@@ -30,6 +30,10 @@ window.addEventListener("scroll", function () {
     }
 });
 
+if(jQuery("#feedback").length != 0){
+    alert();
+}
+
 // if("#feedback"){
     jQuery("#feedback").owlCarousel({
         loop: false,

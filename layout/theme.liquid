@@ -31,6 +31,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer="defer"></script>
     <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" defer="defer"></script>
+    <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -243,6 +244,8 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
+    {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+    {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
