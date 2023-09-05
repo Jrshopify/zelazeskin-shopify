@@ -31,10 +31,6 @@ window.addEventListener("scroll", function () {
 });
 
 if(jQuery("#feedback").length != 0){
-    alert();
-}
-
-// if("#feedback"){
     jQuery("#feedback").owlCarousel({
         loop: false,
         margin: 30,
@@ -57,9 +53,9 @@ if(jQuery("#feedback").length != 0){
             }
         }
     });
-// }
+}
 
-// if("#videoSlide"){
+if(jQuery("#videoSlide").length != 0){
     jQuery("#videoSlide").owlCarousel({
         loop: false,
         margin: 30,
@@ -82,9 +78,9 @@ if(jQuery("#feedback").length != 0){
             }
         }
     });
-// } 
+} 
 
-// if("#testimonial"){
+if(jQuery("#testimonial").length != 0){
     jQuery("#testimonial").owlCarousel({
         loop: false,
         margin: 30,
@@ -107,9 +103,9 @@ if(jQuery("#feedback").length != 0){
             }
         }
     });
-// }
+}
 
-// if("#product-video-silder"){
+if(jQuery("#product-video-silder").length != 0){
     jQuery("#product-video-silder").owlCarousel({
         loop: false,
         margin: 20,
@@ -132,4 +128,4 @@ if(jQuery("#feedback").length != 0){
             }
         }
     });
-// }
+}
