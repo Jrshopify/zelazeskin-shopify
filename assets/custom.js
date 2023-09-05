@@ -4,8 +4,12 @@
 //     }, 3500);
 // });
 
-jQuery(document).ready(function () {
+jQuery(document).ready(function(){
     alert('yes');
+});
+
+jQuery(document).ready(function () {
+   
     // $('.loading-wrap').hide();
     // $().on('load', function () {
     // });
