@@ -1,7 +1,7 @@
 {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
 {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
 <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
-{% comment %} <script defer src="{{ 'custom.js' | asset_url }}"></script> {% endcomment %}
+<script defer src="{{ 'custom.js' | asset_url }}"></script>
 <div class="container-fluid client-feedback-wrap">
   <div class="heading text-center">
     {% if section.settings.heading != blank %}
