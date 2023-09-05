@@ -56,7 +56,7 @@ if("#feedback"){
 }
 
 if("#videoSlide"){
-    jQuery("#videoSlide").owlCarousel({
+    $("#videoSlide").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
@@ -81,7 +81,7 @@ if("#videoSlide"){
 } 
 
 if("#testimonial"){
-    jQuery("#testimonial").owlCarousel({
+    $("#testimonial").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
@@ -106,7 +106,7 @@ if("#testimonial"){
 }
 
 if("#product-video-silder"){
-    jQuery("#product-video-silder").owlCarousel({
+    $("#product-video-silder").owlCarousel({
         loop: false,
         margin: 20,
         nav: true,
