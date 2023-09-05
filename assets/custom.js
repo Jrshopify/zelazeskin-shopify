@@ -5,6 +5,7 @@
 // });
 
 jQuery(document).ready(function () {
+    alert('yes');
     // $('.loading-wrap').hide();
     // $().on('load', function () {
     // });
@@ -12,7 +13,7 @@ jQuery(document).ready(function () {
     //     jQuery('.loading').hide();
     // },3500);
 
-   jQuery('.loading-wrap').css('display', 'none');
+    jQuery('.loading-wrap').css('display', 'none');
 //    console.log(a);
 
     jQuery(".accordion-titel").click(function () {
