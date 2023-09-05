@@ -31,7 +31,7 @@ window.addEventListener("scroll", function () {
 });
 
 if("#feedback"){
-    jQuery("#feedback").owlCarousel({
+    $("#feedback").owlCarousel({
         loop: false,
         margin: 30,
         nav: true,
