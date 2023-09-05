@@ -12,8 +12,8 @@ jQuery(document).ready(function () {
     //     jQuery('.loading').hide();
     // },3500);
 
-   let a = jQuery('.loading-wrap').html();
-   console.log(a);
+   jQuery('.loading-wrap').css('display', 'none');
+//    console.log(a);
 
     jQuery(".accordion-titel").click(function () {
         jQuery(this).parent(".accordion-item").find(".accordion-contant").slideToggle(), jQuery(this).parent(".accordion-item").prevAll(".accordion-item").find(".accordion-contant").slideUp(), jQuery(this).parent(".accordion-item").nextAll(".accordion-item").find(".accordion-contant").slideUp()
