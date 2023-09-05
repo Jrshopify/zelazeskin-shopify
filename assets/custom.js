@@ -8,9 +8,11 @@ jQuery(document).ready(function () {
     // $('.loading-wrap').hide();
     // $().on('load', function () {
     // });
-    setTimeout(function () { // allowing 3 secs to fade out loader
-        jQuery('.loading').fadeOut('slow');
-    },3500);
+    // setTimeout(function () { // allowing 3 secs to fade out loader
+    //     jQuery('.loading').hide();
+    // },3500);
+
+    jQuery('.loading').hide();
 
     jQuery(".accordion-titel").click(function () {
         jQuery(this).parent(".accordion-item").find(".accordion-contant").slideToggle(), jQuery(this).parent(".accordion-item").prevAll(".accordion-item").find(".accordion-contant").slideUp(), jQuery(this).parent(".accordion-item").nextAll(".accordion-item").find(".accordion-contant").slideUp()
