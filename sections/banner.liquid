@@ -3,7 +3,7 @@
     <div class="col-lg-6 p-0">
       <div class="banner-image">
         {% if section.settings.banner_img != blank %}
-          <img src="{{section.settings.banner_img | img_url: 'master'}}">
+          <img loading="lazy" src="{{section.settings.banner_img | img_url: 'master'}}">
         {% endif %}
       </div>
     </div>

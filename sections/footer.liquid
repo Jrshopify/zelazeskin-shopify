@@ -358,7 +358,7 @@
 
     <div class="footer-content">
       {% if section.settings.footer_content != blank %}
-        <img src="{{ section.settings.footer_content | img_url: 'master' }}">
+        <img loading="lazy" src="{{ section.settings.footer_content | img_url: 'master' }}">
       {% endif %}
     </div>
 
@@ -391,7 +391,7 @@
   <div class="shop-now-button">
     <a href="{{section.settings.shop_img_url}}">
       {% if section.settings.shop_img != blank %}
-        <img src="{{section.settings.shop_img | img_url:'master'}}">
+        <img loading="lazy" src="{{section.settings.shop_img | img_url:'master'}}">
       {% endif %}
     </a>
   </div>
