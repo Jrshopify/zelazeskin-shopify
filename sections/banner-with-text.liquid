@@ -47,7 +47,7 @@
     <div class="col-lg-6 p-0">
       <div class="right">
         {% if section.settings.mobile_banner_img != blank %}
-          <img loading="lazy" src="{{ section.settings.mobile_banner_img | img_url: 'master' }}">
+          <img loading="lazy" src="{{ section.settings.mobile_banner_img | img_url: 'master' }}" alt="{{ section.settings.mobile_banner_img.alt }}">
         {% endif %}
         <div class="left">
           {% if section.settings.heading != blank %}
@@ -65,7 +65,7 @@
         <div class="client">
           <div class="client-img">
             {% if section.settings.after_before_image != blank %}
-              <img loading="lazy" src="{{ section.settings.after_before_image | img_url: 'master' }}">
+              <img loading="lazy" src="{{ section.settings.after_before_image | img_url: 'master' }}" alt="{{ section.settings.after_before_image.alt }}">
             {% endif %}
           </div>
           <div class="client-info">
