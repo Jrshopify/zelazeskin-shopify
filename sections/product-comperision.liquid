@@ -9,7 +9,7 @@
         <div class="col-lg-4">
             <div class="com-img">
                 {%if section.settings.comprision_image != blank%}
-                    <img src="{{section.settings.comprision_image | img_url: 'master'}}">
+                    <img loading="lazy" src="{{section.settings.comprision_image | img_url: 'master'}}">
                 {%endif%}
             </div>
         </div>

@@ -13,7 +13,7 @@
       <div class="item">
         {% if block.settings.video_url != blank %}
           <div class="video-wrap">
-            <img src="{{ block.settings.poster_img | img_url: 'master' }}">
+            <img loading="lazy" src="{{ block.settings.poster_img | img_url: 'master' }}">
             <div
               data-vidid="{{ count }}"
               class="playbtn"
@@ -21,7 +21,7 @@
               data-bs-target="#videoModal{{ count }}"
               data-url="{{ block.settings.video_url }}"
             >
-              <img
+              <img loading="lazy"
                 src="https://cdn.shopify.com/s/files/1/0577/1332/8304/files/play.png?v=1686831446"
                 title="Play"
                 alt="Play"
