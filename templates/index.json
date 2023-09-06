@@ -198,39 +198,12 @@
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/24031783a94a439ca4e98c61fb307b56.mp4",
             "poster_img": "shopify:\/\/shop_images\/1.png"
           }
-        },
-        "c5c290a4-613e-4805-9428-9403b0776df7": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
-            "poster_img": "shopify:\/\/shop_images\/vd4.png"
-          }
-        },
-        "747c16a0-257d-4526-b10e-66c9331593e2": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
-            "poster_img": "shopify:\/\/shop_images\/vd1.png"
-          }
-        },
-        "a66bc253-2960-4620-8ab5-ec6a1a7f660c": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f7721ca243a24376b6fef12e32a89f2d.mp4",
-            "poster_img": "shopify:\/\/shop_images\/vd2.png"
-          }
         }
       },
       "block_order": [
         "cb161d4c-346b-43ad-9e59-82c32ac80575",
         "3939e62a-a42a-4212-9f75-0353c2f8f919",
-        "3c15556c-b061-4f51-a5fc-7f4ae14c2095",
-        "c5c290a4-613e-4805-9428-9403b0776df7",
-        "747c16a0-257d-4526-b10e-66c9331593e2",
-        "a66bc253-2960-4620-8ab5-ec6a1a7f660c"
+        "3c15556c-b061-4f51-a5fc-7f4ae14c2095"
       ],
       "settings": {
         "head": "<p>Hear What Our Customers Have to Say<\/p>",
