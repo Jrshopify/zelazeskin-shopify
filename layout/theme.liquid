@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>
-    {% render 'pagefly-head' %}
+  <head>    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -29,9 +28,9 @@
 
     {% render 'meta-tags' %}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer="defer"></script>
-    <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" defer="defer"></script>
-    <script defer src="{{ 'owl.carousel.js' | asset_url }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" defer></script>
+    <script defer src="{{ 'owl.carousel.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -328,26 +327,13 @@
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
-    {% include 'super_pinch_zoom' %}
+    {%- endif -%}    
 
     <!-- subify Snippet Start -->
     {% if content_for_header contains 'https:\/\/app-subify.shopgram.app\/subify-script-tag-for-snippet.js' %}
       {% render 'subify-snippet' %}
     {% endif %}
     <!-- subify Snippet End -->
-    <!-- subify Snippet Start -->
-    {% if content_for_header contains 'https:\/\/app-subify.shopgram.app\/subify-script-tag-for-snippet.js' %}
-      {% render 'subify-snippet' %}
-    {% endif %}
-    <!-- subify Snippet End -->
-  <!-- subify Snippet Start -->
-{% if content_for_header contains 'https:\/\/app-subify.shopgram.app\/subify-script-tag-for-snippet.js' %} 
-
-                {% render 'subify-snippet' %}
-        
-{% endif %}
-<!-- subify Snippet End -->
 
 {{'tiny-img-link-preloader.js' | asset_url | script_tag }}
 </body>
