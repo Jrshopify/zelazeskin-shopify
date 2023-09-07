@@ -240,12 +240,7 @@
           font-size: 1.6rem;
         }
       }
-    {% endstyle %}
-
-    {{ 'base.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
-    {{ 'bootstrap.min.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
-    {{ 'owl.carousel.min.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
-    {{ 'owl.theme.default.min.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
+    {% endstyle %}    
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
