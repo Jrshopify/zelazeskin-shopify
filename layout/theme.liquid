@@ -25,12 +25,17 @@
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
-
     {% render 'meta-tags' %}
 
-    <script src="{{ 'jquery.min.js' | asset_url }}" async></script>
+  
+    <!-- <script src="{{ 'jquery.min.js' | asset_url }}" async></script>
     <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" async></script>
-    <script src="{{ 'owl.carousel.js' | asset_url }}" async></script>
+    <script src="{{ 'owl.carousel.js' | asset_url }}" async></script> -->
+
+    <link href="{{ 'jquery.min.js' | asset_url | preload_tag: as:'stylesheet' }}" as="script" type="text/javascript">
+    <link href="{{ 'bootstrap.bundle.min.js' | asset_url | preload_tag: as:'stylesheet' }}" as="script" type="text/javascript">
+    <link href="{{ 'owl.carousel.js' | asset_url | preload_tag: as:'stylesheet' }}" as="script" type="text/javascript">
+    
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -241,10 +246,10 @@
       }
     {% endstyle %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
-    {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
-    {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
+    {{ 'bootstrap.min.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
+    {{ 'owl.carousel.min.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
+    {{ 'owl.theme.default.min.css' | asset_url | preload_tag: as:'style' | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
