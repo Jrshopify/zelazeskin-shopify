@@ -22,8 +22,8 @@
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
-    <link href="{{ 'base.css' | asset_url }}" rel="preload" as="style" />
     <link href="{{ 'bootstrap.min.css' | asset_url }}" rel="preload" as="style" />
+    <link href="{{ 'base.css' | asset_url }}" rel="preload" as="style" />
     <link href="{{ 'custom.css' | asset_url }}" rel="preload" as="style" />
     <link href="{{ 'bootstrap.bundle.min.js' | asset_url }}" rel="preload" as="script" />
   
@@ -247,8 +247,8 @@
       }
     {% endstyle %}        
   
-    {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | stylesheet_tag }}    
     {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
     {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
