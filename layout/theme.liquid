@@ -242,6 +242,8 @@
       }
     {% endstyle %}    
 
+    <link href="{{ 'base.css' | asset_url }}" rel="preload" type="text/css" media="all" />
+  
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
     {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
