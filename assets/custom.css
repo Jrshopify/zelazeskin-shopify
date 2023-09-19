@@ -1602,6 +1602,7 @@ video::-webkit-media-controls-play-button {
     margin: 15px 0 0;
 }
 
+
 @media screen and (min-width:1700px) {
     .container,
     .page-width {
